@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indiaspend>
+  <article>
+    <title>test</title>
+    <authorname>mohammad</authorname>
+    <date>4-2-2014</date>
+    <category>Economy</category>
+    <image>&lt;img href='img1' /&gt;</image>
+    <width>900</width>
+    <height>901</height>
+    <content>
+      <value>content1</value>
+    </content>
+    <image>&lt;img href='img2' /&gt;</image>
+    <width>800</width>
+    <height>801</height>
+    <content>
+      <value>content2</value>
+    </content>
+    <image>&lt;img href='img3' /&gt;</image>
+    <width>700</width>
+    <height>701</height>
+    <content>
+      <value>content3</value>
+    </content>
+    <image>&lt;img href='img4' /&gt;</image>
+    <width>600</width>
+    <height>601</height>
+    <content>
+      <value>content4</value>
+    </content>
+    <image>&lt;img href='img5' /&gt;</image>
+    <width>500</width>
+    <height>501</height>
+    <content>
+      <value>content5</value>
+    </content>
+    <image>&lt;img href='img6' /&gt;</image>
+    <width>400</width>
+    <height>401</height>
+    <content>
+      <value>content6</value>
+    </content>
+    <image>&lt;img href='img7' /&gt;</image>
+    <width>300</width>
+    <height>301</height>
+    <content>
+      <value>content7</value>
+    </content>
+    <image>&lt;img href='img8' /&gt;</image>
+    <width>200</width>
+    <height>201</height>
+    <content>
+      <value>content8</value>
+    </content>
+    <image>&lt;img href='img9' /&gt;</image>
+    <width>100</width>
+    <height>101</height>
+    <content>
+      <value>content9</value>
+    </content>
+    <image>&lt;img href='img10' /&gt;</image>
+    <width>120</width>
+    <height>121</height>
+    <content>
+      <value>content10</value>
+    </content>
+  </article>
+</indiaspend>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indiaspend>
+  <article>
+    <title>From Srirangapatna, A Data Lesson For India’s Cities</title>
+    <authorname>Anand Sahasranaman, Vishnu Prasad and Dinesh Lodha</authorname>
+    <date>November 5, 2014</date>
+    <category>Politics</category>
+    <image>&lt;img href='coverimage.jpg' /&gt;</image>
+    <width>2048</width>
+    <height>2048</height>
+    <content>
+      <value>&lt;p&gt;How many public taps are currently in the city and where do new taps need to be installed? Where do new public toilets need to be created? Which houses do not have daily garbage collection? &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;These are questions that confront city officials all over the world every day. The solution to these questions depends on the existing infrastructure in the city: the number and spread of existing water taps, public toilets and garbage-collection facilities.&lt;/p&gt;&#13;
+&lt;p&gt;In other words, data on infrastructure and service delivery is crucial in planning for future services. One of the biggest challenges with decision-making in Indian cities is the lack of data. &lt;/p&gt;</value>
+    </content>
+    <image>&lt;img href='datalessonimage1.jpg' /&gt;</image>
+    <width>652</width>
+    <height>232</height>
+    <content>
+      <value>&lt;p&gt;We have been working with the Karnataka town of Srirangapatna, the former capital of Tipu Sultan, to understand the long-term infrastructure investments that it will need to make today, in order to be prepared for increasing urbanisation and how these investments can be sustainably financed. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;However, in order to even begin answering these questions, we needed to understand the current state of the city, but found little or no data to work with. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;So we designed and implemented a  data-generation process to develop simple but detailed spatial maps of the city&amp;#8217;s infrastructure&amp;#8211;land use, slums, sanitation, public toilets, garbage dumps, roads, drainage, street lights, electricity, finance, technology, transportation, shopping, work habits, drinking water, housing, solid waste&amp;#8211;both at the city level, and, more granularly, at the ward level. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;We collected the public infrastructure data through a mix of physical surveys of infrastructure covering all streets in the town and household surveys to get a deeper understanding of household socio-economics, covering approximately 5% of the town&amp;#8217;s households. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;The resultant analytics and maps provided us with a granular understanding of the city&amp;#8217;s state of infrastructure provision and therefore a basis for improved decision-making for the future. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;Some of the analytics and resultant maps that emerged are detailed below:&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;Location and Transportation&lt;/strong&gt;: We mapped the work locations of households in the town to understand commuting patterns. As it turned out, there were eight major concentrations of work locations. We also found that 42% of households owned a motorised vehicle and that the average trip to work took 27 minutes. Information of this type can be of use in road and transportation planning.&lt;/p&gt;&#13;
+</value>
+    </content>
+    <image>&lt;img href='datalessonimage2.jpg' /&gt;</image>
+    <width>1512</width>
+    <height>1024</height>
+    <image>&lt;img href='datalessonimage3.jpg' /&gt;</image>
+    <width>1466</width>
+    <height>1016</height>
+    <content>
+      <value>&lt;p&gt;&lt;strong&gt;Spread of Infrastructure&lt;/strong&gt;: Each individual component of infrastructures such as public water taps, public toilets, street lights, and garbage dumping sites was mapped out for the entire town. An understanding of the spread is essential for planning further infrastructure investments. For instance, the map below illustrates the spread of public water infrastructure.&lt;/p&gt;</value>
+    </content>
+    <image>&lt;img href='datalessonimage4.jpg' /&gt;</image>
+    <width>1520</width>
+    <height>1048</height>
+    <content>
+      <value>&lt;p&gt;&lt;strong&gt;Quality of Infrastructure&lt;/strong&gt;: While the spread of infrastructure gives us a sense of the physical distribution of assets, it does not provide us any information on the service provided by the assets. A combination of the spread and quality of service is required to assess the performance of infrastructure assets. For instance, in assessing the quality of water supply infrastructure, we measured it along four parameters: reliability, purity, availability, and price. &lt;/p&gt;</value>
+    </content>
+    <image>&lt;img href='datalessonimage5.jpg' /&gt;</image>
+    <width>1510</width>
+    <height>1026</height>
+    <content>
+      <value>&lt;p&gt;&lt;strong&gt;Access to Infrastructure&lt;/strong&gt;: The final class of maps we prepared related to physical access to infrastructure from households, as a function of the distance of the infrastructure from the household. The map below illustrates the distance of households from public and community toilets. This can again be a critical tool in planning for infrastructure locations.&lt;/p&gt;</value>
+    </content>
+    <image>&lt;img href='datalessonimage6.jpg' /&gt;</image>
+    <width>1512</width>
+    <height>1044</height>
+    <content>
+      <value>&lt;p&gt;We performed a detailed analysis of all these infrastructure elements for each ward in Srirangapatna, and produced ward-level reports to enable easy comparison of performance across wards. For instance, the analytics for Ward 1 are presented below:&lt;/p&gt;</value>
+    </content>
+    <image>&lt;img href='datalessonimage7.jpg' /&gt;</image>
+    <width>1532</width>
+    <height>1074</height>
+    <content>
+      <value>&lt;p&gt;Having done this analysis for all wards, we were able to assess the comparative performance of each ward, and in addition, also developed a simple index to measure and rank the overall performance of wards. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;The index takes into account 12 different parameters across all the infrastructure studied and produces a composite score out of 10. Based on the scores of wards, they are ranked. For instance, in the Ward Report for Ward 1 above, we find that the the overall rank of the ward is 20, out of a total of 23 wards. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;We believe that the adoption of such an index that enables objective comparison of wards in a town, and can be a very powerful tool in driving meaningful citizen participation in city level issues. It promotes increased transparency and provides a tool that citizens can meaningfully use to drive positive change in their wards and therefore, their city. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;The value of such an index will truly become apparent if it were updated annually to capture the change in performance across wards over time. &lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;The value of data in decision making for cities cannot be over-emphasised. The availability of granular, high-quality, and high-frequency data can go a long way in enabling evidence based decision making and improved civic outcomes for citizens.&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;em&gt;(Anand Sahasranaman, Vishnu Prasad and Dinesh Lodha work with the IFMR Finance Foundation and research how cities ought to prepare and plan for and sustainably finance urbanisation.The IFMR Finance Foundation is focused on policy research on issues of financial systems design and has worked with worked with government and regulatory committees on themes of financial inclusion, customer protection, social security, and urban infrastructure finance.)&lt;/em&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;br&gt;&#13;
+Image Credit: IFMR Finance Foundation&lt;br&gt;</value>
+    </content>
+  </article>
+</indiaspend>
