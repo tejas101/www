@@ -1,0 +1,128 @@
+.wpbfsb {
+	position: fixed;
+	border: 0 none;
+	z-index: 9999;
+	clear: both;
+}
+
+.wpbfsb:after {
+	clear: both;
+}
+
+.wpbfsb button {
+	font-size: 12px;
+	padding: 7px;
+	border: 0 none;
+	cursor: pointer;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	display: block;
+	vertical-align: top;
+	text-transform: none;
+	border-radius: 0;
+	background-color: #0078E7;
+	background-image: none;
+	box-shadow: none;
+	position: relative;
+	overflow:visible;
+}
+
+.wpbfsb button:focus {
+	outline: none;
+	background-image: none;
+	box-shadow: none;
+}
+
+.wpbfsb button:hover {
+	background-color: #0068c9;
+	background-image: none;
+	box-shadow: none;
+}
+
+.wpbfsb button:active {
+	background-image: none;
+	box-shadow: none;
+}
+
+.wpbfsb i {
+	font-style: normal;
+	font-size: 30px;
+	display: block;
+}
+
+.wpbfsb-icon-preview img,
+.wpbfsb img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.wpbfsb-count {
+	font-size: 10px;
+}
+
+.wpbfsb-position-vertical-left {
+	left: 0;
+	bottom: 75px;
+}
+
+.wpbfsb button.wpbfsb-more-button {
+	display: block;
+	background-color: #d3d3d3;
+	vertical-align: top;
+}
+
+.wpbfsb button.wpbfsb-more-button:hover,
+.wpbfsb button.wpbfsb-more-button:active {
+	background-color: #c3c3c3;
+}
+
+/**
+ * Animations
+ */
+
+.wpbfsb.wpbfsb-animate-in button {
+	display: inline-block !important;
+}
+
+.wpbfsb.wpbfsb-responsive-animate-in button {
+	display: inline-block !important;
+}
+
+/**
+ * Share this text
+ */
+.wpbfsb button.wpbfsb-share-info {
+	color: #fff;
+	background-color: #C3C3C3;
+	cursor: default;
+	min-width: 60px;
+	min-height: 60px;
+}
+
+/**
+ * Tooltips
+ */
+.wpbfsb button.wpbfsb-tooltips span.wpbfsb-tooltip {
+	position: absolute;
+	width: 140px;
+	color: #FFFFFF;
+	background: #000000;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	visibility: hidden;
+	border-radius: 3px;
+}
+
+.wpbfsb button.wpbfsb-tooltips span.wpbfsb-tooltip:after {
+	content: '';
+	position: absolute;
+}
+
+.wpbfsb button.wpbfsb-tooltips:hover span.wpbfsb-tooltip {
+	visibility: visible;
+	opacity: 0.8;
+	z-index: 999;
+}

@@ -1,0 +1,225 @@
+/**
+ * Settings page Styles
+ */
+.wpbfsbbackend .dashicons-share {
+	font-size: 30px;
+	margin-right: 15px;
+}
+
+h2 .title {
+	margin-right: 20px;
+}
+
+/**
+ * edit.php Overview styles
+ */
+
+.wpbfsb-overview-icon {
+	font-size: 30px;
+}
+
+/**
+ * Metabox Styles
+ */
+.wpbfsb-icon {
+	cursor: pointer;
+	font-size: 40px;
+	padding: 10px 10px 10px 0;
+}
+
+.wpbfsb-icon:hover,
+.wpbfsb-icon-selected {
+	color: #0074a2;
+}
+
+#_wpbfsb_button_font-icon {
+	display: none;
+}
+
+.wpbfsb-icon-times {
+	color: #dd3d36;
+	font-size: 20px;
+}
+
+#wpbfsb_metabox_layout_social .inside,
+#wpbfsb_metabox_settings_social .inside {
+	background: url('../img/share-big.png') no-repeat right top;
+}
+
+#wpbfsb_metabox_layout_help .inside,
+#wpbfsb_metabox_settings_help .inside {
+	background: url('../img/question-big.png') no-repeat right top;
+}
+
+/* Form Styles */
+
+.wpbfsb-position-select {
+	border: 2px solid #464646;
+	border-radius: 5px;
+	width: 350px;
+	height: 250px;
+	position: relative;
+}
+
+.wpbfsb-position-select-address {
+	width: 100%;
+	border-bottom: 1px solid #464646;
+	height: 20px;
+}
+
+.wpbfsb-position-select-address span {
+	font-size: 10px;
+	color: #464646;
+	padding: 2px 0 0 40px;
+}
+
+.wpbfsb-position-select-content-line {
+	background-color: #ccc;
+	height: 10px;
+	margin: 5px 40px 0;
+}
+
+.wpbfsb-position-select-content-line-0 {
+	margin-top: 45px;
+	margin-bottom: 10px;
+	height: 25px;
+	width: 40%;
+}
+
+.wpbfsb-position-select-content-line-6 {
+	width: 70%;
+}
+
+.wpbfsb-position-select-content-line-7 {
+	background-color: transparent;
+	border: 1px dotted #ccc;
+	width: 50%;
+}
+
+.wpbfsb-position-select-box {
+	position: absolute;
+}
+
+.wpbfsb-position-select-box-horizontal {
+	border: 1px dotted #ccc;
+	width: 100px;
+	height: 20px;
+}
+
+.wpbfsb-position-select-box-vertical {
+	border: 1px dotted #ccc;
+	height: 100px;
+	width: 20px;
+}
+
+.wpbfsb-position-select-box-horizontal-top-left {
+	top: 21px;
+	left: 0;
+}
+
+.wpbfsb-position-select-box-horizontal-top-right {
+	top: 21px;
+	right: 0;
+}
+
+.wpbfsb-position-select-box-horizontal-top {
+	top: 21px;
+	left: 125px;
+}
+
+.wpbfsb-position-select-box-horizontal-bottom-left {
+	bottom: 0;
+	left: 0;
+}
+
+.wpbfsb-position-select-box-horizontal-bottom-right {
+	bottom: 0;
+	right: 0;
+}
+
+.wpbfsb-position-select-box-horizontal-bottom {
+	bottom: 0;
+	left: 125px;
+}
+
+.wpbfsb-position-select-box-vertical-left {
+	left: 0;
+	bottom: 75px;
+}
+
+.wpbfsb-position-select-box-vertical-right {
+	right: 0;
+	bottom: 75px;
+}
+
+.wpbfsb-position-select-box-vertical-left-top {
+	left: 0;
+	top: 21px;
+}
+
+.wpbfsb-position-select-box-vertical-left-bottom {
+	left: 0;
+	bottom: 0;
+}
+
+.wpbfsb-position-select-box-vertical-right-top {
+	top: 21px;
+	right: 0;
+}
+
+.wpbfsb-position-select-box-vertical-right-bottom {
+	right: 0;
+	bottom: 0;
+}
+
+.wpbfsb-position-select-box:hover,
+.wpbfsb-position-select-box-active {
+	border: 0 none;
+	background-color: #0068c9;
+	cursor: pointer;
+}
+
+#wpbfsb_full-width-layout_position,
+#wpbfsb_responsive-width-layout_position {
+	margin: 15px 0 0 0;
+	border: 0 none;
+	border-radius: 0;
+	box-shadow: none;
+	padding: 0;
+	text-align: center;
+}
+
+.wpbfsb-icon-preview {
+	min-width: 200px;
+	min-height: 200px;
+}
+
+.wpbfsb-icon-preview button {
+	font-size: 12px;
+	padding: 7px;
+	border: 0 none;
+	cursor: pointer;
+	color: #fff;
+	width: 60px;
+	height: 60px;
+	display: block;
+	text-transform: none;
+	border-radius: 0;
+	background-color: #0078E7;
+}
+
+.wpbfsb-icon-preview button:hover {
+	background-color: #0068c9;
+}
+
+.wpbfsb-icon-preview i {
+	font-style: normal;
+	font-size: 30px;
+	display: block;
+}
+
+/* Flush Cache Button */
+.wpbfsb-flushcache span {
+	font-size: 16px;
+	vertical-align: middle;
+}

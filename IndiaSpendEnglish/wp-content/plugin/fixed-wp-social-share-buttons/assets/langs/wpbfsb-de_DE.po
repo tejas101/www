@@ -1,0 +1,769 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Sitesearch Pro\n"
+"POT-Creation-Date: 2014-10-07 16:01+0100\n"
+"PO-Revision-Date: 2014-10-07 16:01+0100\n"
+"Last-Translator: WP-Buddy <info@wp-buddy.com>\n"
+"Language-Team: WP-Buddy <info@wp-buddy.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../classes/controller/backend.php:127
+msgctxt "plugin settings page title"
+msgid "Fixed Social Share"
+msgstr "Fixed Social Share"
+
+#: ../../classes/controller/backend.php:128
+msgctxt "plugin settings menu title"
+msgid "Fixed Social Share"
+msgstr "Fixed Social Share"
+
+#: ../../classes/controller/backend.php:322
+msgid "Icon"
+msgstr "Symbol"
+
+#: ../../classes/controller/backend.php:366
+msgid "Social Button Settings"
+msgstr "Social Button Einstellungen"
+
+#: ../../classes/controller/backend.php:373 ../../config.php:294
+#: ../../config.php:436
+msgid "About"
+msgstr "Über"
+
+#: ../../classes/controller/backend.php:390
+msgid "Social Share Button Options"
+msgstr "Social Share Button Einstellungen"
+
+#: ../../classes/controller/backend.php:595 ../../config.php:318
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../../classes/controller/backend.php:596
+#: ../../classes/view/backend-settings-page-help-metabox.php:17
+msgid "More cool stuff by WP-Buddy"
+msgstr "Mehr Plugins von WP-Buddy"
+
+#: ../../classes/controller/backend.php:627
+msgid "There are new buttons available. Do you want to install them now?"
+msgstr "Neue Icons sind vorhanden. Willst Du sie jetzt installieren?"
+
+#: ../../classes/controller/backend.php:628
+msgid "Yes"
+msgstr "Ja"
+
+#: ../../classes/controller/backend.php:804
+#, php-format
+msgid ""
+"There are no social buttons installed. Please go the <a href=\"%s\">social "
+"buttons page</a> and create some buttons."
+msgstr ""
+"Im Moment sind keine Social Buttons installiert. Bitte besuche die <a href="
+"\"%s\">Social Buttons Seite</a> um welche zu erstellen."
+
+#: ../../classes/controller/backend.php:814
+#, php-format
+msgid ""
+"Searching for more options? Please go to the <a href=\"%s\">settings page</"
+"a> of the plugin to configure it."
+msgstr ""
+"Mehr Optionen gefällig? Bitte gehe zur <a href=\"%s\">Einstellungsseite</a> "
+"des Plugins um es zu konfigurieren."
+
+#: ../../classes/controller/backend.php:847
+#, php-format
+msgctxt "%s is the number of items"
+msgid "One item has been deleted from the cache"
+msgid_plural "%s items have been deleted from the cache"
+msgstr[0] "Ein Eintrag wurde aus dem Cache gelöscht."
+msgstr[1] "%s Einträge wurden vom Cache gelöscht."
+
+#: ../../classes/controller/backend.php:851
+msgid "Could not flush the cache. Maybe there is nothing to delete."
+msgstr ""
+"Der Cache konnte nicht geleert werden. Eventuelle gibt es nicht zu löschen."
+
+#: ../../classes/controller/frontend.php:170 ../../config.php:129
+msgid "Share this!"
+msgstr "Teilen"
+
+#: ../../classes/controller/frontend.php:171
+msgid "Share!"
+msgstr "Teilen!"
+
+#: ../../classes/model/form.php:389
+msgid "Select an icon"
+msgstr "Symbol auswählen"
+
+#: ../../classes/model/form.php:389
+msgid "Select as icon"
+msgstr "Als Symbol auswählen"
+
+#: ../../classes/model/form.php:389
+msgid "Select"
+msgstr "Auswählen"
+
+#: ../../classes/model/posttypes.php:44
+msgctxt "post type general name"
+msgid "Social Buttons"
+msgstr "Social Buttons"
+
+#: ../../classes/model/posttypes.php:45
+msgctxt "post type singular name"
+msgid "Social Button"
+msgstr "Social Button"
+
+#: ../../classes/model/posttypes.php:46
+msgctxt "admin menu"
+msgid "Social Buttons"
+msgstr "Social Buttons"
+
+#: ../../classes/model/posttypes.php:47
+msgctxt "\"add new\" on admin bar"
+msgid "Social Button"
+msgstr "Social Button"
+
+#: ../../classes/model/posttypes.php:48
+msgctxt "book"
+msgid "Add New"
+msgstr "Neu erstellen"
+
+#: ../../classes/model/posttypes.php:49
+msgid "Add New Social Button"
+msgstr "Neuen Social Button erstellen"
+
+#: ../../classes/model/posttypes.php:50
+msgid "New Social Button"
+msgstr "Neuer Social Button"
+
+#: ../../classes/model/posttypes.php:51
+msgid "Edit Social Button"
+msgstr "Social Button bearbeiten"
+
+#: ../../classes/model/posttypes.php:52
+msgid "View Social Button"
+msgstr "Social Button anzeigen"
+
+#: ../../classes/model/posttypes.php:53
+msgid "All Buttons"
+msgstr "Alle Buttons"
+
+#: ../../classes/model/posttypes.php:54
+msgid "Search Social Buttons"
+msgstr "Social Buttons durchsuchen"
+
+#: ../../classes/model/posttypes.php:55
+msgid "Parent Social Buttons:"
+msgstr "Social Buttons Eltern:"
+
+#: ../../classes/model/posttypes.php:56
+msgid "No buttons found."
+msgstr "Keine Buttons gefunden."
+
+#: ../../classes/model/posttypes.php:57
+msgid "No buttons found in Trash."
+msgstr "Keine Buttons im Papierkorb."
+
+#: ../../classes/model/remote.php:258 ../../config.php:589
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../../classes/model/remote.php:262 ../../config.php:603
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../classes/model/remote.php:266 ../../config.php:630
+msgid "Google+"
+msgstr "Google+"
+
+#: ../../classes/model/remote.php:270 ../../config.php:617
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../../classes/model/remote.php:274 ../../config.php:644
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../../classes/view/backend-settings-page-help-metabox.php:3
+msgid "Version History"
+msgstr "Versionshistorie (englisch)"
+
+#: ../../classes/view/backend-settings-page-help-metabox.php:6
+msgid "Frequently Asked Questions"
+msgstr "Häufige Fragen (englisch)"
+
+#: ../../classes/view/backend-settings-page-help-metabox.php:9
+msgid "Report a bug"
+msgstr "Einen Fehler melden (englisch)"
+
+#: ../../classes/view/backend-settings-page-help-metabox.php:12
+msgid "Request a function"
+msgstr "Eine Funktion vorschlagen (englisch)"
+
+#: ../../classes/view/backend-settings-page-help-metabox.php:15
+msgid "Submit a translation"
+msgstr "Eine Übersetzung einreichen (englisch)"
+
+#: ../../classes/view/backend-settings-page-newsletter-metabox.php:10
+msgid "Your first name"
+msgstr "Dein Vorname"
+
+#: ../../classes/view/backend-settings-page-newsletter-metabox.php:12
+msgid "Your E-Mail address"
+msgstr "Deine E-Mail Adresse"
+
+#: ../../classes/view/backend-settings-page-newsletter-metabox.php:14
+msgid "Subscribe for free"
+msgstr "Kostenlos eintragen"
+
+#: ../../classes/view/frontend.php:49
+#, php-format
+msgctxt "%s is the name of the social media plattform (eg. Facebook)"
+msgid "Share it with %s!"
+msgstr "Jetzt mit %s teilen!"
+
+#: ../../config.php:14
+msgid "Layout"
+msgstr "Layout"
+
+#: ../../config.php:19
+msgid "Full Width Layout"
+msgstr "Layout (volle Breite)"
+
+#: ../../config.php:23 ../../config.php:153
+msgctxt "Field option"
+msgid "Position"
+msgstr "Position"
+
+#: ../../config.php:31 ../../config.php:161
+msgctxt "Field option"
+msgid "Icon Quantity"
+msgstr "Anzahl an Symbolen"
+
+#: ../../config.php:41 ../../config.php:171 ../../config.php:473
+msgctxt "Field option"
+msgid "Icon Preview"
+msgstr "Symbolvorschau"
+
+#: ../../config.php:46 ../../config.php:176
+msgctxt "Field option"
+msgid "Icon Font Size"
+msgstr "Symbol Schriftgröße"
+
+#: ../../config.php:54 ../../config.php:65 ../../config.php:107
+#: ../../config.php:118 ../../config.php:149 ../../config.php:184
+#: ../../config.php:195 ../../config.php:238 ../../config.php:249
+msgctxt "short form of \"pixels\""
+msgid "px"
+msgstr "px"
+
+#: ../../config.php:57 ../../config.php:187
+msgctxt "Field option"
+msgid "Button Size"
+msgstr "Buttongröße"
+
+#: ../../config.php:68 ../../config.php:198
+msgctxt "Field option"
+msgid "Margin left"
+msgstr "Abstand links"
+
+#: ../../config.php:76 ../../config.php:88 ../../config.php:206
+#: ../../config.php:218
+msgctxt "Percent sign"
+msgid "%"
+msgstr "%"
+
+#: ../../config.php:77 ../../config.php:207
+msgid ""
+"Because there is no natural command to center an element horizontally you "
+"have to set a margin from left manually."
+msgstr ""
+"Da es keinen natürlichen Parameter gibt um ein Element horizontal zu "
+"zentrieren musst Du einen Abstand von links selbst wählen."
+
+#: ../../config.php:80 ../../config.php:210
+msgctxt "Field option"
+msgid "Margin top"
+msgstr "Abstand oben"
+
+#: ../../config.php:89 ../../config.php:219
+msgid ""
+"Because there is no natural command to center an element vertically you have "
+"to set a margin from top manually."
+msgstr ""
+"Da es keinen natürlichen Parameter gibt um ein Element vertikal zu "
+"zentrieren musst Du einen Abstand von obenselbst wählen."
+
+#: ../../config.php:92 ../../config.php:222
+msgctxt "Field option"
+msgid "Display shares"
+msgstr "Anzahl der Teilungen anzeigen"
+
+#: ../../config.php:96 ../../config.php:226
+msgid ""
+"Please note that this can slow down your page views (if you are not using a "
+"caching plugin). This is because WordPress must ping the social media "
+"service to retrieve the current number of shares. Read more about this on "
+"the settings tab."
+msgstr ""
+"Bitte beachten dass dies Deine Pages Views verlangsamen kann. Aber nur wenn "
+"du kein Caching-Plugin benutzt. Der Grund ist, dass WordPress zuerst den "
+"Social Media Service anpingen muss um die aktuelle Anzahl der Likes, Tweets, "
+"etc. abzurufen. Mehr darüber in den Einstellungen."
+
+#: ../../config.php:99 ../../config.php:230
+msgctxt "Field option"
+msgid "Shares Font Size"
+msgstr "Anzahl der Teilungen: Schriftgröße"
+
+#: ../../config.php:110 ../../config.php:241
+msgctxt "Field option"
+msgid "Share Text Font Size"
+msgstr "\"Teilen\" Schriftgröße"
+
+#: ../../config.php:121 ../../config.php:252
+msgctxt "Field option"
+msgid "Share Text Font Color"
+msgstr "\"Teilen\"-Schriftfarbe"
+
+#: ../../config.php:127 ../../config.php:258
+msgctxt "Field option"
+msgid "Share Info Text"
+msgstr "\"Teilen\" Infotext"
+
+#: ../../config.php:131 ../../config.php:262
+msgid ""
+"You can use the variable <code>$platform</code> to include the name of the "
+"platform for the tooltip (only works if \"Tooltip\" was chosen above). "
+"Example: <code>Share this on $platform!</code>"
+msgstr ""
+"Du kannst die Variable <code>$platform</code> benutzen um den Namen der "
+"Plattform im Tooltip anzeigen zu lassen (funktioniert nur, wenn \"Tooltip\" "
+"ausgewählt wurde). Beispiel: <code>Auf $platform teilen!</code>"
+
+#: ../../config.php:137
+msgid "Responsive Width Layout"
+msgstr "Layout (Responsive)"
+
+#: ../../config.php:141
+msgctxt "Field option"
+msgid "Responsive width"
+msgstr "Responsive Breite"
+
+#: ../../config.php:150
+msgid ""
+"The maximum width of the browser window when the responsive layout should be "
+"applied."
+msgstr ""
+"Die maximale Breite des Browsersfensters bis das Responsive Layout "
+"angewendet wird."
+
+#: ../../config.php:260
+msgid "Share"
+msgstr "Teilen"
+
+#: ../../config.php:269
+msgid "Other Layout Settings"
+msgstr "Andere Layout-Einstellungen"
+
+#: ../../config.php:273
+msgctxt "Field option"
+msgid "Custom CSS"
+msgstr "Individuelles CSS"
+
+#: ../../config.php:278
+msgctxt "Field option"
+msgid "Show Share Info"
+msgstr "\"Teilen\" Info"
+
+#: ../../config.php:281
+msgctxt "label if nothing was selected in the share info field"
+msgid "Don't show"
+msgstr "Nicht anzeigen"
+
+#: ../../config.php:282
+msgid "Text"
+msgstr "Text"
+
+#: ../../config.php:283
+msgid "Tooltip"
+msgstr "Tooltip"
+
+#: ../../config.php:287
+msgid ""
+"For example, some themes are using the same Facebook, Twitter and Google+ "
+"icons to link to profile pages. To avoid confusing the user you can define "
+"your own share info here."
+msgstr ""
+"Zum Beispiel zeigen eigene Themes bereits Facebook, Twitter und Google+-"
+"Icons um auf die jeweiligen Profilseiten zu verlinken. Um den Benutzer nicht "
+"zu verwirren kannst Du hier einstellen ob ein Infofeld angezeigt werden soll "
+"oder nicht."
+
+#: ../../config.php:300 ../../config.php:442
+msgid "Share it now!"
+msgstr "Jetzt teilen!"
+
+#: ../../config.php:306 ../../config.php:448
+msgid "Need help?"
+msgstr "Hilfe"
+
+#: ../../config.php:312 ../../config.php:454
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: ../../config.php:322
+msgid "Schema.org"
+msgstr "Schema.org"
+
+#: ../../config.php:326
+msgctxt "Field option"
+msgid "Enable schema.org"
+msgstr "schema.org Unterstützung aktivieren"
+
+#: ../../config.php:333
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: ../../config.php:337
+msgctxt "Field option"
+msgid "Show on home page"
+msgstr "Auf \"Home\" Seite anzeigen"
+
+#: ../../config.php:342
+msgctxt "Field option"
+msgid "Show on front page"
+msgstr "Auf Titelseite (Front Page) anzeigen"
+
+#: ../../config.php:347
+msgctxt "Field option"
+msgid "Show on category pages"
+msgstr "Auf Kategorieseiten anzeigen"
+
+#: ../../config.php:352
+msgctxt "Field option"
+msgid "Show on tag pages"
+msgstr "Auf Schlagwortseiten anzeigen"
+
+#: ../../config.php:357
+msgctxt "Field option"
+msgid "Show on taxonomy pages"
+msgstr "Auf Taxonomy Seiten anzeigen"
+
+#: ../../config.php:362
+msgctxt "Field option"
+msgid "Show on author pages"
+msgstr "Auf Autorenseiten anzeigen"
+
+#: ../../config.php:367
+msgctxt "Field option"
+msgid "Show on date based archive pages"
+msgstr "Auf Datums-basierten Archivseiten anzeigen"
+
+#: ../../config.php:372
+msgctxt "Field option"
+msgid "Show on search pages"
+msgstr "Auf Suchseite anzeigen"
+
+#: ../../config.php:377
+msgctxt "Field option"
+msgid "Show on 404 pages"
+msgstr "Auf 404-Seiten anzeigen"
+
+#: ../../config.php:385
+msgid "Ping Service"
+msgstr "Ping Service"
+
+#: ../../config.php:390
+msgctxt "Field option"
+msgid "Refresh rate / Caching"
+msgstr "Abhol-Rate / Caching"
+
+#: ../../config.php:397
+msgctxt "short form of \"minutes\""
+msgid "min."
+msgstr "min."
+
+#: ../../config.php:398
+msgid ""
+"Set how often WordPress should ping the social media service to ask for a "
+"new number of shares. Please note that, if a caching plugin is active and if "
+"it is very aggressive, the number of shares will not be updated until the "
+"cache has been flushed manually or automatically. If you want to deactivate "
+"this functionality just don't display the counter on your layout."
+msgstr ""
+"Hier kannst Du einstellen, wie oft WordPress den Social Media Service "
+"anpingen soll um die aktuelle Anzahl an Likes, Tweets, etc. abzurufen. Bitte "
+"beachte, dass die Anzahl so lange nicht aktualisiert wird, bis Dein Caching-"
+"Plugin den Cache-Speicher automatisch leert (falls ein Caching-Plugin "
+"installiert ist). Wenn Du diese Funktionalität deaktivieren willst, dann "
+"deaktiviere einfach die Anzeige der Anzahl der Likes unter den Layout-"
+"Einstellungen."
+
+#: ../../config.php:403
+msgid "Flush Cache now"
+msgstr "Cache jetzt leeren"
+
+#: ../../config.php:406
+msgctxt "Field option"
+msgid "Timeout"
+msgstr "Timeout"
+
+#: ../../config.php:414
+msgctxt "short form of \"seconds\""
+msgid "sec."
+msgstr "sek."
+
+#: ../../config.php:415
+msgid ""
+"When a social media service is unavailable WordPress will timeout after the "
+"above time. If your WordPress installation is not able to retrieve any data, "
+"increasing the timeout could help. But note that increasing the timeout can "
+"result in a slower page load. However, the results will be cached for some "
+"time (see the \"Refresh rate\" settings field)."
+msgstr ""
+"Falls ein Social-Media Service nicht erreichbar ist wird WordPress nach "
+"dieser Zeit automatisch abbrechen. Wenn Deine WordPress-Installation keine "
+"Daten empfangen kann, kann es hilfreich sein, diese Zeit zu erhöhen. Beachte "
+"bitte, dass die Erhöhung des Timeouts auch die Seitenladezeit verlängert. "
+"Die Daten werden allerdings zwischengespeichert und nicht bei jedem "
+"Seitenaufruf neu vom Social Media Service abgerufen. Du kannst die Abhol-"
+"Frequenz selbst einstellen."
+
+#: ../../config.php:421
+msgid "Updates"
+msgstr "Updates"
+
+#: ../../config.php:425
+msgctxt "Field option"
+msgid "Purchase code"
+msgstr "Kaufcode (Purchase Code)"
+
+#: ../../config.php:428
+msgid "Please enter your purchase code here to get automatic updates."
+msgstr ""
+"Bitte gib hier deinen Kaufcode (engl. Purchase Code) ein um automatische "
+"Updates zu erhalten."
+
+#: ../../config.php:428
+msgid ""
+"If you don' know where you can find your purchase code, please click here."
+msgstr ""
+"Wenn Du nicht weißt, wo Du den Kaufcoden finden kannst, dann klicke hier."
+
+#: ../../config.php:477
+msgctxt "Field option"
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: ../../config.php:482
+msgctxt "Field option"
+msgid "Background Hover-Color"
+msgstr "Hintergrundfarbe bei Mouseover"
+
+#: ../../config.php:487
+msgctxt "Field option"
+msgid "Icon Color"
+msgstr "Symbolfarbe"
+
+#: ../../config.php:490
+msgid ""
+"Please note that this setting has no affect when you are using an picture."
+msgstr ""
+"Bitte beachte, dass diese Einstellung keinen Einfluss hat wenn Du ein "
+"eigenes Bild als Icon gewählt hast."
+
+#: ../../config.php:493
+msgctxt "Field option"
+msgid "Icon"
+msgstr "Symbol"
+
+#: ../../config.php:498
+msgctxt "Field option"
+msgid "Icon URL (optional)"
+msgstr "Symbol URL (optional)"
+
+#: ../../config.php:502
+msgid ""
+"If you want to set an image URL instead of an icon font element please "
+"deselect the font first (red cross above)."
+msgstr ""
+"Wenn Du ein Bild anstatt eines Icons verwenden willst, dann lösche zuerst "
+"das Icon-Feld (rotes Kreuz oben)."
+
+#: ../../config.php:505
+msgctxt "Field option"
+msgid "OnClick Event"
+msgstr "OnClick Event"
+
+#: ../../config.php:509
+msgid ""
+"Use <strong>$site_url</strong> as a placeholder for the (URL-encoded) URL, "
+"<strong>$site_title</strong> for the page title."
+msgstr ""
+"Benutze <strong>$site_url</strong> als Platzhalter für die (URL-enkodierte) "
+"URL und <strong>$site_title</strong> für den Seitentitel."
+
+#: ../../config.php:512
+msgctxt "Field option"
+msgid "Remote Function"
+msgstr "Remote-Funktion"
+
+#: ../../config.php:514
+msgctxt "Expression when no remote function was set"
+msgid "None"
+msgstr "Keine"
+
+#: ../../config.php:516
+msgid "The function that is used to retrieve the number of likes, pins, etc."
+msgstr ""
+"Die Funktion die dazu benutzt wird, die Anzahl von Likes, Pins, etc. "
+"abzurufen."
+
+#: ../../config.php:516
+msgid "Click here to learn more about how to add more functions."
+msgstr ""
+"Hier klicken um mehr darüber zu erfahren, wie man Funktionen hinzufügt."
+
+#: ../../config.php:519
+msgctxt "Field option"
+msgid "CSS Classes"
+msgstr "CSS Klassen"
+
+#: ../../config.php:522
+msgid "Separated by a space"
+msgstr "Separiert mit Leerzeichen"
+
+#: ../../config.php:525
+msgctxt "Field option"
+msgid "CSS Styles"
+msgstr "CSS Styles"
+
+#: ../../config.php:528
+#, php-format
+msgid "Use the syntax %s to address this button."
+msgstr "Benutze folgenden Syntax für diesen Button: %s"
+
+#: ../../config.php:531
+msgctxt "Field option"
+msgid "Schema.org Interaction Type"
+msgstr "Schema.org Interaktionstyp"
+
+#: ../../config.php:534
+msgctxt "Expression when no schema.org interaction type was selected"
+msgid "None"
+msgstr "Keine"
+
+#: ../../config.php:548
+msgctxt "Field option"
+msgid "Threshold"
+msgstr "Schwelle"
+
+#: ../../config.php:555
+msgctxt "Field option"
+msgid "shares"
+msgstr "Teilungen"
+
+#: ../../config.php:556
+msgid ""
+"If you want to show the number of shares only when a certain threshold "
+"(number of likes, shares, etc.) has been reached, then please define a "
+"number here. For example: if you want to show the number of Facebook Likes "
+"only when at least 10 user has shared it 10 times then you have to set the "
+"threshold to 9."
+msgstr ""
+"Wenn Du den Button lediglich anzeigen willst, wenn eine bestimmte Anzahl an "
+"Teilungen (\"Shares\") erreicht wurde, kannst du hier die Schwelle "
+"einstellen. Beispiel: Wenn Du nur die Anzahl der Likes auf Facebook anzeigen "
+"willst, wenn mehr als 10 Benutzer es geteilt haben, dann musst du die "
+"Schwelle auf 9 setzen."
+
+#: ../../config.php:576
+msgctxt "Field option"
+msgid "Hide icons on this page"
+msgstr "Icons auf diesen Seiten verstecken"
+
+#: ../../config.php:658
+msgid "XING"
+msgstr "XING"
+
+#: ../../config.php:672
+msgid "tumblr"
+msgstr "tumblr"
+
+#: ../../config.php:686
+msgid "renren"
+msgstr "renren"
+
+#: ../../config.php:700
+msgid "Weibo"
+msgstr "Weibo"
+
+#: ../../config.php:714
+msgid "Gittip"
+msgstr "Gittip"
+
+#: ../../fixed-wp-social-share-buttons.php:13
+msgid ""
+"A social share plugin for WordPress that fixes buttons to a side and "
+"protects the users privacy!"
+msgstr ""
+"Ein Social Network Share Plugin für WordPress welches die Privatsphäre der "
+"Benutzer schützt!"
+
+#: ../../fixed-wp-social-share-buttons.php:22
+#, php-format
+msgid ""
+"You are using PHP in version %1$s. This version is outdated and cannot be "
+"used with the %2$s plugin. Please update to the latest PHP version in order "
+"to use this plugin. You can ask your provider on how to do this."
+msgstr ""
+"Du benutzt PHP in der Version %1$s. Diese Version veraltet und kann zusammen "
+"mit dem %2$s Plugin nicht benutzt werden. Bitte aktualisiere auf eine "
+"aktuellere PHP-Version um dieses Plugin zu nutzen. Du kannst bei deinem "
+"Provider nachfragen wie das geht."
+
+#~ msgid "Share Info Text"
+#~ msgstr "\"Teilen\"-Infotext"
+
+#~ msgid "Share Info Tooltip"
+#~ msgstr "\"Teilen\" Tooltip"
+
+#~ msgctxt "label if nothing was selected in the share info field"
+#~ msgid "None"
+#~ msgstr "Keines"
+
+#~ msgctxt "post type general name"
+#~ msgid "Buttons"
+#~ msgstr "Buttons"
+
+#~ msgctxt "post type singular name"
+#~ msgid "Button"
+#~ msgstr "Button"
+
+#~ msgctxt "\"add new\" on admin bar"
+#~ msgid "Button"
+#~ msgstr "Neuer Button"
+
+#~ msgid "New Button"
+#~ msgstr "Neuer Button"
+
+#~ msgid "Edit Button"
+#~ msgstr "Button bearbeiten"
+
+#~ msgid "View Button"
+#~ msgstr "Button anzeigen"
+
+#~ msgctxt "Field option"
+#~ msgid "Font Icon"
+#~ msgstr "Symbol"
