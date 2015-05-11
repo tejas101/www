@@ -1,0 +1,324 @@
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Transaction START
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Signature data is merchantAccessKey=d4491ed13a24943a08e7698883ab93f4bc295d6a&transactionId=safsde468&amount=1
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Signature Key generated is ebae5d6eb3943fc363ab7eb21dc81c27e676e67b
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of merchantAccessKey=d4491ed13a24943a08e7698883ab93f4bc295d6a
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of transactionId=safsde468
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of issuerCode=CID010
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of addressState=Maharashtra
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of addressCity=Miraroad
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of addressStreet1=101/A
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of addressCountry=India
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of addressZip=401107
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of firstName=Ashwini
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of lastName=Patil
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of phoneNumber=895741236
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of email=ashwinipatil1404@gmail.com
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of paymentMode=DEBIT_CARD
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of cardHolderName=Ashwini
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of expiryMonth=JUL
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of cardType=Debit
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of expiryYear=2023
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of returnUrl=http://www.crayoninfotech.com/Clientdemo/india_spend/test/Response.php
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of amount=1
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Value of signature=ebae5d6eb3943fc363ab7eb21dc81c27e676e67b
+2014-06-10T02:29:23-07:00 [CITRUSPAY] Request made to URL https://sandboxadmin.citruspay.com/api/v1/txn/transaction
+2014-06-10T02:29:24-07:00 [CITRUSPAY] Error Code: 404
+2014-06-10T02:29:24-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-10T02:29:24-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Transaction START
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Signature data is merchantAccessKey=d4491ed13a24943a08e7698883ab93f4bc295d6a&transactionId=sad789543&amount=1
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Signature Key generated is ae7a4379108fc2c260166ccdc11bb3bc9240b9cd
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of merchantAccessKey=d4491ed13a24943a08e7698883ab93f4bc295d6a
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of transactionId=sad789543
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of issuerCode=CID010
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of addressState=Maharashtra
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of addressCity=Miraroad
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of addressStreet1=101/A
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of addressCountry=India
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of addressZip=401107
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of firstName=Ashwini
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of lastName=Patil
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of phoneNumber=895741236
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of email=ashwinipatil1404@gmail.com
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of paymentMode=DEBIT_CARD
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of cardHolderName=Ashwini
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of expiryMonth=JUL
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of cardType=Debit
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of expiryYear=2023
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of returnUrl=http://www.indiaspend.com/uncategorized/thankyou
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of amount=1
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Value of signature=ae7a4379108fc2c260166ccdc11bb3bc9240b9cd
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Request made to URL https://sandboxadmin.citruspay.com/api/v1/txn/transaction
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Error Code: 404
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-10T02:32:19-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of issuerCode=CID001
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of firstName=vhmnmcct
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of lastName=sdnubdjc
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of cardHolderName=mkhoojtv
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:41-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of issuerCode=CID003
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of firstName=bqwrwejq
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of lastName=enqgoclj
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of issuerCode=CID002
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardHolderName=mcxemygm
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of firstName=rknmkqit
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of lastName=qxdxirhp
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardHolderName=sblntqdw
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of issuerCode=CID004
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of firstName=apaoqhqv
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of lastName=ahgbnkan
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardHolderName=etllolmf
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of issuerCode=CID005
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of firstName=cbhrycrc
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of lastName=csngodib
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardHolderName=lxbsacss
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:42-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of issuerCode=CID006
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of firstName=jkkwgkke
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of lastName=clernklx
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardHolderName=psawwrlf
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of issuerCode=CID007
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of firstName=alfjaxpk
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of lastName=ippvtdty
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardHolderName=fuaexhul
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of issuerCode=CID008
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of firstName=egmibmwf
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of lastName=ubldpcwq
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardHolderName=xtmndvcf
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of issuerCode=CID009
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of firstName=hjgusdxp
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of lastName=ugdxhsgg
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardHolderName=ogkouuwt
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction START
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature data is merchantAccessKey=4111111111111111&transactionId=1&amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Signature Key generated is 57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of merchantAccessKey=4111111111111111
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of transactionId=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of issuerCode=CID010
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressState=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCity=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressStreet1=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressCountry=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of addressZip=3137 Laguna Street
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of firstName=lyccbkxj
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of lastName=jpbcmuyk
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of phoneNumber=555-666-0606
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of email=sample@email.tst
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of paymentMode=NET_BANKING
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardHolderName=ijaycgsp
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryMonth=7
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of cardType=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of expiryYear=1967
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of returnUrl=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of amount=1
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Value of signature=57d41bfbdcbf8c0fc4f45dba55ff29d3627d7f21
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Request made to URL https://admin.citruspay.com/api/v1/txn/transaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Code: 404
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Error Message: Bad Request: Merchant not found
+2014-06-26T06:31:43-07:00 [CITRUSPAY] Transaction END for Moto RequestTransaction
