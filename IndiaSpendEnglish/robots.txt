@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /OLD/
+
+Sitemap: http://www.indiaspend.com/sitemap.xml.gz
+Sitemap: http://www.indiaspend.com/post_google_news.xml
+Sitemap: http://www.indiaspend.com/sitemapindex.xml
