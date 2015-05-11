@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
+
+.emfw_shortcode_container form div {
+	margin: 0;
+}
+.emfw_submitbtn{width: 76% !important; margin-left: 12% !important; background:#e8554e !important;}
+#emfw_shortcode_container{margin-top: 23px;}
+
+
+.emfw_shortcode_container {
+	background: #222;
+	color: #000000;
+	display: block;
+	padding: 10px 0 10px 3%;
+	position: relative;
+	text-align: left;
+	font-family: "Source Sans Pro",Helvetica,sans-serif;
+	color: #141412;
+	font-size: 16px;
+}
+
+.emfw_shortcode_container .emfw_required {
+	color: #CC6600;
+	font-size: 200%;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+}
+
+.emfw_shortcode_container input {
+	display: block;
+	padding: 8px 0;
+	text-indent: 2%;
+	width: 78%;
+	border: 1px solid #999999;
+	margin-left: 12%;
+	
+}
+
+.emfw_shortcode_container input:focus {
+	border-color: #333333;
+}
+
+.emfw_shortcode_container input[type="radio"] {
+	width: 10%;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+.emfw_shortcode_container .emfw_fieldgroup {
+	clear: left;
+	min-height: 50px;
+	padding-bottom: 1%;
+	position: relative;
+	width: 96%;
+	padding-top: 6px;
+}
+
+.emfw_shortcode_container .emfw_fieldname {
+	display: block;
+	margin-bottom: 3px;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn, 
+.emfw_shortcode_container .emfw_submitbtncontainer input[type="submit"] {
+	background: #AAAAAA;
+	border: 0 none;
+	border-radius: 0px;
+	clear: both;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 32px;
+	margin: 0px 0px 3px 0;
+	padding: 0 22px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+	width: auto;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn:hover, 
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn:focus,
+.emfw_shortcode_container .emfw_submitbtncontainer input[type="submit"]:hover,
+.emfw_shortcode_container .emfw_submitbtncontainer input[type="submit"]:focus {
+	background: #777777;
+}
+
+.emfw_shortcode_container .shortcode-title h3 {
+	display: inline;
+}

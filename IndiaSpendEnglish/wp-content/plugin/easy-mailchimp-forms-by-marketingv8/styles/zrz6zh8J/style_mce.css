@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
+
+.emfw_shortcode_container form div {
+	margin: 0;
+}
+
+.emfw_shortcode_container {
+	border: 5px solid #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 15px 0px #7a7a7a;
+	-moz-box-shadow: 0px 0px 15px 0px #7a7a7a;
+	box-shadow: 0px 0px 15px 0px #7a7a7a;
+	background-image: url('pattern.png');
+	background-repeat: repeat;
+	background-position: left top;
+	font-family: "Source Sans Pro",Helvetica,sans-serif;
+	color: #141412;
+	font-size: 16px;
+}
+
+.emfw_shortcode_container .shortcode-title {
+	font-style: normal;
+	text-shadow: 0 2px 0 #000000;
+	color: #FFFFFF;
+	font-size: 23px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: arial;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.05);
+	width: 100%;
+	margin: 0;
+}
+
+.emfw_shortcode_container form {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 7px;
+	color: #767676;
+}
+
+.emfw_shortcode_container .emfw_required {
+	color: #ff0000;
+}
+
+.emfw_shortcode_container .emfw_allformfields input {
+	background-color: #FFFFFF;
+	border: 1px solid #46617C;
+	color: #474747;
+	font-weight: bold;
+	padding: 7px;
+	width: 95%;
+}
+
+.emfw_shortcode_container .emfw_allformfields input[type="radio"] {
+	width: 10%;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn {
+	color: #FFFFFF;
+	display: block;
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 14pt;
+	margin: 23px auto 0;
+	padding: 10px;
+	text-align: center;
+	text-shadow: 0 2px 0 #000000;
+	text-transform: capitalize;
+	width: 70%;
+	border: 1px solid #b7e67d;
+	background: #a3e057;
+	background: -moz-linear-gradient(top, #a3e057 0%, #4d8a03 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a3e057), color-stop(100%,#4d8a03));
+	background: -webkit-linear-gradient(top, #a3e057 0%,#4d8a03 100%);
+	background: -o-linear-gradient(top, #a3e057 0%,#4d8a03 100%);
+	background: -ms-linear-gradient(top, #a3e057 0%,#4d8a03 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a3e057', endColorstr='#4d8a03',GradientType=0 );
+	background: linear-gradient(top, #a3e057 0%,#4d8a03 100%);
+}
+
+.emfw_shortcode_container .shortcode-title h3 {
+	display: inline;
+}

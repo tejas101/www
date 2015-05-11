@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>MailChimp</title>
+	<style type="text/css">
+		.button1 {
+			text-align: center;
+			height: 30px;
+	    line-height: 28px;
+	    padding: 0 12px 2px;
+	    background-color: #21759b;
+	    background-image: linear-gradient(to bottom, #2a95c5, #21759b);
+	    border-color: #21759b #21759b #1e6a8d;
+	    box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset;
+	    color: #fff;
+	    text-decoration: none;
+	    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	    border-radius: 3px;
+	    border-style: solid;
+	    border-width: 1px;
+	    box-sizing: border-box;
+	    cursor: pointer;
+	    display: inline-block;
+	    font-size: 12px;
+	    margin: 0;
+	    white-space: nowrap;
+	    font-family: sans-serif;
+		}
+		
+		.button2 {
+			text-align: center;
+			background: linear-gradient(to bottom, #fefefe, #f4f4f4) repeat scroll 0 0 #f3f3f3;
+	    border-color: #bbb;
+	    color: #333;
+	    text-shadow: 0 1px 0 #fff;
+	    border-radius: 3px;
+	    border-style: solid;
+	    border-width: 1px;
+	    box-sizing: border-box;
+	    cursor: pointer;
+	    display: inline-block;
+	    font-size: 12px;
+	    height: 24px;
+	    line-height: 23px;
+	    margin: 0;
+	    padding: 0 10px 1px;
+	    text-decoration: none;
+	    white-space: nowrap;
+	    outline: 0 none;
+	    font-family: sans-serif;
+		}
+	</style>
+
+</head>
+<body id="charmap" role="application">
+	<table>
+		<tbody>
+			<tr>
+				<td><span id="lab1"></span></td>
+				<td width="5">&nbsp;</td>
+				<td><input type="text" name="title" id="title"/></td>
+			</tr>
+			<tr>
+				<td><span id="lab2"></span></td>
+				<td width="5">&nbsp;</td>
+				<td><select name="listid" id="listid"></select></td>
+			</tr>
+			<tr>
+				<td><span id="lab3"></span></td>
+				<td width="5">&nbsp;</td>
+				<td><select name="styleid" id="styleid"></select></td>
+			</tr>
+			<tr height="50">
+				<td colspan="3" align="center"><input type="submit" value="OK" class="button1" onclick="savesettings()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Cancel" class="button2" onclick="closewindow()"></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script type="text/javascript">
+		function AddOptionElement(opName, opValue, opText) {
+	    var x = document.getElementById(opName);
+	    var option = document.createElement("option");
+	    option.text = opText;
+	    option.value = opValue;
+	    x.add(option);
+		}
+		
+		function AddOptions(opName, values) {
+			for (var i = 0; i < values.length; i++) {
+				AddOptionElement(opName, values[i].value, values[i].text);
+			}
+		}
+		
+		function closewindow() {
+			top.tinyMCE.activeEditor.windowManager.focus();
+			top.tinyMCE.activeEditor.windowManager.close(window);
+		}
+		
+		function savesettings() {
+			var mycontent = "";
+			var x = document.getElementById("listid");
+			var d_listid = x.options[x.selectedIndex].value;
+			x = document.getElementById("styleid");
+			var d_styleid = x.options[x.selectedIndex].value;
+			var d_title = document.getElementById("title").value;
+			mycontent = '[emfw_mailchimp_forms title="' + d_title + '" list="' + d_listid + '" style="' + d_styleid + '"]';
+			top.tinyMCE.activeEditor.execCommand('mceInsertContent', false, mycontent);
+			closewindow();
+		}
+		
+		// Get someArg value inside iframe dialog
+		document.getElementById('lab1').innerHTML = top.tinyMCE.activeEditor.windowManager.params.title_label;
+		document.getElementById('lab2').innerHTML = top.tinyMCE.activeEditor.windowManager.params.listid_label;
+		document.getElementById('lab3').innerHTML = top.tinyMCE.activeEditor.windowManager.params.styleid_label;
+		AddOptions("listid", top.tinyMCE.activeEditor.windowManager.params.listid_value);
+		AddOptions("styleid", top.tinyMCE.activeEditor.windowManager.params.styleid_value);
+		// Close the top most window
+		//top.tinymce.activeEditor.windowManager.close();	
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
+
+.emfw_shortcode_container form div {
+	margin: 0;
+}
+
+.emfw_shortcode_container {
+	color: #ffffff;
+	padding: 10px;
+	background-color: #820707;
+	background-image: -moz-radial-gradient(50% 50%, circle closest-corner, #820707, #470000 33%);
+	background-image: -webkit-radial-gradient(50% 50%, circle closest-corner, #820707, #470000 33%);
+	background-image: -o-radial-gradient(50% 50%, circle closest-corner, #820707, #470000 33%);
+	background-image: -ms-radial-gradient(50% 50%, circle closest-corner, #820707, #470000 33%);
+	background-image: radial-gradient(50% 50%, circle closest-corner, #820707, #470000 33%);
+	font-family: "Source Sans Pro",Helvetica,sans-serif;
+	color: #141412;
+	font-size: 16px;
+}
+
+.emfw_shortcode_container .shortcode-title {
+	color: #FFFFFF;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 0;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-shadow: 0 2px 0 #000000;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffa007), color-stop(1, #c57c06) );
+	background:-moz-linear-gradient( center top, #ffa007 5%, #c57c06 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa007', endColorstr='#c57c06');
+	background-color:#ffa007;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	border-top-right-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	border-bottom-right-radius:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-bottom-left-radius:10px;
+	text-indent:0;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:42px;
+	line-height:42px;
+	width: 50%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c57c06), color-stop(1, #ffa007) );
+	background:-moz-linear-gradient( center top, #c57c06 5%, #ffa007 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c57c06', endColorstr='#ffa007');
+	background-color:#c57c06;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn:active {
+	position:relative;
+	top:1px;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer {
+	padding-top: 12px;
+	text-align: center;
+}
+
+.emfw_shortcode_container input[type="radio"] {
+	width: 10%;
+	height: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.emfw_shortcode_container input {
+	border: 1px solid #D0B16D;
+	border-radius: 7px;
+	height: 30px;
+	margin-bottom: 12px;
+	padding: 3px 8px;
+	width: 80%;
+}
+
+.emfw_shortcode_container .shortcode-title h3 {
+	display: inline;
+}
+
+.emfw_shortcode_container .emfw_fieldname {
+	color: #ffffff;
+}
+
+.emfw_shortcode_container .emfw_required {
+	font-weight: bold;
+	color: #ffffff;
+}

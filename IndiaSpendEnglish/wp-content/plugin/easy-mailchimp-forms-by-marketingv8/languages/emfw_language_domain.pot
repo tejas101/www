@@ -1,0 +1,385 @@
+# Copyright (C) 2014 Easy Mailchimp Forms For Wordpress
+# This file is distributed under the same license as the Easy Mailchimp Forms For Wordpress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Mailchimp Forms By MarketingV8 v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-12 08:54+0100\n"
+"PO-Revision-Date: 2014-06-22 18:40:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: Marketing V8 <support@leadwanted.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: class.emfwmcdata.php:127
+#@ emfw_language_domain
+msgid "Apt/Suite"
+msgstr "Emelet, ajtó"
+
+#: class.emfwmcdata.php:128
+#@ emfw_language_domain
+msgid "City"
+msgstr "Város"
+
+#: class.emfwsettingspage.php:53
+#@ emfw_language_domain
+msgid "Default Styles"
+msgstr "Alapértelmezett külsők"
+
+#: class.emfwsettingspage.php:35
+#@ emfw_language_domain
+msgid "Easy MailChimp For Wordpress Options"
+msgstr "Egyszerű MailChimp WordPress-hez beállításai"
+
+#: class.emfwsettingspage.php:33
+#@ emfw_language_domain
+msgid "Easy MailChimp For Wordpress plugin is not configured yet. Please do it now."
+msgstr "Az Egyszerű MailChimp WordPress-hez bővítmény még nincs beállítva. Kérlek állítsd be most!"
+
+#: class.emfwsettingspage.php:141
+#@ emfw_language_domain
+msgid "Easy Mailchimp For WP"
+msgstr "Egyszerű MailChimp WP-hez"
+
+#: class.emfwwidget.php:16
+#@ emfw_language_domain
+msgid "Easy Mailchimp Forms"
+msgstr "Egyszerű MailChimp Űrlapok"
+
+#: class.emfwwidget.php:17
+#@ emfw_language_domain
+msgid "Easy Mailchimp Forms Widget For WordPress"
+msgstr "Egyszerű MailChimp Űrlapok Widget WordPress-hez"
+
+#: class.emfwsettingspage.php:140
+#@ emfw_language_domain
+msgid "Easy Mailchimp Options"
+msgstr "Egyszerű MailChimp Beállítások"
+
+#: class.emfwmcdata.php:210
+#@ emfw_language_domain
+msgid "Failed to display MailChimp Form"
+msgstr "Hiba a MailChimp Űrlap megjelenítésekor"
+
+#: easy-mailchimp-forms-for-wordpress.php:221
+#@ emfw_language_domain
+msgid "Form style"
+msgstr "Űrlap külső"
+
+#: class.emfwwidget.php:78
+#@ emfw_language_domain
+msgid "Form style:"
+msgstr "Űrlap külső:"
+
+#: easy-mailchimp-forms-for-wordpress.php:221
+#@ emfw_language_domain
+msgid "Form title"
+msgstr "Űrlap címsor"
+
+#: easy-mailchimp-forms-for-wordpress.php:221
+#@ emfw_language_domain
+msgid "Insert MailChimp Form shortcode"
+msgstr "Illessz be MailChimp Űrlapot shortcode segítségével"
+
+#: class.emfwwidget.php:64
+#@ emfw_language_domain
+msgid "Invalid API key or connection error"
+msgstr "Hibás API kulcs vagy hibás kapcsolat"
+
+#: class.emfwsettingspage.php:44
+#@ emfw_language_domain
+msgid "MailChimp API Key"
+msgstr "MailChimp API kulcs"
+
+#: easy-mailchimp-forms-for-wordpress.php:221
+#@ emfw_language_domain
+msgid "MailChimp list"
+msgstr "MailChimp lista"
+
+#: class.emfwwidget.php:74
+#@ emfw_language_domain
+msgid "MailChimp list:"
+msgstr "MailChimp lista:"
+
+#: class.emfwmcdata.php:94
+#@ emfw_language_domain
+msgid "Please select a list"
+msgstr "Válaszd ki a listát"
+
+#: class.emfwmcdata.php:344
+#@ emfw_language_domain
+msgid "Sorry,  this list does not exist."
+msgstr "Sajnálom, ez a lista nem létezik."
+
+#: class.emfwmcdata.php:387
+#@ emfw_language_domain
+msgid "Sorry, MailChimp could not process your signup."
+msgstr "Sajnálom a MailChimp nem tudta végrehajtani a feliratkozást."
+
+#: class.emfwmcdata.php:404
+#@ emfw_language_domain
+msgid "Sorry, MailChimp doesn't like the data you are trying to send."
+msgstr "Sajnálom, a MailChimp nem engedi meg a feliratkozást ezekkel az adatokkal."
+
+#: class.emfwmcdata.php:419
+#@ emfw_language_domain
+msgid "Sorry, that URL is invalid. Please try again."
+msgstr "Sajnálom, a megadott elérési út nem valós. Próbáld meg újra!"
+
+#: class.emfwmcdata.php:409
+#@ emfw_language_domain
+msgid "Sorry, that date and time is invalid. Please try again."
+msgstr "Sajnálom, a megadott dátum és idő nem valós. Próbáld meg újra!"
+
+#: class.emfwmcdata.php:414
+#@ emfw_language_domain
+msgid "Sorry, that email address is invalid. Please try again."
+msgstr "Sajnálom, a megadott email cím nem valós. Próbáld meg újra!"
+
+#: class.emfwmcdata.php:335
+#@ emfw_language_domain
+msgid "Sorry, this MailChimp account does not exist."
+msgstr "Sajnálom, a beállított MailChimp fiók nem létezik."
+
+#: class.emfwmcdata.php:313
+#@ emfw_language_domain
+msgid "Sorry, we can't connect to MailChimp at this time. Please come back later and try again."
+msgstr "Sajnálom, nem tudunk a MailChimp-hez kapcsolódni. Kérlek gyere vissza később."
+
+#: class.emfwmcdata.php:357
+#@ emfw_language_domain
+msgid "Sorry, you are already subscribed to this list."
+msgstr "Sajnálom, de Te már feliratkoztál erre a listára."
+
+#: class.emfwmcdata.php:129
+#@ emfw_language_domain
+msgid "State"
+msgstr "Állam"
+
+#: class.emfwmcdata.php:126
+#@ emfw_language_domain
+msgid "Street Address"
+msgstr "Utca, házszám"
+
+#: class.emfwmcdata.php:204
+#@ emfw_language_domain
+msgid "Subscribe"
+msgstr "Feliratkozom"
+
+#: class.emfwmcdata.php:289
+#@ emfw_language_domain
+msgid "Thank You for subscribing! Check your email for the confirmation message."
+msgstr "Köszönöm a feliratkozást! Egy megerősítő email-t fogsz kapni nemsokára."
+
+#: class.emfwmcdata.php:229
+#@ emfw_language_domain
+msgid "The following fields are required: "
+msgstr "A következő mezők kitöltése kötelező: "
+
+#: class.emfwwidget.php:70
+#@ emfw_language_domain
+msgid "Widget title:"
+msgstr "Widget címsor:"
+
+#: class.emfwsettingspage.php:160
+#@ emfw_language_domain
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nincs megfelelő jogosultságod az oldal szerkesztéséhez."
+
+#: class.emfwmcdata.php:130
+#@ emfw_language_domain
+msgid "Zip"
+msgstr "Irányítószám"
+
+#: class.emfwmc_list_table.php:14
+#@ emfw_language_domain
+msgid "list"
+msgstr "lista"
+
+#: class.emfwmc_list_table.php:15
+#@ emfw_language_domain
+msgid "lists"
+msgstr "listák"
+
+#: class.emfwmc_list_table.php:25
+#@ emfw_language_domain
+msgid "The following table displays all of the list you have. To edit settings please click one of the list name."
+msgstr "A következő táblázatban láthatod az összes MailChimp listádat. A beállítások módosításához kattints valamelyik nevére."
+
+#: class.emfwmc_list_table.php:35
+#@ emfw_language_domain
+msgid "List name"
+msgstr "Lista neve"
+
+#: class.emfwmc_list_table.php:37
+#@ emfw_language_domain
+msgid "Hide after subscription"
+msgstr "Feliratkozás utáni tűnjön el"
+
+#: class.emfwmc_list_table.php:38
+#@ emfw_language_domain
+msgid "Redirect URL"
+msgstr "Átirányítási cím"
+
+#: class.emfwmcdata.php:290
+#@ emfw_language_domain
+msgid "Thank You for subscribing!"
+msgstr "Köszönöm, hogy feliratkoztál!"
+
+#: class.emfwsettingspage.php:43
+#@ emfw_language_domain
+msgid "General Plugin Settings"
+msgstr "Általános bővítmény beállítások"
+
+#: class.emfwsettingspage.php:52
+#@ emfw_language_domain
+msgid "Styles Preview"
+msgstr "Külsők előnézete"
+
+#: class.emfwsettingspage.php:62
+#@ emfw_language_domain
+msgid "List Settings"
+msgstr "Lista beállítások"
+
+#: class.emfwsettingspage.php:63
+#@ emfw_language_domain
+msgid "Double opt-in?"
+msgstr ""
+
+#: class.emfwsettingspage.php:63
+#@ emfw_language_domain
+msgid "Select \"yes\" if you want people to confirm their email address before being subscribed (recommended)"
+msgstr "Ha kipipálod, akkor a feliratkozás előtt jóváhagyó email-t fognak kapni az emberek (javasolt)"
+
+#: class.emfwsettingspage.php:64
+#@ emfw_language_domain
+msgid "Send Welcome Email?"
+msgstr "Küldjek üdvözlő email-t?"
+
+#: class.emfwsettingspage.php:64
+#@ emfw_language_domain
+msgid "Select \"yes\" if you want to send your lists Welcome Email if a subscribe succeeds (only when double opt-in is disabled)."
+msgstr "Ha kipipálod, akkor a feliratkozó egy köszöntő email-t fog kapni (welcome email) (ez csak akkor működik, ha a double opt-in ki van kapcsolva)"
+
+#: class.emfwsettingspage.php:65
+#@ emfw_language_domain
+msgid "Update existing subscribers?"
+msgstr "Feliratkozók felülírása?"
+
+#: class.emfwsettingspage.php:65
+#@ emfw_language_domain
+msgid "Select \"yes\" if you want to update existing subscribers (instead of showing the \"already subscribed\" message)."
+msgstr "Ha kipipálod, akkor azok a feliratkozók, akik már a listádon vannak felülírják adataikat (ahelyett, hogy egy \"Már feliratkoztál\" üzenetet kapnának)"
+
+#: class.emfwsettingspage.php:66
+#@ emfw_language_domain
+msgid "Replace interest groups?"
+msgstr "Érdeklődési kör felülírása?"
+
+#: class.emfwsettingspage.php:66
+#@ emfw_language_domain
+msgid "Select \"yes\" if you want to replace the interest groups with the groups provided instead of adding the provided groups to the member's interest groups (only when updating a subscriber)."
+msgstr "Ha kipipálod, akkor a beállított érdeklődési körök nem hozzáadódnak a már meglévőkhöz, hanem felülírják azokat (csak akkor működik, ha a feliratkozók felülírása be van kapcsolva)"
+
+#: class.emfwsettingspage.php:67
+#@ emfw_language_domain
+msgid "Hide form after successful subscription?"
+msgstr "Űrlap eltüntetése sikeres feliratkozás után?"
+
+#: class.emfwsettingspage.php:67
+#@ emfw_language_domain
+msgid "Select \"yes\" to hide the form fields after a successful sign-up."
+msgstr "Ha kipipálod, akkor a sikeres felíratás után eltűnik a weboldalról az űrlap"
+
+#: class.emfwsettingspage.php:68
+#@ emfw_language_domain
+msgid "Redirect to the following URL after successful subscription"
+msgstr "Sikeres felíratás után ugrás a következő címre:"
+
+#: class.emfwsettingspage.php:68
+#@ emfw_language_domain
+msgid "Leave empty for no redirection. Use complete (absolute) URLs, including http://"
+msgstr "Hagyd üresen, ha nem akarsz átirányítást. Teljes (abszolút) elérési utat használj a címbe, http:// -vel együtt"
+
+#: class.emfwsettingspage.php:108
+#@ emfw_language_domain
+msgid "General settings for MailChimp Forms Plugin. "
+msgstr "Általános beállítások a MailChimp Űrlapok bővítményhez. "
+
+#: class.emfwsettingspage.php:109
+#@ emfw_language_domain
+msgid "This is only a preview page of the available styles"
+msgstr "Ez egy előnézeti oldal a beépített stílusok megtekintéséhez"
+
+#: class.emfwsettingspage.php:110
+#@ emfw_language_domain
+msgid "Please set up the list general options. This will affect all the forms you use for this list in this site."
+msgstr "Kérlek állítsd be a lista általános adatait. Ez az összes űrlapra hatással lesz, amit ezen a honlapon használsz."
+
+#: class.emfwsettingspage.php:127
+#@ emfw_language_domain
+msgid "You can get more information about MailChimp API key here:"
+msgstr "További információt a MailChimp API kulcsról itt találhatsz:"
+
+#: class.emfwsettingspage.php:127
+#@ emfw_language_domain
+msgid "API Key"
+msgstr "API kulcs"
+
+#: class.emfwsettingspage.php:166
+#@ emfw_language_domain
+msgid "Easy MailChimp Forms Plugin Logo"
+msgstr "Egyszerű MailChimp Űrlapok Bővítmény Logo"
+
+#: class.emfwsettingspage.php:167
+#@ emfw_language_domain
+msgid "Easy MailChimp Forms Plugin Settings"
+msgstr "Egyszerű MailChimp Űrlapok Bővítmény Beállítások"
+
+#. translators: plugin header field 'Name'
+#: easy-mailchimp-forms-for-wordpress.php:0
+#@ emfw_language_domain
+msgid "Easy Mailchimp Forms By MarketingV8"
+msgstr "Egyszerű MailChimp Űrlapok a MarketingV8-tól"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: easy-mailchimp-forms-for-wordpress.php:0
+#@ emfw_language_domain
+msgid "http://marketingv8.wordpress.com"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: easy-mailchimp-forms-for-wordpress.php:0
+#@ emfw_language_domain
+msgid "Insert your MailChimp Forms easily to your site. Use short codes to insert forms to your posts or pages. Use our custom widget to insert forms to your widget areas. Select your list, pick a style and you are ready."
+msgstr "Illeszd be egyszerűen a MailChimp űrlapodat a weboldaladba. Használj shortcode-okat az űrlapok oldalba vagy bejegyzésbe való beillesztéséhez. Vagy használd a bővítmény widget-jét az űrlapok beillesztéséhez. Válaszd ki a listát és a megjelenési stílust és már készen is vagy."
+
+#. translators: plugin header field 'Author'
+#: easy-mailchimp-forms-for-wordpress.php:0
+#@ emfw_language_domain
+msgid "Marketing V8"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: easy-mailchimp-forms-for-wordpress.php:0
+#@ emfw_language_domain
+msgid "1.1.0"
+msgstr ""
+
+#: class.emfwmc_list_table.php:36
+#@ emfw_language_domain
+msgid "Double opt-in"
+msgstr ""
+

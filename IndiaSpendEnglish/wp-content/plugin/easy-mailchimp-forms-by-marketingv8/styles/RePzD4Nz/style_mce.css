@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic&subset=latin,latin-ext);
+
+.emfw_shortcode_container form div {
+	margin: 0;
+}
+
+.emfw_shortcode_container {
+	font-family: "Source Sans Pro",Helvetica,sans-serif;
+	color: #141412;
+	font-size: 16px;
+}
+
+.emfw_shortcode_container .shortcode-title {
+	background: #1a2e55; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1a2e55 0%, #1d3387 50%, #1d3387 51%, #1a2e55 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1a2e55), color-stop(50%,#1d3387), color-stop(51%,#1d3387), color-stop(100%,#1a2e55)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1a2e55 0%,#1d3387 50%,#1d3387 51%,#1a2e55 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1a2e55 0%,#1d3387 50%,#1d3387 51%,#1a2e55 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1a2e55 0%,#1d3387 50%,#1d3387 51%,#1a2e55 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1a2e55 0%,#1d3387 50%,#1d3387 51%,#1a2e55 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2e55', endColorstr='#1a2e55',GradientType=0 ); /* IE6-9 */
+	
+	color: #FFFFFF;
+	font-family: Georgia,Palatino,Palatino Linotype,Times,Times New Roman,serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	border-bottom: 5px solid #313131;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-shadow: 0 1px 0 #000000;
+	width: 100%;
+	font-style: normal;
+}
+
+.emfw_shortcode_container input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	color: #888888;
+	font-family: Georgia,Garamond,Times,serif;
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-left: 3px;
+	outline: medium none;
+	padding: 12px 40px 12px 10px;
+	width: 100%
+}
+
+.emfw_shortcode_container input[type="radio"] {
+	width: 10%;
+}
+
+.emfw_shortcode_container form {
+	padding: 7px;
+	background: #eaeaea; /* Old browsers */
+	background: -webkit-radial-gradient(#ffffff, #d7d7d7); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(#ffffff, #d7d7d7); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(#ffffff, #d7d7d7); /* For Firefox 3.6 to 15 */
+	background: radial-gradient(#ffffff, #d7d7d7); /* Standard syntax (must be last) */	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#d6d6d6',GradientType=0 ); /* IE6-9 */
+}
+
+.emfw_shortcode_container .emfw_required {
+	color: #ff0000;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer {
+	text-align: center;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn {
+	background: #fd0000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fd0000 0%, #ac0606 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fd0000), color-stop(100%,#ac0606)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fd0000 0%,#ac0606 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fd0000 0%,#ac0606 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fd0000 0%,#ac0606 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fd0000 0%,#ac0606 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd0000', endColorstr='#ac0606',GradientType=0 ); /* IE6-9 */
+	
+	border: medium none;
+	color: #FFFFFF;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-left: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #000000;
+	text-transform: uppercase;
+	width: 90%;
+}
+
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn:hover,
+.emfw_shortcode_container .emfw_submitbtncontainer .emfw_submitbtn:focus {
+	background: #e00000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e00000 0%, #9f0505 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e00000), color-stop(100%,#9f0505)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e00000 0%,#9f0505 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e00000 0%,#9f0505 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e00000 0%,#9f0505 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e00000 0%,#9f0505 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e00000', endColorstr='#9f0505',GradientType=0 ); /* IE6-9 */
+}
+
+.emfw_shortcode_container .shortcode-title h3 {
+	display: inline;
+}
