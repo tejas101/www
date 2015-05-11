@@ -1,0 +1,9 @@
+<style type="text/css">
+.gab_fieldrow {overflow:hidden}
+.gab_caption {font:19px/17px georgia, serif;letter-spacing:-1px}
+.clear {clear:both}
+.gab_fieldname {width:48%;float:left;}
+.gab_fieldinput {width:48%;float:right;}
+.gab_fieldinput .gab_textfield {width:100%;margin:0;padding:4px;border:1px solid #ccc}
+.gab_hr {padding-bottom:10px;border:none;height:1px;border-bottom:1px dashed #ddd;margin-bottom:10px}
+</style>

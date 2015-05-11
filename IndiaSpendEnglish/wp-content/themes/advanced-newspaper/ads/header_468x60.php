@@ -1,0 +1,1 @@
+<?php echo do_shortcode( stripslashes(  of_get_option('of_an_ad1') )); ?>

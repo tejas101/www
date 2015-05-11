@@ -1,0 +1,763 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: toyo <zikosaid62@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: attachment.php:15
+#: page.php:17
+#: page.php:42
+#: single.php:51
+#: tpl-archives.php:18
+#: tpl-archives.php:72
+#: tpl-full_width.php:21
+#: tpl-full_width.php:46
+#: tpl-leftsidebar.php:24
+#: tpl-leftsidebar.php:49
+#: tpl-page-with-subpage-links.php:35
+#: tpl-page-with-subpage-links.php:59
+#: tpl-sitemap.php:18
+#: tpl-sitemap.php:97
+#: tpl-widgetized.php:20
+#: tpl-widgetized.php:48
+#@ advanced
+msgid "Edit This Post"
+msgstr "editer cet article"
+
+#: attachment.php:23
+#@ advanced
+msgid "&laquo; Previous Image"
+msgstr "&laquo; Image précédente"
+
+#: attachment.php:23
+#@ advanced
+msgid "Back to Post"
+msgstr "Retour article"
+
+#: attachment.php:23
+#@ advanced
+msgid "Next Image &raquo;"
+msgstr "Image suivante &raquo;"
+
+#: comments.php:14
+#@ advanced
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Cet article est protégé par mot de passe. Entrez le mot de passe pour visualiser les commentaires."
+
+#: comments.php:31
+#, php-format
+#@ advanced
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "Une Réponse à %2$s"
+msgstr[1] "%1$s Réponses à %2$s"
+
+#: comments.php:38
+#: comments.php:57
+#@ advanced
+msgid "&larr; Older Comments"
+msgstr "&larr; Anciens Commentaires"
+
+#: comments.php:39
+#: comments.php:58
+#@ advanced
+msgid "Newer Comments &rarr;"
+msgstr "Nouveaux Commentaires &rarr;"
+
+#: comments.php:75
+#@ advanced
+msgid "You must be logged in to post a comment"
+msgstr "Vous devez être connecté pour poster un commentaire"
+
+#: comments.php:77
+#@ advanced
+msgid "Login"
+msgstr "Connexion"
+
+#: header.php:208
+#: inc/functions/breadcrumb.php:5
+#@ advanced
+#@ source
+msgid "Home"
+msgstr "Accueil"
+
+#: footer.php:47
+#@ advanced
+msgid "Semantic Personal Publishing Platform"
+msgstr "Plateforme sémantique de publication personnelle"
+
+#: footer.php:47
+#@ advanced
+msgid "Powered by WordPress"
+msgstr "Propulsé par Wordpress"
+
+#: inc/functions/misc-functions.php:47
+#@ source
+msgid "Search Results"
+msgstr "Résultats de recherche"
+
+#: inc/functions/misc-functions.php:48
+#@ source
+msgid "Author Archives"
+msgstr "Archives Auteur"
+
+#: inc/functions/misc-functions.php:51
+#: inc/functions/misc-functions.php:52
+#@ source
+msgid "Archive"
+msgstr "Archive"
+
+#: inc/functions/misc-functions.php:53
+#@ source
+msgid "Tag Archive"
+msgstr "Arcive Tag"
+
+#: inc/functions/misc-functions.php:58
+#, php-format
+#@ default
+msgid "%s"
+msgstr "%s"
+
+#: archive-magazine.php:39
+#: archive-magazine.php:72
+#: home.php:46
+#: home.php:84
+#: home.php:141
+#: home.php:170
+#: home.php:220
+#: home.php:280
+#: home.php:309
+#: home.php:338
+#: home.php:367
+#: home.php:398
+#: home.php:427
+#: home.php:456
+#: home.php:485
+#: inc/featured.php:43
+#: inc/featured.php:66
+#: inc/functions/gabfire-widgets.php:1048
+#: inc/functions/gabfire-widgets.php:1064
+#: inc/functions/misc-functions.php:119
+#: inc/mid-slider.php:49
+#: inc/mid-slider.php:92
+#: inc/mid-slider.php:135
+#: inc/mid-slider.php:180
+#: inc/mid-slider.php:224
+#: inc/video-slider.php:34
+#: loop-2col.php:15
+#: loop-default.php:26
+#: loop-media.php:44
+#: loop-media.php:72
+#: page.php:12
+#: sidebar-media.php:42
+#, php-format
+#@ advanced
+#@ source
+msgid "Permalink to %s"
+msgstr "Permaliens de %s"
+
+#: inc/functions/misc-functions.php:158
+#: inc/mid-slider.php:12
+#: inc/video-slider.php:5
+#@ source
+#@ advanced
+msgid "Previous"
+msgstr "Précédent"
+
+#: inc/functions/misc-functions.php:170
+#: inc/mid-slider.php:11
+#: inc/video-slider.php:4
+#@ source
+#@ advanced
+msgid "Next"
+msgstr "Suivant"
+
+#: inc/functions/breadcrumb.php:19
+#@ source
+msgid "Archives by category"
+msgstr "Archives par catégorie"
+
+#: inc/functions/breadcrumb.php:53
+#@ source
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/functions/breadcrumb.php:72
+#@ source
+msgid "Search results for"
+msgstr "Résultats de recherche pour"
+
+#: inc/functions/breadcrumb.php:76
+#@ source
+msgid "Posts tagged with"
+msgstr "Articles tagués avec"
+
+#: inc/functions/breadcrumb.php:81
+#@ source
+msgid "Entries posted by"
+msgstr "Articles postés par"
+
+#: inc/functions/breadcrumb.php:84
+#@ source
+msgid "404! Page not found"
+msgstr "404! Page introuvable"
+
+#: inc/functions/breadcrumb.php:89
+#@ source
+msgid " (Page"
+msgstr " (Page"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: loop-media.php:47
+#: single.php:62
+#@ source
+#@ advanced
+msgid "on"
+msgstr "le"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#@ source
+msgid "by"
+msgstr "par"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: inc/functions/misc-functions.php:125
+#@ source
+msgid "No Comment"
+msgstr "Aucun Commentaire"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: inc/functions/misc-functions.php:125
+#@ source
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: inc/functions/misc-functions.php:125
+#@ source
+msgid "% Comments"
+msgstr "% Commentaires"
+
+#: inc/functions/misc-functions.php:119
+#@ source
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: inc/theme-comments.php:34
+#: inc/theme-comments.php:59
+#@ advanced
+msgid "Edit"
+msgstr "Editer"
+
+#: inc/functions/misc-functions.php:153
+#@ source
+msgid "Page"
+msgstr "Page"
+
+#: inc/functions/misc-functions.php:153
+#@ source
+msgid "of"
+msgstr "de"
+
+#: inc/functions/misc-functions.php:155
+#@ source
+msgid "First"
+msgstr "Premier"
+
+#: inc/functions/misc-functions.php:173
+#@ source
+msgid "Last"
+msgstr "Dernier"
+
+#: inc/functions/shortcodes.php:35
+#@ source
+msgid "No related posts found"
+msgstr "Aucun article en relation n'a été trouvé"
+
+#: inc/theme-comments.php:29
+#, php-format
+#@ default
+msgid "%s "
+msgstr "%s "
+
+#: inc/theme-comments.php:33
+#@ advanced
+msgid "at"
+msgstr "a"
+
+#: inc/theme-comments.php:42
+#@ advanced
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: inc/theme-comments.php:59
+#@ advanced
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: loop-media.php:18
+#@ advanced
+msgid "Expand Video"
+msgstr "Développer Vidéo"
+
+#: tpl-redirect.php:16
+#@ advanced
+msgid "Redirecting..."
+msgstr "Redirection ..."
+
+#: tpl-sitemap.php:46
+#@ advanced
+msgid "Pages"
+msgstr "Pages"
+
+#: tpl-sitemap.php:53
+#@ advanced
+msgid "Categories"
+msgstr "Catégories"
+
+#: tpl-sitemap.php:67
+#@ advanced
+msgid "Posts per category"
+msgstr "Articles par catégorie"
+
+#: 404.php:10
+#@ advanced
+msgid "Page not found!"
+msgstr "Page introuvable!"
+
+#: 404.php:13
+#@ advanced
+msgid "Sorry the page you were looking is not here."
+msgstr "Désolé la page que vous cherchez ne se trouve pas ici."
+
+#: inc/functions/misc-functions.php:35
+#@ default
+msgid "No categories"
+msgstr "Pas de catégories"
+
+#: loop-default.php:64
+#@ advanced
+msgid "Nothing Found."
+msgstr "J'ai rien trouvé."
+
+#: loop-default.php:66
+#@ advanced
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Désolé, mais rien ne correspond à vos critères de recherche. Essayez de nouveau avec des mots clés différents."
+
+#: loop-media.php:47
+#: single.php:57
+#@ advanced
+msgid "Posted by"
+msgstr "Posté par"
+
+#: loop-media.php:48
+#: single.php:62
+#@ advanced
+msgid "Filed under"
+msgstr "Classé dans"
+
+#: searchform.php:3
+#: searchform.php:4
+#@ advanced
+msgid "Search in site..."
+msgstr "Rechercher dans le site ..."
+
+#: footer.php:19
+#@ advanced
+msgid "RSS"
+msgstr "RSS"
+
+#: header.php:65
+#@ advanced
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: header.php:65
+#@ advanced
+msgid "Monday"
+msgstr "Lundi"
+
+#: header.php:65
+#@ advanced
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: header.php:65
+#@ advanced
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: header.php:65
+#@ advanced
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: header.php:65
+#@ advanced
+msgid "Friday"
+msgstr "Vendredi"
+
+#: header.php:65
+#@ advanced
+msgid "Saturday"
+msgstr "Samedi"
+
+#: header.php:66
+#@ advanced
+msgid "January"
+msgstr "Janvier"
+
+#: header.php:66
+#@ advanced
+msgid "February"
+msgstr "Février"
+
+#: header.php:66
+#@ advanced
+msgid "March"
+msgstr "Mars"
+
+#: header.php:66
+#@ advanced
+msgid "April"
+msgstr "Avril"
+
+#: header.php:66
+#@ advanced
+msgid "May"
+msgstr "Mai"
+
+#: header.php:66
+#@ advanced
+msgid "June"
+msgstr "Juin"
+
+#: header.php:66
+#@ advanced
+msgid "July"
+msgstr "Juillet"
+
+#: header.php:66
+#@ advanced
+msgid "August"
+msgstr "Août"
+
+#: header.php:66
+#@ advanced
+msgid "September"
+msgstr "Septembre"
+
+#: header.php:66
+#@ advanced
+msgid "October"
+msgstr "Octobre"
+
+#: header.php:66
+#@ advanced
+msgid "November"
+msgstr "Novembre"
+
+#: header.php:66
+#@ advanced
+msgid "December"
+msgstr "Décembre"
+
+#: inc/functions/gabfire-widgets.php:1190
+#@ source
+msgid "Tweet"
+msgstr "Tweet"
+
+#: inc/functions/gabfire-widgets.php:1201
+#@ source
+msgid "Share on Facebook"
+msgstr "Partager sur Facebook"
+
+#: inc/functions/gabfire-widgets.php:1204
+#@ source
+msgid "Share on Twitter"
+msgstr "Partager sur Twitter"
+
+#: inc/functions/gabfire-widgets.php:1207
+#@ source
+msgid "Email a Friend"
+msgstr "Envoyer à un ami"
+
+#: inc/functions/gabfire-widgets.php:1210
+#@ source
+msgid "Share on Delicious"
+msgstr "Partager sur Delicious"
+
+#: inc/functions/gabfire-widgets.php:1213
+#@ source
+msgid "Share on Digg"
+msgstr "Partager sur Digg"
+
+#: inc/functions/gabfire-widgets.php:1216
+#@ source
+msgid "Share on Google"
+msgstr "Partager sur Google"
+
+#: inc/functions/gabfire-widgets.php:1219
+#@ source
+msgid "Share on StumbleUpon"
+msgstr "Partager sur StumbleUpon"
+
+#: inc/functions/gabfire-widgets.php:1222
+#@ source
+msgid "Share on Reddit"
+msgstr "Partager sur Reddit"
+
+#: inc/functions/gabfire-widgets.php:1225
+#@ source
+msgid "Share on Technorati"
+msgstr "Partager sur Technorati"
+
+#: inc/functions/gabfire-widgets.php:1228
+#@ source
+msgid "Share on Yahoo"
+msgstr "Partager sur Yahoo"
+
+#: inc/functions/gabfire-widgets.php:1231
+#@ source
+msgid "Share on Blogger"
+msgstr "Partager sur Blogger"
+
+#: inc/functions/gabfire-widgets.php:1234
+#@ source
+msgid "Share on Myspace"
+msgstr "Partager sur Myspace"
+
+#: inc/functions/gabfire-widgets.php:1237
+#@ source
+msgid "RSS Feed"
+msgstr "Flux RSS"
+
+#: inc/functions/misc-functions.php:127
+#@ source
+msgid "#"
+msgstr "#"
+
+#: inc/theme-cpt.php:8
+#@ default
+msgctxt "advanced"
+msgid "galleries"
+msgstr "Galeries"
+
+#: inc/theme-cpt.php:9
+#@ default
+msgctxt "advanced"
+msgid "Gallery"
+msgstr "Galerie"
+
+#: inc/theme-cpt.php:10
+#: inc/theme-cpt.php:11
+#: inc/theme-cpt.php:58
+#: inc/theme-cpt.php:82
+#@ default
+msgctxt "advanced"
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: inc/theme-cpt.php:12
+#: inc/theme-cpt.php:56
+#: inc/theme-cpt.php:80
+#@ default
+msgctxt "advanced"
+msgid "Edit"
+msgstr "Editer"
+
+#: inc/theme-cpt.php:13
+#: inc/theme-cpt.php:83
+#@ default
+msgctxt "advanced"
+msgid "New"
+msgstr "Nouveau"
+
+#: inc/theme-cpt.php:14
+#@ default
+msgctxt "advanced"
+msgid "View"
+msgstr "Voir"
+
+#: inc/theme-cpt.php:15
+#: inc/theme-cpt.php:52
+#: inc/theme-cpt.php:75
+#@ default
+msgctxt "advanced"
+msgid "Search"
+msgstr "Rechercher"
+
+#: inc/theme-cpt.php:16
+#@ default
+msgctxt "advanced"
+msgid "Nothing found"
+msgstr "J'ai rien trouvé"
+
+#: inc/theme-cpt.php:17
+#@ default
+msgctxt "advanced"
+msgid "Nothing found in Trash"
+msgstr "J'ai rien trouvé dans la corbeille"
+
+#: inc/theme-cpt.php:18
+#: inc/theme-cpt.php:55
+#@ default
+msgctxt "advanced"
+msgid "Parent:"
+msgstr "Parent:"
+
+#: inc/theme-cpt.php:19
+#@ default
+msgctxt "advanced"
+msgid "Photo &amp; Video"
+msgstr "Photo &amp; Vidéo"
+
+#: inc/theme-cpt.php:50
+#@ default
+msgctxt "advanced"
+msgid "gallery-cats"
+msgstr "catégories-galerie"
+
+#: inc/theme-cpt.php:51
+#@ default
+msgctxt "advanced"
+msgid "gallery-cat"
+msgstr "catégorie-galerie"
+
+#: inc/theme-cpt.php:53
+#: inc/theme-cpt.php:77
+#@ default
+msgctxt "advanced"
+msgid "All"
+msgstr "Tous"
+
+#: inc/theme-cpt.php:54
+#@ default
+msgctxt "advanced"
+msgid "Parent"
+msgstr "Parent"
+
+#: inc/theme-cpt.php:57
+#: inc/theme-cpt.php:81
+#@ default
+msgctxt "advanced"
+msgid "Update"
+msgstr "Mise à jour"
+
+#: inc/theme-cpt.php:59
+#@ default
+msgctxt "advanced"
+msgid "New Name"
+msgstr "Nouveau Nom"
+
+#: inc/theme-cpt.php:60
+#@ default
+msgctxt "advanced"
+msgid "Gallery Categories"
+msgstr "Catégories galerie"
+
+#: inc/theme-cpt.php:73
+#@ default
+msgctxt "advanced"
+msgid "gallery-tags"
+msgstr "tags-galerie"
+
+#: inc/theme-cpt.php:74
+#@ default
+msgctxt "advanced"
+msgid "gallery-tag"
+msgstr "tag-galerie"
+
+#: inc/theme-cpt.php:76
+#@ default
+msgctxt "advanced"
+msgid "Popular"
+msgstr "Populaire"
+
+#: inc/theme-cpt.php:84
+#@ default
+msgctxt "advanced"
+msgid "Separate with commas"
+msgstr "Séparés par des virgules"
+
+#: inc/theme-cpt.php:85
+#@ default
+msgctxt "advanced"
+msgid "Add or remove"
+msgstr "Ajouter ou supprimer"
+
+#: inc/theme-cpt.php:86
+#@ default
+msgctxt "advanced"
+msgid "Choose from the most used"
+msgstr "Choisisir parmi les plus utilisés"
+
+#: inc/theme-cpt.php:87
+#@ default
+msgctxt "advanced"
+msgid "Gallery Tags"
+msgstr "Tags Galerie"
+
+#: sidebar-media.php:3
+#: tpl-sitemap.php:60
+#@ advanced
+msgid "Media Gallery"
+msgstr "Galerie Multimédia"
+
+#: tpl-archives.php:59
+#: tpl-sitemap.php:84
+#@ advanced
+msgid "Media Gallery Entries"
+msgstr "Fichiers Multimédia de la galerie"
+
+#: loop-default.php:7
+#@ advanced
+msgid "Stories written by"
+msgstr ""
+
+#: single.php:63
+#@ advanced
+msgid "You can follow any responses to this entry through the"
+msgstr ""
+
+#: single.php:66
+#@ advanced
+msgid "You can leave a response or trackback to this entry"
+msgstr ""
+
+#: single.php:69
+#@ advanced
+msgid "Responses are currently closed, but you can trackback from your own site."
+msgstr ""
+
+#: single.php:72
+#@ advanced
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr ""
+
+#: single.php:75
+#@ advanced
+msgid "Both comments and pings are currently closed."
+msgstr ""
+

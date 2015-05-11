@@ -1,0 +1,763 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-newspaper v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-07-15 15:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:10
+#@ advanced
+msgid "Page not found!"
+msgstr "Sayfa bulunamadı"
+
+#: 404.php:13
+#@ advanced
+msgid "Sorry the page you were looking is not here."
+msgstr "Özür dileriz. Aradığınız sayfa bulunamadı"
+
+#: archive-magazine.php:39
+#: archive-magazine.php:72
+#: home.php:46
+#: home.php:84
+#: home.php:141
+#: home.php:170
+#: home.php:220
+#: home.php:280
+#: home.php:309
+#: home.php:338
+#: home.php:367
+#: home.php:398
+#: home.php:427
+#: home.php:456
+#: home.php:485
+#: inc/featured.php:43
+#: inc/featured.php:66
+#: inc/functions/gabfire-widgets.php:1048
+#: inc/functions/gabfire-widgets.php:1064
+#: inc/functions/misc-functions.php:119
+#: inc/mid-slider.php:49
+#: inc/mid-slider.php:92
+#: inc/mid-slider.php:135
+#: inc/mid-slider.php:180
+#: inc/mid-slider.php:224
+#: inc/video-slider.php:34
+#: loop-2col.php:15
+#: loop-default.php:26
+#: loop-media.php:44
+#: loop-media.php:72
+#: page.php:12
+#: sidebar-media.php:42
+#, php-format
+#@ advanced
+#@ source
+msgid "Permalink to %s"
+msgstr "%s için kalıcı bağlantı"
+
+#: attachment.php:15
+#: page.php:17
+#: page.php:42
+#: single.php:51
+#: tpl-archives.php:18
+#: tpl-archives.php:72
+#: tpl-full_width.php:21
+#: tpl-full_width.php:46
+#: tpl-leftsidebar.php:24
+#: tpl-leftsidebar.php:49
+#: tpl-page-with-subpage-links.php:35
+#: tpl-page-with-subpage-links.php:59
+#: tpl-sitemap.php:18
+#: tpl-sitemap.php:97
+#: tpl-widgetized.php:20
+#: tpl-widgetized.php:48
+#@ advanced
+msgid "Edit This Post"
+msgstr "Düzenle"
+
+#: attachment.php:23
+#@ advanced
+msgid "&laquo; Previous Image"
+msgstr "&laquo; Önceki Fotoğraf"
+
+#: attachment.php:23
+#@ advanced
+msgid "Back to Post"
+msgstr "Yazıya Geri Dön"
+
+#: attachment.php:23
+#@ advanced
+msgid "Next Image &raquo;"
+msgstr "Sonraki Fotoğraf &raquo;"
+
+#: comments.php:14
+#@ advanced
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Bu yazı şifre korumalıdır. Yorumları görmek için lütfen şifrenizi giriniz."
+
+#: comments.php:31
+#, php-format
+#@ advanced
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "%2$s için yapılan yorumlar"
+msgstr[1] "%2$s için toplam %1$s yorum yapmış"
+
+#: comments.php:38
+#: comments.php:57
+#@ advanced
+msgid "&larr; Older Comments"
+msgstr "&larr; Eski Yorumlar"
+
+#: comments.php:39
+#: comments.php:58
+#@ advanced
+msgid "Newer Comments &rarr;"
+msgstr "Yeni Yorumlar &rarr;"
+
+#: comments.php:75
+#@ advanced
+msgid "You must be logged in to post a comment"
+msgstr "Yorum yapabilmek için kayıtlı kullanıcı olmanız gerekmektedir."
+
+#: comments.php:77
+#@ advanced
+msgid "Login"
+msgstr "Giriş"
+
+#: footer.php:19
+#@ advanced
+msgid "RSS"
+msgstr "RSS"
+
+#: footer.php:47
+#@ advanced
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:47
+#@ advanced
+msgid "Powered by WordPress"
+msgstr ""
+
+#: header.php:65
+#@ advanced
+msgid "Sunday"
+msgstr "Pazar"
+
+#: header.php:65
+#@ advanced
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: header.php:65
+#@ advanced
+msgid "Tuesday"
+msgstr "Salı"
+
+#: header.php:65
+#@ advanced
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: header.php:65
+#@ advanced
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: header.php:65
+#@ advanced
+msgid "Friday"
+msgstr "Cuma"
+
+#: header.php:65
+#@ advanced
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: header.php:66
+#@ advanced
+msgid "January"
+msgstr "Ocak"
+
+#: header.php:66
+#@ advanced
+msgid "February"
+msgstr "Şubat"
+
+#: header.php:66
+#@ advanced
+msgid "March"
+msgstr "Mart"
+
+#: header.php:66
+#@ advanced
+msgid "April"
+msgstr "Nisan"
+
+#: header.php:66
+#@ advanced
+msgid "May"
+msgstr "Mayıs"
+
+#: header.php:66
+#@ advanced
+msgid "June"
+msgstr "Haziran"
+
+#: header.php:66
+#@ advanced
+msgid "July"
+msgstr "Temmuz"
+
+#: header.php:66
+#@ advanced
+msgid "August"
+msgstr "Ağustos"
+
+#: header.php:66
+#@ advanced
+msgid "September"
+msgstr "Eylül"
+
+#: header.php:66
+#@ advanced
+msgid "October"
+msgstr "Ekim"
+
+#: header.php:66
+#@ advanced
+msgid "November"
+msgstr "Kasım"
+
+#: header.php:66
+#@ advanced
+msgid "December"
+msgstr "Aralık"
+
+#: header.php:208
+#: inc/functions/breadcrumb.php:5
+#@ advanced
+#@ source
+msgid "Home"
+msgstr "Anasayfa"
+
+#: inc/functions/breadcrumb.php:19
+#@ source
+msgid "Archives by category"
+msgstr "Kategori bazlı arşiv"
+
+#: inc/functions/breadcrumb.php:53
+#@ source
+msgid "Gallery"
+msgstr "Galeri"
+
+#: inc/functions/breadcrumb.php:72
+#@ source
+msgid "Search results for"
+msgstr "Arama sonucları: "
+
+#: inc/functions/breadcrumb.php:76
+#@ source
+msgid "Posts tagged with"
+msgstr "Etiket arşivi: "
+
+#: inc/functions/breadcrumb.php:81
+#@ source
+msgid "Entries posted by"
+msgstr "Yazar arşivi: "
+
+#: inc/functions/breadcrumb.php:84
+#@ source
+msgid "404! Page not found"
+msgstr "404! sayfa bulunamadı"
+
+#: inc/functions/breadcrumb.php:89
+#@ source
+msgid " (Page"
+msgstr "(Sayfa"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: loop-media.php:47
+#: single.php:62
+#@ source
+#@ advanced
+msgid "on"
+msgstr " - "
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#@ source
+msgid "by"
+msgstr " - "
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: inc/functions/misc-functions.php:125
+#@ source
+msgid "No Comment"
+msgstr "Yorum yok"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: inc/functions/misc-functions.php:125
+#@ source
+msgid "1 Comment"
+msgstr "1 yorum"
+
+#: inc/functions/gabfire-widgets.php:1049
+#: inc/functions/gabfire-widgets.php:1065
+#: inc/functions/misc-functions.php:125
+#@ source
+msgid "% Comments"
+msgstr "% Yorum"
+
+#: inc/functions/gabfire-widgets.php:1190
+#@ source
+msgid "Tweet"
+msgstr "Tweet"
+
+#: inc/functions/gabfire-widgets.php:1201
+#@ source
+msgid "Share on Facebook"
+msgstr "Facebook"
+
+#: inc/functions/gabfire-widgets.php:1204
+#@ source
+msgid "Share on Twitter"
+msgstr "Twitter"
+
+#: inc/functions/gabfire-widgets.php:1207
+#@ source
+msgid "Email a Friend"
+msgstr "Email"
+
+#: inc/functions/gabfire-widgets.php:1210
+#@ source
+msgid "Share on Delicious"
+msgstr "Delicious"
+
+#: inc/functions/gabfire-widgets.php:1213
+#@ source
+msgid "Share on Digg"
+msgstr "Digg"
+
+#: inc/functions/gabfire-widgets.php:1216
+#@ source
+msgid "Share on Google"
+msgstr "Google"
+
+#: inc/functions/gabfire-widgets.php:1219
+#@ source
+msgid "Share on StumbleUpon"
+msgstr "StumbleUpon"
+
+#: inc/functions/gabfire-widgets.php:1222
+#@ source
+msgid "Share on Reddit"
+msgstr "Reddit"
+
+#: inc/functions/gabfire-widgets.php:1225
+#@ source
+msgid "Share on Technorati"
+msgstr "Technorati"
+
+#: inc/functions/gabfire-widgets.php:1228
+#@ source
+msgid "Share on Yahoo"
+msgstr "Yahoo"
+
+#: inc/functions/gabfire-widgets.php:1231
+#@ source
+msgid "Share on Blogger"
+msgstr "Blogger"
+
+#: inc/functions/gabfire-widgets.php:1234
+#@ source
+msgid "Share on Myspace"
+msgstr "Myspace"
+
+#: inc/functions/gabfire-widgets.php:1237
+#@ source
+msgid "RSS Feed"
+msgstr "RSS"
+
+#: inc/functions/misc-functions.php:35
+#@ default
+msgid "No categories"
+msgstr ""
+
+#: inc/functions/misc-functions.php:47
+#@ source
+msgid "Search Results"
+msgstr "Arama sonuçları"
+
+#: inc/functions/misc-functions.php:48
+#@ source
+msgid "Author Archives"
+msgstr "Yazar Arşivi"
+
+#: inc/functions/misc-functions.php:51
+#: inc/functions/misc-functions.php:52
+#@ source
+msgid "Archive"
+msgstr "Arşiv"
+
+#: inc/functions/misc-functions.php:53
+#@ source
+msgid "Tag Archive"
+msgstr "Etiket Arşivi"
+
+#: inc/functions/misc-functions.php:58
+#, php-format
+#@ default
+msgid "%s"
+msgstr ""
+
+#: inc/functions/misc-functions.php:119
+#@ source
+msgid "Read More"
+msgstr "Devamını oku"
+
+#: inc/functions/misc-functions.php:127
+#@ source
+msgid "#"
+msgstr "#"
+
+#: inc/functions/misc-functions.php:153
+#@ source
+msgid "Page"
+msgstr "Sayfa"
+
+#: inc/functions/misc-functions.php:153
+#@ source
+msgid "of"
+msgstr "/"
+
+#: inc/functions/misc-functions.php:155
+#@ source
+msgid "First"
+msgstr "İlk"
+
+#: inc/functions/misc-functions.php:158
+#: inc/mid-slider.php:12
+#: inc/video-slider.php:5
+#@ source
+#@ advanced
+msgid "Previous"
+msgstr "Önceki"
+
+#: inc/functions/misc-functions.php:170
+#: inc/mid-slider.php:11
+#: inc/video-slider.php:4
+#@ source
+#@ advanced
+msgid "Next"
+msgstr "Sonraki"
+
+#: inc/functions/misc-functions.php:173
+#@ source
+msgid "Last"
+msgstr "Son"
+
+#: inc/functions/shortcodes.php:35
+#@ source
+msgid "No related posts found"
+msgstr "Benzer yazı bulunamadı"
+
+#: inc/theme-comments.php:29
+#, php-format
+#@ default
+msgid "%s "
+msgstr ""
+
+#: inc/theme-comments.php:33
+#@ advanced
+msgid "at"
+msgstr " - "
+
+#: inc/theme-comments.php:34
+#: inc/theme-comments.php:59
+#@ advanced
+msgid "Edit"
+msgstr "Düzenle"
+
+#: inc/theme-comments.php:42
+#@ advanced
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz onay beklemektedir"
+
+#: inc/theme-comments.php:59
+#@ advanced
+msgid "Pingback:"
+msgstr "Geri izleme: "
+
+#: inc/theme-cpt.php:8
+#@ default
+msgctxt "advanced"
+msgid "galleries"
+msgstr ""
+
+#: inc/theme-cpt.php:9
+#@ default
+msgctxt "advanced"
+msgid "Gallery"
+msgstr ""
+
+#: inc/theme-cpt.php:10
+#: inc/theme-cpt.php:11
+#: inc/theme-cpt.php:58
+#: inc/theme-cpt.php:82
+#@ default
+msgctxt "advanced"
+msgid "Add New"
+msgstr ""
+
+#: inc/theme-cpt.php:12
+#: inc/theme-cpt.php:56
+#: inc/theme-cpt.php:80
+#@ default
+msgctxt "advanced"
+msgid "Edit"
+msgstr ""
+
+#: inc/theme-cpt.php:13
+#: inc/theme-cpt.php:83
+#@ default
+msgctxt "advanced"
+msgid "New"
+msgstr ""
+
+#: inc/theme-cpt.php:14
+#@ default
+msgctxt "advanced"
+msgid "View"
+msgstr ""
+
+#: inc/theme-cpt.php:15
+#: inc/theme-cpt.php:52
+#: inc/theme-cpt.php:75
+#@ default
+msgctxt "advanced"
+msgid "Search"
+msgstr ""
+
+#: inc/theme-cpt.php:16
+#@ default
+msgctxt "advanced"
+msgid "Nothing found"
+msgstr ""
+
+#: inc/theme-cpt.php:17
+#@ default
+msgctxt "advanced"
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: inc/theme-cpt.php:18
+#: inc/theme-cpt.php:55
+#@ default
+msgctxt "advanced"
+msgid "Parent:"
+msgstr ""
+
+#: inc/theme-cpt.php:19
+#@ default
+msgctxt "advanced"
+msgid "Photo &amp; Video"
+msgstr ""
+
+#: inc/theme-cpt.php:50
+#@ default
+msgctxt "advanced"
+msgid "gallery-cats"
+msgstr ""
+
+#: inc/theme-cpt.php:51
+#@ default
+msgctxt "advanced"
+msgid "gallery-cat"
+msgstr ""
+
+#: inc/theme-cpt.php:53
+#: inc/theme-cpt.php:77
+#@ default
+msgctxt "advanced"
+msgid "All"
+msgstr ""
+
+#: inc/theme-cpt.php:54
+#@ default
+msgctxt "advanced"
+msgid "Parent"
+msgstr ""
+
+#: inc/theme-cpt.php:57
+#: inc/theme-cpt.php:81
+#@ default
+msgctxt "advanced"
+msgid "Update"
+msgstr ""
+
+#: inc/theme-cpt.php:59
+#@ default
+msgctxt "advanced"
+msgid "New Name"
+msgstr ""
+
+#: inc/theme-cpt.php:60
+#@ default
+msgctxt "advanced"
+msgid "Gallery Categories"
+msgstr ""
+
+#: inc/theme-cpt.php:73
+#@ default
+msgctxt "advanced"
+msgid "gallery-tags"
+msgstr ""
+
+#: inc/theme-cpt.php:74
+#@ default
+msgctxt "advanced"
+msgid "gallery-tag"
+msgstr ""
+
+#: inc/theme-cpt.php:76
+#@ default
+msgctxt "advanced"
+msgid "Popular"
+msgstr ""
+
+#: inc/theme-cpt.php:84
+#@ default
+msgctxt "advanced"
+msgid "Separate with commas"
+msgstr ""
+
+#: inc/theme-cpt.php:85
+#@ default
+msgctxt "advanced"
+msgid "Add or remove"
+msgstr ""
+
+#: inc/theme-cpt.php:86
+#@ default
+msgctxt "advanced"
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/theme-cpt.php:87
+#@ default
+msgctxt "advanced"
+msgid "Gallery Tags"
+msgstr ""
+
+#: loop-default.php:7
+#@ advanced
+msgid "Stories written by"
+msgstr "Yazar Arşivi: "
+
+#: loop-default.php:64
+#@ advanced
+msgid "Nothing Found."
+msgstr "Sonuç bulunamadı."
+
+#: loop-default.php:66
+#@ advanced
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Özür dileriz, arama değerlerinize uygun sonuç bulunamadı."
+
+#: loop-media.php:18
+#@ advanced
+msgid "Expand Video"
+msgstr "Videoyu büyült"
+
+#: loop-media.php:47
+#: single.php:57
+#@ advanced
+msgid "Posted by"
+msgstr "Ekleyen: "
+
+#: loop-media.php:48
+#: single.php:62
+#@ advanced
+msgid "Filed under"
+msgstr "Kategori: "
+
+#: searchform.php:3
+#: searchform.php:4
+#@ advanced
+msgid "Search in site..."
+msgstr "Site içi arama..."
+
+#: sidebar-media.php:3
+#: tpl-sitemap.php:60
+#@ advanced
+msgid "Media Gallery"
+msgstr "Medya Galerisi"
+
+#: single.php:63
+#@ advanced
+msgid "You can follow any responses to this entry through the"
+msgstr "Bu yazıya yapılan yorumları RSS üzerinden takip edebilirsiniz"
+
+#: single.php:66
+#@ advanced
+msgid "You can leave a response or trackback to this entry"
+msgstr "Bu yazıya yorum yapabilir veya geri izlemede bulunabilirsiniz."
+
+#: single.php:69
+#@ advanced
+msgid "Responses are currently closed, but you can trackback from your own site."
+msgstr "Yoruma kapalı, fakat geri izlemede bulunabilirsiniz."
+
+#: single.php:72
+#@ advanced
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Yorum yapabilirsiniz, fakat yazı geri izlemeye kapalıdır."
+
+#: single.php:75
+#@ advanced
+msgid "Both comments and pings are currently closed."
+msgstr "Yoruma ve geri izlemeye kapatılmıştır. "
+
+#: tpl-archives.php:59
+#: tpl-sitemap.php:84
+#@ advanced
+msgid "Media Gallery Entries"
+msgstr "Medya galerisine eklenenler"
+
+#: tpl-redirect.php:16
+#@ advanced
+msgid "Redirecting..."
+msgstr "Yönlendiriliyorsunuz..."
+
+#: tpl-sitemap.php:46
+#@ advanced
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: tpl-sitemap.php:53
+#@ advanced
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: tpl-sitemap.php:67
+#@ advanced
+msgid "Posts per category"
+msgstr "Kategori bazında yazılar"
+

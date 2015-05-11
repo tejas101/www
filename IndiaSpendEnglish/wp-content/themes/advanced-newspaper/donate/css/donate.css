@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family:"font";
+	src:url(../font/agency_fb.ttf);
+}
+
+#column_1
+{
+	padding-top:20px;
+
+	
+}
+
+
+#label_info
+{
+	padding-top:15px;
+}
+
+#column_2
+{
+	/*padding-top:20px;*/
+	
+}
+
+
+#col2
+{
+	/*background:rgba(255,255,255,0.4);*/
+	font-family: font;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 60%;
+}
+
+
+
+
+
+#col1
+{
+	font-family:font;
+	font-size:24px;
+	/*background:rgba(255,255,255,0.4);
+	padding-left:20px;
+	padding-bottom:20px;*/
+}
+li.col-3{width:33.33%;float:left;text-align:center;}
+
+#donate_body
+{
+	
+	/*background-image:url(../images/bg.jpg);
+	
+	background-repeat: repeat-x;*/
+	overflow: hidden;
+	background-repeat:no-repeat;
+}
+
+
+

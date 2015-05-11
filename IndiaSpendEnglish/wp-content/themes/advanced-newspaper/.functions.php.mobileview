@@ -1,0 +1,94 @@
+<?php
+	// DIRECTORIES
+	define('OF_FILEPATH', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper');
+	define('OF_DIRECTORY', get_template_directory_uri());
+
+	define('GABFIRE_INC_PATH', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper' . '/inc');
+	define('GABFIRE_FRAMEWORK_PATH', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper' . '/framework');
+	define('GABFIRE_INC_DIR', get_template_directory_uri() . '/inc');
+	define('GABFIRE_FUNCTIONS_PATH', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper' . '/inc/functions');
+	define('GABFIRE_JS_DIR', get_template_directory_uri() . '/inc/js');
+	
+	// OPTION PANEL	
+	if ( !function_exists( 'optionsframework_init' ) ) {
+		define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/framework/admin/' );
+		require_once dirname( __FILE__ ) . '/framework/admin/options-framework.php';
+	}	
+	
+	/* This builds dashboard menu */
+	mobileview_include_functions_file(GABFIRE_FRAMEWORK_PATH . '/admin/admin-menu.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once');
+
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/theme-js.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Load theme Javascripts
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/theme-comments.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once');	// Load custom comments template
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/widgetize-theme.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Register sidebars
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/I18n-functions.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // localization support
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/post-thumbnails.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Load theme thumbnails
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/script-init.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Javascript init
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/theme-cpt.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Custom post type and taxonomies (CPT is used with CMS themes only)
+	mobileview_include_functions_file(GABFIRE_INC_PATH . '/custom-fields.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Breadcrumb function
+	
+	// FRAMEWORK FILES
+	mobileview_include_functions_file(GABFIRE_FRAMEWORK_PATH . '/functions/breadcrumb.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Breadcrumb function
+	mobileview_include_functions_file(GABFIRE_FRAMEWORK_PATH . '/functions/misc-functions.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Misc theme functions
+	mobileview_include_functions_file(GABFIRE_FRAMEWORK_PATH . '/functions/dashboard-widget.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Gabfire Themes RSS widget for WP Dashboard
+	mobileview_include_functions_file(GABFIRE_FRAMEWORK_PATH . '/functions/gabfire-media.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Gabfire Media Module
+	mobileview_include_functions_file(GABFIRE_FRAMEWORK_PATH . '/functions/gabfire-widgets.php', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', '/home/content/35/7939735/html/wp-content/themes/advanced-newspaper', 'require_once'); // Custom gabfire widgets
+
+	/* Add custom navigation support
+	 * For header navigations check the core files at
+	 * inc/functions/misc-functions file
+	 */
+	register_nav_menus(array(
+		'masthead' => 'Masthead',
+		'primary-navigation' => 'Primary',
+		'secondary-navigation' => 'Secondary',
+		'footer-nav1' => 'Footer Navigation - #1',
+		'footer-nav2' => 'Footer Navigation - #2'
+	));
+
+	/* Redirecting to Homepage */
+	add_action('wp_logout','go_home');
+	function go_home(){
+	wp_redirect( home_url() );
+	exit();
+	}
+	
+// Creating the widget for Home Splash
+class wpb_widget extends WP_Widget {
+
+function __construct() {
+parent::__construct(
+// Base ID of your widget
+'wpb_widget', 
+
+// Widget name will appear in UI
+__('Home Splash', 'wpb_widget_domain'), 
+
+// Widget description
+array( 'description' => __( 'Homepage splash for sign up', 'wpb_widget_domain' ), ) 
+);
+}
+
+// Creating widget front-end
+// This is where the action happens
+public function widget( $args, $instance ) {
+// This is where you run the code and display the output
+if(is_home()):
+echo __( '<p><script type="text/javascript">// <![CDATA[
+jQuery(document).ready(function() {
+   jQuery("#clicksconnected").click();
+});
+// ]]></script></p>', 'wpb_widget_domain' );
+endif;
+echo $args['after_widget'];
+}
+		
+// Widget Backend 
+
+} // Class wpb_widget ends here
+
+// Register and load the widget
+function wpb_load_widget() {
+	register_widget( 'wpb_widget' );
+}
+add_action( 'widgets_init', 'wpb_load_widget' );

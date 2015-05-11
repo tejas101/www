@@ -1,0 +1,816 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-13 10:08+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Stein Ivar Johnsen <sijo@dyg.no>\n"
+"Language-Team: Stein Ivar Johnsen <sijo@dyg.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ advanced
+#: 404.php:10
+msgid "Page not found!"
+msgstr "Side ikke funnet!"
+
+# @ advanced
+#: 404.php:13
+msgid "Sorry the page you were looking is not here."
+msgstr "Beklager den siden du ser etter er ikke her."
+
+# @ advanced
+#: attachment.php:32
+msgid "&laquo; Previous Image"
+msgstr "&laquo; Forige Image"
+
+# @ advanced
+#: attachment.php:32
+msgid "Back to Post"
+msgstr "Tilbake til innlegg"
+
+# @ advanced
+#: attachment.php:32
+msgid "Next Image &raquo;"
+msgstr "Neste Image &raquo;"
+
+# @ advanced
+#: comments.php:14
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dette innlegget er passordbeskyttet. Skriv inn passordet for å se eventuelle kommentarer."
+
+# @ advanced
+#: comments.php:31
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "Ett svar til %2$s"
+msgstr[1] "%1$s Svar til %2$s"
+
+# @ advanced
+#: comments.php:38
+#: comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Eldre kommentarer"
+
+# @ advanced
+#: comments.php:39
+#: comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+# @ advanced
+#: comments.php:75
+msgid "You must be logged in to post a comment"
+msgstr "Du må være innlogget for å skrive en kommentar"
+
+# @ advanced
+#: comments.php:77
+msgid "Login"
+msgstr "Logg inn"
+
+# @ advanced
+#: footer.php:21
+msgid "RSS"
+msgstr "RSS"
+
+# @ advanced
+#: footer.php:49
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+# @ advanced
+#: header.php:58
+msgid "Sunday"
+msgstr "Søndag"
+
+# @ advanced
+#: header.php:58
+msgid "Monday"
+msgstr "Mandag"
+
+# @ advanced
+#: header.php:58
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+# @ advanced
+#: header.php:58
+msgid "Wednesday"
+msgstr "Onsdag"
+
+# @ advanced
+#: header.php:58
+msgid "Thursday"
+msgstr "Torsdag"
+
+# @ advanced
+#: header.php:58
+msgid "Friday"
+msgstr "Fredag"
+
+# @ advanced
+#: header.php:58
+msgid "Saturday"
+msgstr "Lørdag"
+
+# @ advanced
+#: header.php:59
+msgid "January"
+msgstr "Januar"
+
+# @ advanced
+#: header.php:59
+msgid "February"
+msgstr "Februar"
+
+# @ advanced
+#: header.php:59
+msgid "March"
+msgstr "Mars"
+
+# @ advanced
+#: header.php:59
+msgid "April"
+msgstr "April"
+
+# @ advanced
+#: header.php:59
+msgid "May"
+msgstr "Mai"
+
+# @ advanced
+#: header.php:59
+msgid "June"
+msgstr "Juni"
+
+# @ advanced
+#: header.php:59
+msgid "July"
+msgstr "Juli"
+
+# @ advanced
+#: header.php:59
+msgid "August"
+msgstr "August"
+
+# @ advanced
+#: header.php:59
+msgid "September"
+msgstr "September"
+
+# @ advanced
+#: header.php:59
+msgid "October"
+msgstr "Oktober"
+
+# @ advanced
+#: header.php:59
+msgid "November"
+msgstr "November"
+
+# @ advanced
+#: header.php:59
+msgid "December"
+msgstr "Desember"
+
+#: header.php:81
+msgid "Stay Connected"
+msgstr "Hold kontakt"
+
+# @ advanced
+# @ source
+#: header.php:228
+msgid "Home"
+msgstr "Hjem"
+
+# @ advanced
+#: loop-default.php:7
+msgid "Stories written by"
+msgstr "Fortelling skrevet av"
+
+# @ advanced
+#: loop-default.php:68
+msgid "Nothing Found."
+msgstr "Ingenting funnet."
+
+# @ advanced
+#: loop-default.php:70
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Beklager, men ingenting passet medt dine søkekriterier. Vennligst prøv igjen med noen andre søkeord."
+
+# @ advanced
+#: loop-media.php:62
+#: single.php:52
+msgid "Posted by"
+msgstr "Postert av"
+
+# @ source
+# @ advanced
+#: loop-media.php:62
+#: single.php:57
+msgid "on"
+msgstr "den"
+
+# @ advanced
+#: loop-media.php:63
+#: single.php:57
+msgid "Filed under"
+msgstr "Arkivert under"
+
+# @ default
+#: page-sijo.php:19
+msgid "All"
+msgstr "Alle"
+
+# @ advanced
+#: page-sijo.php:37
+#: page-sijo.php:126
+msgid "Categories:"
+msgstr "Kategorier:"
+
+# @ advanced
+#: page-sijo.php:45
+#: single-sijo_ad.php:48
+msgid "Date"
+msgstr "Dato"
+
+# @ default
+#: page-sijo.php:46
+#: single-sijo_ad.php:49
+msgid "Name"
+msgstr "Navn"
+
+#: page-sijo.php:47
+#: single-sijo_ad.php:50
+msgid "Phone"
+msgstr "Telefon"
+
+#: page-sijo.php:48
+#: single-sijo_ad.php:51
+msgid "E-mail"
+msgstr "E-post"
+
+# @ advanced
+#: page-sijo.php:49
+#: single-sijo_ad.php:52
+msgid "Category"
+msgstr "Kategori"
+
+#: page-sijo.php:50
+#: single-sijo_ad.php:53
+msgid "Type"
+msgstr "Type"
+
+#: page-sijo.php:51
+#: single-sijo_ad.php:54
+msgid "Price"
+msgstr "Pris"
+
+#: page-sijo.php:52
+msgid "Title"
+msgstr "Tittel"
+
+# @ source
+#: page-sijo.php:53
+msgid "Image"
+msgstr "Bilde"
+
+# @ advanced
+#: page.php:17
+#: page.php:42
+#: single.php:46
+#: tpl-archives.php:18
+#: tpl-archives.php:77
+#: tpl-full_width.php:21
+#: tpl-full_width.php:46
+#: tpl-leftsidebar.php:24
+#: tpl-leftsidebar.php:49
+msgid "Edit This Post"
+msgstr "Rediger dette innlegg"
+
+# @ advanced
+#: searchform.php:3
+#: searchform.php:4
+msgid "Search in site..."
+msgstr "Søk på siden ..."
+
+# @ advanced
+#: sidebar-media.php:3
+msgid "Media Gallery"
+msgstr "Media Galleri"
+
+# @ advanced
+#: single-sijo_ad.php:38
+msgid "Edit Ad"
+msgstr "Rediger Annonse"
+
+# @ advanced
+#: single-sijo_ad.php:57
+msgid "Back to Ads list"
+msgstr "Tilbake til annonse liste"
+
+# @ advanced
+#: single.php:58
+msgid "You can follow any responses to this entry through the"
+msgstr "Du kan følge eventuelle svar på denne oppføringen gjennom"
+
+# @ advanced
+#: single.php:61
+msgid "You can leave a response or trackback to this entry"
+msgstr "Du kan legge igjen et svar, eller tilbakespore til denne oppføringen"
+
+# @ advanced
+#: single.php:64
+msgid "Responses are currently closed, but you can trackback from your own site."
+msgstr "Svarene er for øyeblikket stengt, men du kan tilbakespore fra din egen side."
+
+# @ advanced
+#: single.php:67
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr "Du kan hoppe til slutten og legge igjen et svar. Pinging er for øyeblikket ikke tillatt."
+
+# @ advanced
+#: single.php:70
+msgid "Both comments and pings are currently closed."
+msgstr "Både kommentarer og ping er for øyeblikket stengt."
+
+# @ advanced
+#: tpl-archives.php:47
+msgid "Posts per category"
+msgstr "Innlegg per kategori"
+
+# @ advanced
+#: tpl-archives.php:64
+msgid "Media Gallery Entries"
+msgstr "Media Galleri oppføringer"
+
+# @ advanced
+#: tpl-redirect.php:17
+msgid "Redirecting..."
+msgstr "Omdirigerer ..."
+
+# @ advanced
+#: tpl-sitemap.php:46
+msgid "Pages"
+msgstr "Sider"
+
+# @ advanced
+#: tpl-sitemap.php:53
+msgid "Categories"
+msgstr "Kategorier"
+
+# @ source
+# @ advanced
+#: inc/mid-slider.php:17
+#: inc/video-slider.php:4
+msgid "Next"
+msgstr "Neste"
+
+# @ source
+# @ advanced
+#: inc/mid-slider.php:18
+#: inc/video-slider.php:5
+msgid "Previous"
+msgstr "Forige"
+
+# @ default
+#: inc/theme-comments.php:29
+#, php-format
+msgid "%s "
+msgstr "%s "
+
+# @ advanced
+#: inc/theme-comments.php:33
+msgid "at"
+msgstr "ved"
+
+# @ advanced
+#: inc/theme-comments.php:34
+#: inc/theme-comments.php:59
+msgid "Edit"
+msgstr "Rediger"
+
+# @ advanced
+#: inc/theme-comments.php:42
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar venter på moderering."
+
+# @ advanced
+#: inc/theme-comments.php:59
+msgid "Pingback:"
+msgstr "Tilbakepling:"
+
+# @ advanced
+#: inc/theme-cpt.php:8
+msgctxt "advanced"
+msgid "Media Gallery"
+msgstr "Media Galleri"
+
+#: inc/theme-cpt.php:9
+#: inc/theme-cpt.php:19
+msgctxt "advanced"
+msgid "Multimedia"
+msgstr "Multimedia"
+
+# @ default
+#: inc/theme-cpt.php:10
+#: inc/theme-cpt.php:11
+#: inc/theme-cpt.php:58
+#: inc/theme-cpt.php:82
+msgctxt "advanced"
+msgid "Add New"
+msgstr "Legg til ny"
+
+# @ default
+#: inc/theme-cpt.php:12
+#: inc/theme-cpt.php:56
+#: inc/theme-cpt.php:80
+msgctxt "advanced"
+msgid "Edit"
+msgstr "Rediger"
+
+# @ default
+#: inc/theme-cpt.php:13
+#: inc/theme-cpt.php:83
+msgctxt "advanced"
+msgid "New"
+msgstr "Ny"
+
+# @ default
+#: inc/theme-cpt.php:14
+msgctxt "advanced"
+msgid "View"
+msgstr "Vis"
+
+# @ default
+#: inc/theme-cpt.php:15
+#: inc/theme-cpt.php:52
+#: inc/theme-cpt.php:75
+msgctxt "advanced"
+msgid "Search"
+msgstr "Søk"
+
+# @ default
+#: inc/theme-cpt.php:16
+msgctxt "advanced"
+msgid "Nothing found"
+msgstr "Ingenting funnet"
+
+# @ default
+#: inc/theme-cpt.php:17
+msgctxt "advanced"
+msgid "Nothing found in Trash"
+msgstr "Ingenting funnet i søppelkassen"
+
+# @ default
+#: inc/theme-cpt.php:18
+#: inc/theme-cpt.php:55
+msgctxt "advanced"
+msgid "Parent:"
+msgstr "Forelder"
+
+# @ default
+#: inc/theme-cpt.php:50
+msgctxt "advanced"
+msgid "gallery-cats"
+msgstr "galleri-kataloger"
+
+# @ default
+#: inc/theme-cpt.php:51
+msgctxt "advanced"
+msgid "gallery-cat"
+msgstr "galleri-katalog"
+
+# @ default
+#: inc/theme-cpt.php:53
+#: inc/theme-cpt.php:77
+msgctxt "advanced"
+msgid "All"
+msgstr "Alle"
+
+# @ default
+#: inc/theme-cpt.php:54
+msgctxt "advanced"
+msgid "Parent"
+msgstr "Forelder"
+
+# @ default
+#: inc/theme-cpt.php:57
+#: inc/theme-cpt.php:81
+msgctxt "advanced"
+msgid "Update"
+msgstr "Oppdater"
+
+# @ default
+#: inc/theme-cpt.php:59
+msgctxt "advanced"
+msgid "New Name"
+msgstr "Nytt navn"
+
+# @ default
+#: inc/theme-cpt.php:60
+msgctxt "advanced"
+msgid "Gallery Categories"
+msgstr "Galleri Kategorier"
+
+# @ default
+#: inc/theme-cpt.php:73
+msgctxt "advanced"
+msgid "gallery-tags"
+msgstr "galleri-merker"
+
+# @ default
+#: inc/theme-cpt.php:74
+msgctxt "advanced"
+msgid "gallery-tag"
+msgstr "galleri-merke"
+
+# @ default
+#: inc/theme-cpt.php:76
+msgctxt "advanced"
+msgid "Popular"
+msgstr "Populær"
+
+# @ default
+#: inc/theme-cpt.php:84
+msgctxt "advanced"
+msgid "Separate with commas"
+msgstr "Adskill med komma"
+
+# @ default
+#: inc/theme-cpt.php:85
+msgctxt "advanced"
+msgid "Add or remove"
+msgstr "Legg til eller fjern"
+
+# @ default
+#: inc/theme-cpt.php:86
+msgctxt "advanced"
+msgid "Choose from the most used"
+msgstr "Velg blant de mest brukte"
+
+# @ default
+#: inc/theme-cpt.php:87
+msgctxt "advanced"
+msgid "Gallery Tags"
+msgstr "Galleri merker"
+
+#: inc/admin/admin-menu.php:5
+msgid "Gabfire Themes Options"
+msgstr "Gabfire Tema Alternativer"
+
+#: inc/admin/admin-menu.php:5
+#: inc/admin/admin-menu.php:36
+msgid "Gabfire Themes"
+msgstr "Gabfire Tema"
+
+#: inc/admin/admin-menu.php:42
+msgid "Theme Options"
+msgstr "Tema Alternativer"
+
+# @ default
+#: inc/admin/admin-menu.php:48
+msgid "Updates"
+msgstr "Oppdateringer"
+
+#: inc/admin/admin-menu.php:54
+msgid "Gabfire Blog"
+msgstr "Gabfire Blog"
+
+# @ default
+#: inc/admin/admin-menu.php:60
+msgid "New Themes"
+msgstr "Nye Tema"
+
+#: inc/admin/options-framework.php:258
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Klikk OK for å tilbakestille. Eventuelle tema innstillingene vil gå tapt!"
+
+#: inc/admin/options-framework.php:290
+msgid "Default options restored."
+msgstr "Standard alternativer gjenopprettet."
+
+#: inc/admin/options-framework.php:331
+msgid "Options saved."
+msgstr "Alternativer lagret"
+
+#: inc/admin/options-medialibrary-uploader.php:19
+msgid "Options Framework Internal Container"
+msgstr "Alternativer Framework Intern Container"
+
+#: inc/admin/options-medialibrary-uploader.php:82
+msgid "Upload"
+msgstr "Last opp"
+
+# @ default
+#: inc/admin/options-medialibrary-uploader.php:105
+msgid "View File"
+msgstr "Vis fil"
+
+# @ source
+#: inc/admin/options-medialibrary-uploader.php:242
+msgid "Gallery"
+msgstr "Galleri"
+
+#: inc/admin/options-medialibrary-uploader.php:242
+msgid "Previously Uploaded"
+msgstr "Tidligere lastet opp"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1094
+#: inc/functions/gabfire-widgets.php:1129
+msgid "by"
+msgstr "av"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1094
+#: inc/functions/gabfire-widgets.php:1129
+#: inc/functions/misc-functions.php:131
+msgid "No Comment"
+msgstr "Ingen kommentar"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1094
+#: inc/functions/gabfire-widgets.php:1129
+#: inc/functions/misc-functions.php:131
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1094
+#: inc/functions/gabfire-widgets.php:1129
+#: inc/functions/misc-functions.php:131
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1344
+msgid "Share on Facebook"
+msgstr "Del på Facebook"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1347
+msgid "Share on Twitter"
+msgstr "Del på Twitter"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1350
+msgid "Email a Friend"
+msgstr "Email en venn"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1353
+msgid "Share on Delicious"
+msgstr "Del på Delicious"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1356
+msgid "Share on Digg"
+msgstr "Del på Digg"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1359
+msgid "Share on Google"
+msgstr "Del på Google"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1362
+msgid "Share on StumbleUpon"
+msgstr "Del på StumbleUpon"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1365
+msgid "Share on Reddit"
+msgstr "Del på Reddit"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1368
+msgid "Share on Technorati"
+msgstr "Del på Technorati"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1371
+msgid "Share on Yahoo"
+msgstr "Del på Yahoo"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1374
+msgid "Share on Blogger"
+msgstr "Del på Blogger"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1377
+msgid "Share on Myspace"
+msgstr "Del på Myspace"
+
+# @ source
+#: inc/functions/gabfire-widgets.php:1380
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+# @ default
+#: inc/functions/misc-functions.php:49
+msgid "No categories"
+msgstr "Ingen kategorier"
+
+# @ source
+#: inc/functions/misc-functions.php:62
+msgid "Search Results"
+msgstr "Søkeresultater"
+
+# @ source
+#: inc/functions/misc-functions.php:63
+msgid "Author Archives"
+msgstr "Forfatter arkiv"
+
+# @ source
+#: inc/functions/misc-functions.php:66
+#: inc/functions/misc-functions.php:67
+msgid "Archive"
+msgstr "Arkiv"
+
+# @ source
+#: inc/functions/misc-functions.php:68
+msgid "Tag Archive"
+msgstr "Merk arkiv"
+
+# @ default
+#: inc/functions/misc-functions.php:73
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+# @ source
+#: inc/functions/misc-functions.php:126
+msgid "Read More"
+msgstr "Les mer"
+
+# @ source
+#: inc/functions/misc-functions.php:140
+msgid "#"
+msgstr "#"
+
+# @ source
+#: inc/functions/misc-functions.php:188
+msgid "Page"
+msgstr "Side"
+
+# @ source
+#: inc/functions/misc-functions.php:188
+msgid "of"
+msgstr "av"
+
+# @ source
+#: inc/functions/misc-functions.php:190
+msgid "First"
+msgstr "Først"
+
+# @ source
+#: inc/functions/misc-functions.php:208
+msgid "Last"
+msgstr "Sist"
+
+#: inc/functions/misc-functions.php:223
+msgid "Register an Account"
+msgstr "Registrer en konto"
+
+#: inc/functions/misc-functions.php:223
+msgid "Sign Up and Contribute!"
+msgstr "Sign opp og bidra!"
+
+#: inc/functions/misc-functions.php:229
+msgid "Username"
+msgstr "Brukernavn"
+
+#: inc/functions/misc-functions.php:239
+msgid "A password will be e-mailed to you."
+msgstr "Et passord vil bli sendt i e-post til deg."
+
+#: inc/functions/misc-functions.php:252
+msgid "Have an Account?"
+msgstr "Har du en konto?"
+
+#: inc/functions/misc-functions.php:252
+msgid "Login Using This Form"
+msgstr "Logg inn med dette skjemaet"
+
+#: inc/functions/misc-functions.php:273
+msgid "Welcome"
+msgstr "Velkommen"
+
+#: inc/functions/misc-functions.php:282
+msgid "Contribute"
+msgstr "Bidra"
+
+# @ source
+#: inc/functions/shortcodes.php:35
+msgid "No related posts found"
+msgstr "Ingen relaterte innlegg funnet"
+
