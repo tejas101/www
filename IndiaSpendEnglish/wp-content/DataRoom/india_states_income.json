@@ -1,0 +1,7313 @@
+{
+	"name" : "All States",
+	"children" : [
+		{
+			"name" : "AP",
+			"state" : "Andhra Pradesh",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 235574.3
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 145681
+								},
+								{
+									"name" : "Others",
+									"value" : 60968.2
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 1070.2
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 277286
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 15000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 13009.5
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 71
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 26930.4
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Power Projects",
+									"value" : 2789.1
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 1250.2
+								},
+								{
+									"name" : "Others",
+									"value" : 378.9
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 71.3
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 70.8
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 28
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 25
+								},
+								{
+									"name" : "Housing",
+									"value" : 14.8
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 0.8
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 14089.6
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 7801.3
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 33221.1
+								},
+								{
+									"name" : "Others",
+									"value" : 7633.4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 50967.7
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 48892.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 42624
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 15548.6
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Interest Receipts",
+									"value" : 86560.9
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 47351
+								},
+								{
+									"name" : "Social Services",
+									"value" : 14488.8
+								},
+								{
+									"name" : "General Services",
+									"value" : 4967.1
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 568.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 83530.7
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 51704.1
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 39428.4
+								},
+								{
+									"name" : "Customs",
+									"value" : 38995.6
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 27456
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 208.8
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 650782.1
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 66547.8
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 7109.5
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "AR",
+			"state" : "Arunachal Pradesh",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 430.7
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 9.2
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 3112.6
+								},
+								{
+									"name" : "Market Loans",
+									"value" : 3000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 1090
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 700
+								},
+								{
+									"name" : "Others",
+									"value" : 300
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 38.5
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 2364.8
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 200
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 261.5
+								},
+								{
+									"name" : "Others",
+									"value" : 78.1
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 28681.4
+								},
+								{
+									"name" : "Others",
+									"value" : 3.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 43300.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 7714.6
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 7423.6
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 3064
+								},
+								{
+									"name" : "NEC and Special Plan Scheme",
+									"value" : 1515.7
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 2202.7
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 589.3
+								},
+								{
+									"name" : "General Services",
+									"value" : 250.1
+								},
+								{
+									"name" : "Social Services",
+									"value" : 125.7
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 4169.4
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 2255.7
+								},
+								{
+									"name" : "Customs",
+									"value" : 2074.8
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 1468
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 1420.8
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 14.9
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 3941.3
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 78.9
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "AS",
+			"state" : "Assam",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 500
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 49145.1
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 26852.6
+								},
+								{
+									"name" : "Others",
+									"value" : 1011
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 29261.4
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 10000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 4150
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 500
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 1272.8
+								},
+								{
+									"name" : "Ways and Means Advances from Centre",
+									"value" : 100
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 215.8
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 2
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 0.3
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 44338.8
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 10083.5
+								},
+								{
+									"name" : "Others",
+									"value" : 100
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 12806.9
+								},
+								{
+									"name" : "Others",
+									"value" : 1255.1
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 2406095.8
+								},
+								{
+									"name" : "Suspense",
+									"value" : 982.1
+								},
+								{
+									"name" : "Others",
+									"value" : 284.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 94627.5
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 44223.5
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 15795.9
+								},
+								{
+									"name" : "NEC and Special Plan Scheme",
+									"value" : 7566.7
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 581.1
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 26725.7
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 5449
+								},
+								{
+									"name" : "General Services",
+									"value" : 1336.4
+								},
+								{
+									"name" : "Social Services",
+									"value" : 336.1
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 156.2
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 43686
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 27040.9
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 20617.8
+								},
+								{
+									"name" : "Customs",
+									"value" : 20394.4
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 14359.3
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 109.2
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 83769.1
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 3522.8
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 2545.8
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "BR",
+			"state" : "Bihar",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 27621.3
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 25723.5
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 885.3
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 75457.5
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 19690
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 8500
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 286.1
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 14260.5
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 117
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 15.6
+								},
+								{
+									"name" : "Housing",
+									"value" : 0.1
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 3872.1
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 2934.5
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 11006.5
+								},
+								{
+									"name" : "Others",
+									"value" : 1596.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 107294.4
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 46491.1
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 20860.1
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 2421.5
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "General Services",
+									"value" : 21687
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 8522.4
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 3384.7
+								},
+								{
+									"name" : "Social Services",
+									"value" : 551.2
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 15.4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 138772.5
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 75080.4
+								},
+								{
+									"name" : "Customs",
+									"value" : 69058.7
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 49111.9
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 47289.7
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 496.7
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 180971.1
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 28330
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 325.9
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "CG",
+			"state" : "Chhattisgarh",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 400
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 21700.4
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 4500
+								},
+								{
+									"name" : "Others",
+									"value" : 4470
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 0.8
+								}
+							]
+						},
+						{
+							"name" : "Inter-State Settlement",
+							"children" : [
+								{
+									"name" : "Inter-State Settlement",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 30000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 14500
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 3500
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 2000
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 1800
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 2000
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 35
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 25
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 10300
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 3001
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 839.5
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 731.7
+								},
+								{
+									"name" : "Others",
+									"value" : 500
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 412
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 7.5
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 0.2
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 72200.2
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 7827.4
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 1000
+								},
+								{
+									"name" : "Famine Relief Fund",
+									"value" : 3.2
+								},
+								{
+									"name" : "Depreciation and Renewal Reserve Funds",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 9140
+								},
+								{
+									"name" : "Others",
+									"value" : 800
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 444456.5
+								},
+								{
+									"name" : "Others",
+									"value" : 252100.1
+								},
+								{
+									"name" : "Deposits with RBI",
+									"value" : 140000
+								},
+								{
+									"name" : "Suspense",
+									"value" : 97.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 36074.7
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 17782.2
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 16643.7
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 4288.5
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 56028.9
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 3641.4
+								},
+								{
+									"name" : "General Services",
+									"value" : 629.5
+								},
+								{
+									"name" : "Social Services",
+									"value" : 390.3
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 30
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 31397.6
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 16987.1
+								},
+								{
+									"name" : "Customs",
+									"value" : 15624.7
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 11112.1
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 10699.4
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 112.4
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 137701.3
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 15260
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 41.6
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "DL",
+			"state" : "Delhi",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Power Projects",
+									"value" : 33263.9
+								},
+								{
+									"name" : "Others",
+									"value" : 7846.4
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 25
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 14003.1
+								},
+								{
+									"name" : "State Plan Schemes",
+									"value" : 8703.9
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 4300
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Interest Receipts",
+									"value" : 5898.8
+								},
+								{
+									"name" : "General Services",
+									"value" : 1421.8
+								},
+								{
+									"name" : "Social Services",
+									"value" : 862.5
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 500
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 445.7
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 251540
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 53000
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "GA",
+			"state" : "Goa",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 2301
+								},
+								{
+									"name" : "Others",
+									"value" : 805.5
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 132.5
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 8500
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 1500
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 700
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 50
+								},
+								{
+									"name" : "Others",
+									"value" : 8
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 5
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 1010
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 2.8
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 148.4
+								},
+								{
+									"name" : "Others",
+									"value" : 13.1
+								},
+								{
+									"name" : "Housing",
+									"value" : 9.4
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 6.8
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 35213
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 858.3
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 394.8
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 3483
+								},
+								{
+									"name" : "Others",
+									"value" : 46.7
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 101030.3
+								},
+								{
+									"name" : "Others",
+									"value" : 35766.2
+								},
+								{
+									"name" : "Suspense",
+									"value" : 4431.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 2627.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 2423.5
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 1466.1
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 218.6
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 16286.9
+								},
+								{
+									"name" : "Social Services",
+									"value" : 2307.9
+								},
+								{
+									"name" : "General Services",
+									"value" : 1388.6
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 99.3
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 32.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 2940.2
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 1590.8
+								},
+								{
+									"name" : "Customs",
+									"value" : 1463.2
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 1039.8
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 1002
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 10.5
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 32361.5
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 5808.1
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "GJ",
+			"state" : "Gujarat",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 246145.9
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 61336.8
+								},
+								{
+									"name" : "Others",
+									"value" : 4545.3
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 3100.8
+								}
+							]
+						},
+						{
+							"name" : "Inter-State Settlement",
+							"children" : [
+								{
+									"name" : "Inter-State Settlement",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 225000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 20000
+								},
+								{
+									"name" : "Others",
+									"value" : 12540
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 10
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 2548.7
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Power Projects",
+									"value" : 750
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 600
+								},
+								{
+									"name" : "Others",
+									"value" : 432.4
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 160
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 117.5
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 100
+								},
+								{
+									"name" : "Housing",
+									"value" : 40
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 11.5
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 5.5
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 0.7
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 26412.6
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 10000
+								},
+								{
+									"name" : "Others",
+									"value" : 7318
+								},
+								{
+									"name" : "Depreciation and Renewal Reserve Funds",
+									"value" : 12.2
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 21574.4
+								},
+								{
+									"name" : "Others",
+									"value" : 1681.7
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 537591.3
+								},
+								{
+									"name" : "Deposits with RBI",
+									"value" : 480631.5
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 10000
+								},
+								{
+									"name" : "Suspense",
+									"value" : 21.9
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 48167.4
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 22918.3
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 18362.5
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 1000
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 41023.5
+								},
+								{
+									"name" : "Social Services",
+									"value" : 9240.3
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 7482.7
+								},
+								{
+									"name" : "General Services",
+									"value" : 4643
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 1404
+								},
+								{
+									"name" : "Fiscal Services",
+									"value" : 1.6
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 37302
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 21080.8
+								},
+								{
+									"name" : "Customs",
+									"value" : 18411.2
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 12317.7
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 12049.7
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 37.5
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 526959.3
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 72218.8
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 2900
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "HR",
+			"state" : "Haryana",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 61588.9
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 34826
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 397
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 330
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 105915
+								},
+								{
+									"name" : "Loans from SBI and other Banks",
+									"value" : 71000
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 20000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 7784.7
+								},
+								{
+									"name" : "Others",
+									"value" : 4832.5
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 2000
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 80
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 4841.1
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 18
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 10
+								}
+							]
+						},
+						{
+							"name" : "Miscellaneous Capital Receipts",
+							"children" : [
+								{
+									"name" : "Misc Capital Receipts",
+									"value" : 124.7
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 2157.5
+								},
+								{
+									"name" : "Others",
+									"value" : 542.2
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 169.9
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 100
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 78
+								},
+								{
+									"name" : "Housing",
+									"value" : 0.5
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 0.2
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 60257.8
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 6343.8
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 2876
+								},
+								{
+									"name" : "Depreciation and Renewal Reserve Funds",
+									"value" : 615.7
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 24557.9
+								},
+								{
+									"name" : "Others",
+									"value" : 710
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Deposits with RBI",
+									"value" : 468274.1
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 215062.3
+								},
+								{
+									"name" : "Suspense",
+									"value" : 76091.3
+								},
+								{
+									"name" : "Others",
+									"value" : 1153.9
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 27379.8
+								},
+								{
+									"name" : "State Plan Schemes",
+									"value" : 16006.3
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 12915.2
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 7194.8
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Social Services",
+									"value" : 19170.7
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 17968.1
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 10901.3
+								},
+								{
+									"name" : "General Services",
+									"value" : 3507.5
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 77.2
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 14078.7
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 6846.5
+								},
+								{
+									"name" : "Customs",
+									"value" : 5935.5
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 4084
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 3842.3
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 52
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 249150.1
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 38693.3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "HP",
+			"state" : "Himachal Pradesh",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 2150
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 798.7
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 725
+								},
+								{
+									"name" : "Others",
+									"value" : 65.1
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 28116.8
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 3500
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 3000
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 2.3
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 501.7
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 3.6
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 194.7
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 64.4
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 12.2
+								},
+								{
+									"name" : "Housing",
+									"value" : 2.6
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 1.6
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 0.5
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 0.5
+								},
+								{
+									"name" : "Others",
+									"value" : 0.5
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 4803.7
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 10.2
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 17750
+								},
+								{
+									"name" : "Others",
+									"value" : 250
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Deposits with RBI",
+									"value" : 5000
+								},
+								{
+									"name" : "Suspense",
+									"value" : 1710
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 1500
+								},
+								{
+									"name" : "Others",
+									"value" : 14.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 46003.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 24053.4
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 1790.8
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 335.2
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 17545.9
+								},
+								{
+									"name" : "Social Services",
+									"value" : 1969.5
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 1764.4
+								},
+								{
+									"name" : "General Services",
+									"value" : 1340
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 1309.4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 9404.3
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 5821.1
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 4436.9
+								},
+								{
+									"name" : "Customs",
+									"value" : 4390.3
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 3091.1
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 23.5
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 51677.6
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 2052.2
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "JK",
+			"state" : "Jammu and Kashmir",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 7606.1
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 120
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 110
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 19460
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 4750
+								},
+								{
+									"name" : "Loans from LIC",
+									"value" : 2000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 1250
+								},
+								{
+									"name" : "Others",
+									"value" : 250
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 13
+								},
+								{
+									"name" : "Others",
+									"value" : 1.3
+								},
+								{
+									"name" : "Housing",
+									"value" : 1.2
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 0.3
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 1330
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 2309.4
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 297.6
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 33784.5
+								},
+								{
+									"name" : "Others",
+									"value" : 622.2
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Suspense",
+									"value" : 3600.7
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 360
+								},
+								{
+									"name" : "Others",
+									"value" : 240
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 149640
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 40978.9
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 4734.5
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 2169.4
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 27489.3
+								},
+								{
+									"name" : "General Services",
+									"value" : 982.4
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 950
+								},
+								{
+									"name" : "Social Services",
+									"value" : 698.5
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 208.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 20000
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 10000
+								},
+								{
+									"name" : "Customs",
+									"value" : 9000
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 5770
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 80.3
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 63395.4
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 3605.4
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "JH",
+			"state" : "Jharkhand",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 1500
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 37000
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 28632.2
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 15621.2
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 1033.1
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 54705.3
+								},
+								{
+									"name" : "Others",
+									"value" : 3734.7
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 500
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 60
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 300
+								},
+								{
+									"name" : "Others",
+									"value" : 77.5
+								},
+								{
+									"name" : "Housing",
+									"value" : 44.5
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 30
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 24
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 14
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 10
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 43432.4
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 3033.4
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 6229.9
+								},
+								{
+									"name" : "Others",
+									"value" : 92.8
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 234133.1
+								},
+								{
+									"name" : "Suspense",
+									"value" : 3308.3
+								},
+								{
+									"name" : "Others",
+									"value" : 1910.9
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 51572.9
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 24176.6
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 17956
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 5563
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 38480.8
+								},
+								{
+									"name" : "Social Services",
+									"value" : 1512.4
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 750
+								},
+								{
+									"name" : "General Services",
+									"value" : 698.1
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 230
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 37786.2
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 18585.1
+								},
+								{
+									"name" : "Customs",
+									"value" : 15834.3
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 12076.7
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 9171.8
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 71.2
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 94094
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 6630
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 800
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "KA",
+			"state" : "Karnataka",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 50
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 187509.5
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 54990.8
+								},
+								{
+									"name" : "Others",
+									"value" : 54856.3
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 23.6
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 165510
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 20000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 10000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 7500
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 20844.7
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 60
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 50
+								}
+							]
+						},
+						{
+							"name" : "Miscellaneous Capital Receipts",
+							"children" : [
+								{
+									"name" : "Misc Capital Receipts",
+									"value" : 2000
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Housing",
+									"value" : 607.5
+								},
+								{
+									"name" : "Others",
+									"value" : 353.1
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 225
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 105
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 43.3
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 10
+								},
+								{
+									"name" : "Minor Irrigation",
+									"value" : 1
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 0.9
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 4533.8
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 13705.5
+								},
+								{
+									"name" : "Depreciation and Renewal Reserve Funds",
+									"value" : 0.2
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 22590
+								},
+								{
+									"name" : "Others",
+									"value" : 16504.2
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 1334509.3
+								},
+								{
+									"name" : "Others",
+									"value" : 660195.7
+								},
+								{
+									"name" : "Suspense",
+									"value" : 2449.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 72122.6
+								},
+								{
+									"name" : "State Plan Schemes",
+									"value" : 38702.1
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 29207.8
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 24248.6
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 25123.4
+								},
+								{
+									"name" : "Social Services",
+									"value" : 5367.2
+								},
+								{
+									"name" : "General Services",
+									"value" : 4712.2
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 4000
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 1180
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 59260.9
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 30101.8
+								},
+								{
+									"name" : "Customs",
+									"value" : 26104
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 17972.7
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 16891.7
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 228.9
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 548690
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 67450
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 8500
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "KL",
+			"state" : "Kerala",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 10
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 60924.2
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 25257
+								},
+								{
+									"name" : "Others",
+									"value" : 517.3
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 1
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 123743.2
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 70250
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 5383.7
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 5092.5
+								},
+								{
+									"name" : "Loans from LIC",
+									"value" : 3430
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 480
+								},
+								{
+									"name" : "Others",
+									"value" : 400.1
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 10693.2
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 12.2
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 2
+								}
+							]
+						},
+						{
+							"name" : "Miscellaneous Capital Receipts",
+							"children" : [
+								{
+									"name" : "Misc Capital Receipts",
+									"value" : 220.3
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 564.7
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 202.9
+								},
+								{
+									"name" : "Others",
+									"value" : 154.8
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 152.9
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 117.8
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 25.1
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 15.8
+								},
+								{
+									"name" : "Housing",
+									"value" : 2.7
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 1.2
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 99900
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 1604.7
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 186339.5
+								},
+								{
+									"name" : "State Provident Funds",
+									"value" : 49342.4
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 550117.9
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 355722.7
+								},
+								{
+									"name" : "Suspense",
+									"value" : 132303.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 25333.6
+								},
+								{
+									"name" : "State Plan Schemes",
+									"value" : 24575.5
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 11431.5
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 873.6
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "General Services",
+									"value" : 34143.7
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 8380.6
+								},
+								{
+									"name" : "Social Services",
+									"value" : 3883.5
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 1892.9
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 915
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 28188.8
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 17448.4
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 13305.1
+								},
+								{
+									"name" : "Customs",
+									"value" : 13159.7
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 9265.4
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 70.5
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 343170.3
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 44300.8
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 239.9
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "MP",
+			"state" : "Madhya Pradesh",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 2000
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 116657.2
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 55477.9
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 3818
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 46.4
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 116500
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 40000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 12500
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 6000
+								},
+								{
+									"name" : "Others",
+									"value" : 476
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 300
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 22809
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Urban Development",
+									"value" : 808.9
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 196.5
+								},
+								{
+									"name" : "Others",
+									"value" : 136.1
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 75.2
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 29.2
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 1
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 1
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 0.8
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 130125.2
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 9869.8
+								},
+								{
+									"name" : "Famine Relief Fund",
+									"value" : 3.6
+								},
+								{
+									"name" : "Depreciation and Renewal Reserve Funds",
+									"value" : 2
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 19293.5
+								},
+								{
+									"name" : "Others",
+									"value" : 1244.6
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 1850000
+								},
+								{
+									"name" : "Others",
+									"value" : 542861.9
+								},
+								{
+									"name" : "Deposits with RBI",
+									"value" : 401712.3
+								},
+								{
+									"name" : "Suspense",
+									"value" : 6933.4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 62095.7
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 39800.1
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 32372.7
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 15179.3
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 42801.4
+								},
+								{
+									"name" : "Social Services",
+									"value" : 26368.2
+								},
+								{
+									"name" : "General Services",
+									"value" : 4209.9
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 2041.5
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 412.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 86571.4
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 46838
+								},
+								{
+									"name" : "Customs",
+									"value" : 43081.4
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 30637.1
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 29501.1
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 309.9
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 282446.8
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 48720
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 2650
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "MH",
+			"state" : "Maharashtra",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 240270.2
+								},
+								{
+									"name" : "Others",
+									"value" : 5549
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 3000.5
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 220482.1
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 30000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 19648.8
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 10000
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 27200
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 332.2
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 25
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 2674.1
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 1866.9
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 1285.7
+								},
+								{
+									"name" : "Others",
+									"value" : 1246.5
+								},
+								{
+									"name" : "Housing",
+									"value" : 996.6
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 86.2
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 84.1
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 28.3
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 0.7
+								},
+								{
+									"name" : "Minor Irrigation",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 197106
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 23380.1
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 15920
+								},
+								{
+									"name" : "Depreciation and Renewal Reserve Funds",
+									"value" : 0.5
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 50929.4
+								},
+								{
+									"name" : "Others",
+									"value" : 5097.8
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 2400000
+								},
+								{
+									"name" : "Others",
+									"value" : 44100
+								},
+								{
+									"name" : "Suspense",
+									"value" : 371.9
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 77107.3
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 63194.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 45502.9
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 414.5
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 60606.3
+								},
+								{
+									"name" : "Social Services",
+									"value" : 26288.6
+								},
+								{
+									"name" : "General Services",
+									"value" : 18735.2
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 13388
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 918.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 62602.9
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 38750.2
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 29547.6
+								},
+								{
+									"name" : "Customs",
+									"value" : 29225.7
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 20577.1
+								},
+								{
+									"name" : "Other Duties on Commodities and Services",
+									"value" : 257.4
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 156.5
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 861521.4
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 191634.7
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 19440
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "MN",
+			"state" : "Manipur",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 2000
+								},
+								{
+									"name" : "Others",
+									"value" : 1480
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 200
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 4294.4
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 500
+								},
+								{
+									"name" : "Others",
+									"value" : 100
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 25.2
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 10
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 0.7
+								},
+								{
+									"name" : "Housing",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 24500
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 240.4
+								},
+								{
+									"name" : "Others",
+									"value" : 143.6
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 1924.2
+								},
+								{
+									"name" : "Others",
+									"value" : 20.7
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 188200
+								},
+								{
+									"name" : "Suspense",
+									"value" : 700
+								},
+								{
+									"name" : "Others",
+									"value" : 600
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 37453.6
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 15633.7
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 4106
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 4096.5
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "General Services",
+									"value" : 1908.5
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 1888.2
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 304.7
+								},
+								{
+									"name" : "Social Services",
+									"value" : 196.4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 5430.6
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 3361.5
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 2562.5
+								},
+								{
+									"name" : "Customs",
+									"value" : 2535.3
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 1785
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 13.6
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 4453.2
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 392
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 73.5
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "ML",
+			"state" : "Meghalaya",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 2100
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 3910
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 640
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 4200
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 830
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 800
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 405
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 40.8
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 405.5
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 2.5
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 258.8
+								},
+								{
+									"name" : "Housing",
+									"value" : 1.2
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 0.9
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 0.3
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 0.2
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 21995
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 237.8
+								},
+								{
+									"name" : "Others",
+									"value" : 179.6
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 2682.6
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 124500
+								},
+								{
+									"name" : "Suspense",
+									"value" : 245.6
+								},
+								{
+									"name" : "Others",
+									"value" : 36.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 27399.3
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 17522.4
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 10308.9
+								},
+								{
+									"name" : "NEC and Special Plan Scheme",
+									"value" : 1890
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 797
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 4281.3
+								},
+								{
+									"name" : "General Services",
+									"value" : 380.1
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 274.5
+								},
+								{
+									"name" : "Social Services",
+									"value" : 229.3
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 0.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 4912.9
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 3041
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 2322
+								},
+								{
+									"name" : "Customs",
+									"value" : 2293.5
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 1614.8
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 12.3
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 8333.3
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 180.8
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 39.9
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "MZ",
+			"state" : "Mizoram",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 6500
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 180
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 2991.2
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 600
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 100
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 10
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 153.4
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Housing",
+									"value" : 180
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 90
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 5
+								},
+								{
+									"name" : "Others",
+									"value" : 0.3
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 0.1
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 14000.1
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 209
+								},
+								{
+									"name" : "Others",
+									"value" : 150
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 3200
+								},
+								{
+									"name" : "Others",
+									"value" : 50
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Deposits with RBI",
+									"value" : 160050
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 10200
+								},
+								{
+									"name" : "Suspense",
+									"value" : 6700
+								},
+								{
+									"name" : "Others",
+									"value" : 250
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 24508.5
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 11644.3
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 2.3
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 2046.1
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 239.4
+								},
+								{
+									"name" : "Social Services",
+									"value" : 221.3
+								},
+								{
+									"name" : "General Services",
+									"value" : 153.3
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 3239.1
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 2005
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 1527.5
+								},
+								{
+									"name" : "Customs",
+									"value" : 1512.2
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 1064.7
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 8.1
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 2045.3
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 130
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 47.2
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "NL",
+			"state" : "Nagaland",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 6000
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 100
+								},
+								{
+									"name" : "Others",
+									"value" : 50
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "WMA from RBI",
+									"value" : 20000
+								},
+								{
+									"name" : "Market Loans",
+									"value" : 5579.3
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 500
+								},
+								{
+									"name" : "Others",
+									"value" : 500
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 100
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 60
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "Disaster Relief",
+									"value" : 100
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 12.3
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 10.5
+								},
+								{
+									"name" : "Housing",
+									"value" : 3.3
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 1.1
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 15001
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 350
+								},
+								{
+									"name" : "Others",
+									"value" : 260
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 2100
+								},
+								{
+									"name" : "Others",
+									"value" : 36
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 60000
+								},
+								{
+									"name" : "Others",
+									"value" : 5000
+								},
+								{
+									"name" : "Suspense",
+									"value" : 500
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 31105.1
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 20177.4
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 5569.8
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 1520
+								},
+								{
+									"name" : "General Services",
+									"value" : 218.3
+								},
+								{
+									"name" : "Social Services",
+									"value" : 106.9
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 15
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 3781
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 2340.4
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 1779.2
+								},
+								{
+									"name" : "Customs",
+									"value" : 1765.1
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 1242.8
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 9.4
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 2979.8
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 319
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 22.6
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "OR",
+			"state" : "Odisha",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 4000
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 45869.5
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 30811.6
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 10318.3
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 1502.7
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 45849.5
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 13000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 2000
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 7142.5
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 50.9
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Power Projects",
+									"value" : 1102.9
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 954.4
+								},
+								{
+									"name" : "Others",
+									"value" : 334.6
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 3.9
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 3.6
+								},
+								{
+									"name" : "Housing",
+									"value" : 1
+								},
+								{
+									"name" : "Minor Irrigation",
+									"value" : 1
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 1
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 0.4
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 0.3
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 79308.6
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 10000.7
+								},
+								{
+									"name" : "Others",
+									"value" : 6548.1
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 32502.5
+								},
+								{
+									"name" : "Others",
+									"value" : 2.2
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 1429739.4
+								},
+								{
+									"name" : "Others",
+									"value" : 303.5
+								},
+								{
+									"name" : "Suspense",
+									"value" : 54
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 54500.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 25426
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 18766.3
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 10958
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 60245
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 3000
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 2300
+								},
+								{
+									"name" : "Social Services",
+									"value" : 1418
+								},
+								{
+									"name" : "General Services",
+									"value" : 1287
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 63802
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 35540
+								},
+								{
+									"name" : "Customs",
+									"value" : 25446.8
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 17050
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 17000
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 200
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 159250
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 15200
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 1600
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "PY",
+			"state" : "Puducherry",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 1690
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 460
+								},
+								{
+									"name" : "Others",
+									"value" : 382.8
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 9.6
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 5350
+								},
+								{
+									"name" : "Others",
+									"value" : 2200
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 268
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 720
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 47
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 3600
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 400
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 2650
+								},
+								{
+									"name" : "Others",
+									"value" : 46.5
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Deposits with RBI",
+									"value" : 46000
+								},
+								{
+									"name" : "Others",
+									"value" : 253
+								},
+								{
+									"name" : "Suspense",
+									"value" : 120
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 7254.8
+								},
+								{
+									"name" : "State Plan Schemes",
+									"value" : 5874.9
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 1000
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 12174.1
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 325.6
+								},
+								{
+									"name" : "General Services",
+									"value" : 301.1
+								},
+								{
+									"name" : "Social Services",
+									"value" : 261.9
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 37.3
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 21912
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 988
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "PB",
+			"state" : "Punjab",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 26979.5
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 4000.3
+								},
+								{
+									"name" : "Others",
+									"value" : 1800
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 570.3
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "WMA from RBI",
+									"value" : 130000
+								},
+								{
+									"name" : "Market Loans",
+									"value" : 99170
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 4950
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 5420
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 1284.8
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 58
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 50
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 3.5
+								},
+								{
+									"name" : "Others",
+									"value" : 2.4
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 2.2
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 0.8
+								},
+								{
+									"name" : "Housing",
+									"value" : 0.6
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 11980
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 5840.9
+								},
+								{
+									"name" : "Depreciation and Renewal Reserve Funds",
+									"value" : 1083.8
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 500
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 38600
+								},
+								{
+									"name" : "Others",
+									"value" : 570
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Deposits with RBI",
+									"value" : 538100.2
+								},
+								{
+									"name" : "Others",
+									"value" : 207479.9
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 65528.2
+								},
+								{
+									"name" : "Suspense",
+									"value" : 7906.4
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 22196.8
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 18737
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 14191.9
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 10613.2
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 8693.3
+								},
+								{
+									"name" : "General Services",
+									"value" : 8437.3
+								},
+								{
+									"name" : "Social Services",
+									"value" : 8373.5
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 1830.2
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 25.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 17654.7
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 9551.8
+								},
+								{
+									"name" : "Customs",
+									"value" : 8785.7
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 6248.5
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 6016.2
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 63.1
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 250380
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 34860
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "RJ",
+			"state" : "Rajasthan",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 3000
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 1191659.5
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 137424.7
+								},
+								{
+									"name" : "Others",
+									"value" : 121859.6
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 350.7
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 111190
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 19000
+								},
+								{
+									"name" : "Others",
+									"value" : 10700
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 476.5
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 13005.8
+								}
+							]
+						},
+						{
+							"name" : "Miscellaneous Capital Receipts",
+							"children" : [
+								{
+									"name" : "Misc Capital Receipts",
+									"value" : 80
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Power Projects",
+									"value" : 750.5
+								},
+								{
+									"name" : "Others",
+									"value" : 543.5
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 237.7
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 166.1
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 160
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 20
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 17.8
+								},
+								{
+									"name" : "Housing",
+									"value" : 12.3
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 4
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 0.2
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 64370.4
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 18623.6
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 36804.6
+								},
+								{
+									"name" : "Others",
+									"value" : 25981.9
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 832257.8
+								},
+								{
+									"name" : "Suspense",
+									"value" : 1316.2
+								},
+								{
+									"name" : "Others",
+									"value" : 76.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 37149.6
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 33626.1
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 30745.7
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 90985.8
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 19338.8
+								},
+								{
+									"name" : "General Services",
+									"value" : 9532.2
+								},
+								{
+									"name" : "Social Services",
+									"value" : 6286.9
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 400.6
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 70477.9
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 43624.7
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 33262.7
+								},
+								{
+									"name" : "Customs",
+									"value" : 32902
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 23165.6
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 176.2
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 299176.3
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 41355.1
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "SK",
+			"state" : "Sikkim",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 382.9
+								},
+								{
+									"name" : "Others",
+									"value" : 289.8
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 2634.6
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 800
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 200
+								},
+								{
+									"name" : "Loans from LIC",
+									"value" : 100
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 145
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Co-operation",
+									"value" : 7.5
+								},
+								{
+									"name" : "Others",
+									"value" : 0.3
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 10320.7
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 1493.9
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 120
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 2000.7
+								},
+								{
+									"name" : "Others",
+									"value" : 41.2
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 21939.3
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 18170
+								},
+								{
+									"name" : "Suspense",
+									"value" : 53.6
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 21233.9
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 3115.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 1729.7
+								},
+								{
+									"name" : "NEC and Special Plan Scheme",
+									"value" : 696.6
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 66.1
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "General Services",
+									"value" : 8419.5
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 1745
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 288.5
+								},
+								{
+									"name" : "Social Services",
+									"value" : 82.4
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 10
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 2877.9
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 1781.5
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 1359.6
+								},
+								{
+									"name" : "Customs",
+									"value" : 1343.5
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 945.9
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 7.2
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 4042
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 144.7
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 70
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "TN",
+			"state" : "Tamil Nadu",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 220824.6
+								},
+								{
+									"name" : "Others",
+									"value" : 32858.3
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 22223.8
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 674.7
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 230000
+								},
+								{
+									"name" : "Others",
+									"value" : 30073.6
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 15030
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 600
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 14935.4
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 360
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Crop Husbandry",
+									"value" : 1500
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 1121.8
+								},
+								{
+									"name" : "Others",
+									"value" : 335.9
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 223.2
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 164.4
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 34.5
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 13.4
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 0.1
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 39660.5
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 38680.1
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 12138.8
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 59934.4
+								},
+								{
+									"name" : "Others",
+									"value" : 1029
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 1729488.1
+								},
+								{
+									"name" : "Others",
+									"value" : 674141.3
+								},
+								{
+									"name" : "Suspense",
+									"value" : 19835.8
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 33240.4
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 30039.6
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 19419.8
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 1937.3
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Social Services",
+									"value" : 30522.4
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 15448.8
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 14982.7
+								},
+								{
+									"name" : "General Services",
+									"value" : 6190
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 507.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 59833.4
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 37035.9
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 28238.3
+								},
+								{
+									"name" : "Customs",
+									"value" : 27932.7
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 19666.8
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 149.6
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 760607.1
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 100047
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "TR",
+			"state" : "Tripura",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 1920
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 200
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 6500
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 1500
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 300
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Government Servants",
+									"value" : 20
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 6380.4
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 798.2
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 450
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 7507
+								},
+								{
+									"name" : "Others",
+									"value" : 197.9
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 171645
+								},
+								{
+									"name" : "Suspense",
+									"value" : 693.3
+								},
+								{
+									"name" : "Others",
+									"value" : 2.7
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 31936.8
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 11870
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 4870
+								},
+								{
+									"name" : "NEC and Special Plan Scheme",
+									"value" : 860
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 922.2
+								},
+								{
+									"name" : "General Services",
+									"value" : 736.9
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 350
+								},
+								{
+									"name" : "Social Services",
+									"value" : 178.9
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 12
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 6493
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 3512.8
+								},
+								{
+									"name" : "Customs",
+									"value" : 3231.2
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 2297.9
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 2212.6
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 22.5
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 10828.4
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 670.5
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 341.1
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "UP",
+			"state" : "Uttar Pradesh",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 113581
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 45500
+								},
+								{
+									"name" : "Others",
+									"value" : 5480
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 201789
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 100000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 45000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 20000
+								},
+								{
+									"name" : "Others",
+									"value" : 300
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 108.8
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 4994
+								},
+								{
+									"name" : "Disaster Relief",
+									"value" : 6
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Power Projects",
+									"value" : 5412.8
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 2150
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 858
+								},
+								{
+									"name" : "Others",
+									"value" : 725.5
+								},
+								{
+									"name" : "Housing",
+									"value" : 240
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 50
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 40
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 40
+								},
+								{
+									"name" : "Crop Husbandry",
+									"value" : 1.5
+								},
+								{
+									"name" : "Food Storage and Warehousing",
+									"value" : 0.5
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 34600
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 89828
+								},
+								{
+									"name" : "Others",
+									"value" : 41684
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 109845.7
+								},
+								{
+									"name" : "Others",
+									"value" : 5251
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 1800000
+								},
+								{
+									"name" : "Others",
+									"value" : 627827.1
+								},
+								{
+									"name" : "Suspense",
+									"value" : 8925
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 95406.5
+								},
+								{
+									"name" : "State Plan Schemes",
+									"value" : 72976.7
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 69231.2
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 1533
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Social Services",
+									"value" : 61828.9
+								},
+								{
+									"name" : "General Services",
+									"value" : 37271.2
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 23591.1
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 8583.6
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 550
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 250127.5
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 135327.2
+								},
+								{
+									"name" : "Customs",
+									"value" : 124473.4
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 88520.5
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 85236.4
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 895.3
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 608000
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 113530
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 400
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "UK",
+			"state" : "Uttarakhand",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Contingency Fund",
+							"children" : [
+								{
+									"name" : "Contingency Fund",
+									"value" : 900
+								}
+							]
+						},
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Civil Deposits",
+									"value" : 18575.6
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 6549
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 1100
+								},
+								{
+									"name" : "Others",
+									"value" : 450
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 32000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 8000
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 8000
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 4400
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 100
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 500
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Crop Husbandry",
+									"value" : 6500
+								},
+								{
+									"name" : "Power Projects",
+									"value" : 302.6
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 42.3
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 1
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 25971
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Sinking Funds",
+									"value" : 1402
+								},
+								{
+									"name" : "Others",
+									"value" : 220.9
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 10944
+								},
+								{
+									"name" : "Others",
+									"value" : 210.3
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 80000.1
+								},
+								{
+									"name" : "Suspense",
+									"value" : 600.5
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 51077.8
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 9781.9
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 6245.8
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 210.9
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "Economic Services",
+									"value" : 6206
+								},
+								{
+									"name" : "General Services",
+									"value" : 4851.9
+								},
+								{
+									"name" : "Social Services",
+									"value" : 651.5
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 448.3
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 4.9
+								},
+								{
+									"name" : "Fiscal Services",
+									"value" : 0.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 13486.3
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 8347.8
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 6367.2
+								},
+								{
+									"name" : "Customs",
+									"value" : 6296
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 4432.9
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 33.7
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 64408.7
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 6485.5
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 220
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name" : "WB",
+			"state" : "West Bengal",
+			"children" : [
+				{
+					"name" : "Capital Receipts",
+					"children" : [
+						{
+							"name" : "Deposits and Advances",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 281014
+								},
+								{
+									"name" : "Deposits of Local Funds",
+									"value" : 96515
+								},
+								{
+									"name" : "Civil Deposits",
+									"value" : 45562.1
+								},
+								{
+									"name" : "Civil Advances",
+									"value" : 3420
+								}
+							]
+						},
+						{
+							"name" : "Internal Debt",
+							"children" : [
+								{
+									"name" : "Market Loans",
+									"value" : 258384
+								},
+								{
+									"name" : "WMA from RBI",
+									"value" : 200000
+								},
+								{
+									"name" : "Special Securities issued to NSSF",
+									"value" : 10000
+								},
+								{
+									"name" : "Others",
+									"value" : 8003
+								},
+								{
+									"name" : "Loans from Nat Co-op Dev Corp",
+									"value" : 250
+								},
+								{
+									"name" : "Loans from Nat Bank for Agr and Rural Dev",
+									"value" : 30
+								}
+							]
+						},
+						{
+							"name" : "Loans from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 11788.4
+								}
+							]
+						},
+						{
+							"name" : "Recovery of Loans and Advances",
+							"children" : [
+								{
+									"name" : "Power Projects",
+									"value" : 1320
+								},
+								{
+									"name" : "Government Servants",
+									"value" : 191
+								},
+								{
+									"name" : "Industries and Minerals",
+									"value" : 69
+								},
+								{
+									"name" : "Housing",
+									"value" : 16.5
+								},
+								{
+									"name" : "Co-operation",
+									"value" : 6.6
+								},
+								{
+									"name" : "Village and Small Industries",
+									"value" : 5.5
+								},
+								{
+									"name" : "Road Transport",
+									"value" : 2.4
+								},
+								{
+									"name" : "Urban Development",
+									"value" : 1.1
+								},
+								{
+									"name" : "Others",
+									"value" : 0.6
+								}
+							]
+						},
+						{
+							"name" : "Remittances",
+							"children" : [
+								{
+									"name" : "Remittances",
+									"value" : 55396.7
+								}
+							]
+						},
+						{
+							"name" : "Reserve Funds",
+							"children" : [
+								{
+									"name" : "Others",
+									"value" : 20809.9
+								},
+								{
+									"name" : "Sinking Funds",
+									"value" : 500
+								}
+							]
+						},
+						{
+							"name" : "State Provident Funds",
+							"children" : [
+								{
+									"name" : "State Provident Funds",
+									"value" : 31100
+								},
+								{
+									"name" : "Others",
+									"value" : 250
+								}
+							]
+						},
+						{
+							"name" : "Suspense and Miscellaneous",
+							"children" : [
+								{
+									"name" : "Deposits with RBI",
+									"value" : 807100
+								},
+								{
+									"name" : "Others",
+									"value" : 495143.7
+								},
+								{
+									"name" : "Cash Balance Investment Accounts",
+									"value" : 213040
+								},
+								{
+									"name" : "Suspense",
+									"value" : 7475.1
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Non-Tax Revenue",
+					"children" : [
+						{
+							"name" : "Grants from the Centre",
+							"children" : [
+								{
+									"name" : "State Plan Schemes",
+									"value" : 92702.2
+								},
+								{
+									"name" : "Non-Plan Grants",
+									"value" : 64223.6
+								},
+								{
+									"name" : "Centrally Sponsored Schemes",
+									"value" : 55285.5
+								},
+								{
+									"name" : "Central Plan Schemes",
+									"value" : 3725.1
+								}
+							]
+						},
+						{
+							"name" : "Non-Tax State Revenue",
+							"children" : [
+								{
+									"name" : "General Services",
+									"value" : 6208.6
+								},
+								{
+									"name" : "Interest Receipts",
+									"value" : 4784.1
+								},
+								{
+									"name" : "Economic Services",
+									"value" : 4658.1
+								},
+								{
+									"name" : "Social Services",
+									"value" : 1897.2
+								},
+								{
+									"name" : "Dividends and Profits",
+									"value" : 14
+								}
+							]
+						}
+					]
+				},
+				{
+					"name" : "Tax Revenue",
+					"children" : [
+						{
+							"name" : "Share in Central Taxes",
+							"children" : [
+								{
+									"name" : "Corporation Tax",
+									"value" : 87468.2
+								},
+								{
+									"name" : "Income Tax",
+									"value" : 54141.4
+								},
+								{
+									"name" : "Service Tax",
+									"value" : 41286
+								},
+								{
+									"name" : "Customs",
+									"value" : 40833.8
+								},
+								{
+									"name" : "Union Excise Duties",
+									"value" : 28750.2
+								},
+								{
+									"name" : "Taxes on Wealth",
+									"value" : 218.6
+								}
+							]
+						},
+						{
+							"name" : "State Tax Revenue",
+							"children" : [
+								{
+									"name" : "Commodities and Services Taxes",
+									"value" : 308124.8
+								},
+								{
+									"name" : "Property and Capital Transaction Taxes",
+									"value" : 84428.6
+								},
+								{
+									"name" : "Income Taxes",
+									"value" : 5282.9
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

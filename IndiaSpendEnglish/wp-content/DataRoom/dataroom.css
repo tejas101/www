@@ -1,0 +1,451 @@
+/* warnings for old browsers */
+
+/* Added Code 
+
+
+.mainnav li a:hover {
+color: #cd1713 !important;
+text-decoration: none;
+position: relative;
+}
+
+.mainnav li a {
+color: #F4EFEF !important;
+text-decoration: none;
+position: relative;
+}
+
+.mainnav li a:hover {
+color: #cd1713 !important;
+text-decoration: none;
+position: relative;
+}
+
+*/
+#menu-item-390 > a{color: #F4EFEF !important;}
+#menu-item-390 > a:hover {color: #cd1713 !important;}
+#menu-item-13265 > a{color: #cd1713 !important; }
+
+
+
+
+
+#warning_overlay {
+    display:none;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9998;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#note
+{
+    font-size: 12px;
+    margin-bottom: -41px;
+    margin-left: -625px;
+}
+
+#warning_msg {
+	height: 380px; 
+	width: 280px; 
+	margin: 50px auto; 
+	padding: 10px;
+	position: relative; 
+	z-index: 9999; 
+	background: #333;
+	overflow: auto;
+	border: 1px solid #444;
+	border-radius: 15px;
+}
+
+#warning_msg p, #warning_msg ul {
+	display: block;
+	width: 100%;
+	color: #ddd;
+	margin: 20px 0;
+}
+
+.js.svg.inlinesvg #warning_overlay, .js.svg.inlinesvg #warning_msg {
+	display: none;
+}
+
+/* data downloading blocks */
+#pop_chart, #house_map {
+	position: relative; 
+}
+
+#pop_chart { margin-top: 20px; }
+
+.pop_loading { display: none; }
+
+.js.svg.inlinesvg .pop_loading {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+}
+
+.pop_loading div {
+	width: 100px;
+	margin: 50px auto;
+}
+
+
+/* styles for dataroom description block */
+.dataroom h2 {
+	font: 20px/20px impact, "arial black", sans-serif;
+	text-transform:uppercase;
+	background-image: url(img/bg-lines.gif);
+	border-top: 1px solid #ddd;
+	padding: 6px 0 7px 5px;
+	margin-top: 30px;
+}
+
+.dataroom p {
+	width: auto;
+}
+
+.dataroom_desc {
+	float: left;
+	width: 500px;
+	padding-right: 10px;
+}
+
+.dataroom_jump {
+	float: right;
+	width: 429px;
+	padding-left: 20px;
+	border-left: 1px solid #ddd;
+}
+	.dataroom_jump p { color: #777; }
+	.dataroom_jump a { color: #cd1713; }
+
+/* general dataroom styles */
+.data_notes {
+	font: normal bold 12px/16px arial, helvetica, tahoma, sans-serif !important;
+	color: #cd1713;
+	padding-left: 10px;
+}
+
+/* data description flyouts */
+#pop_data_notes, #rev_data_notes, #exp_data_notes, #map_data_notes { display: none; }
+
+.notes_pointer {
+	width: 70%;
+	margin-left: 30%;
+	height: 6px;
+	background: url(img/notes-pointer.png) no-repeat right top;
+}
+
+#map_data_notes .notes_pointer { background-position: 66% top; }
+
+.data_desc {
+	font: normal 14px/18px arial, helvetica, tahoma, sans-serif !important;
+	width: 70%;
+	margin-left: 30%;
+	background-color: #F7F7F7;
+	border-top: 1px solid #DDDDDD;
+	text-align: right;
+}
+
+.some_padding { padding: 15px; } /* needed so jquery toggle works, floating divs break it */
+
+/* styles for population data chart */
+#controls_pop_chart {
+	text-align: right;
+}
+
+#controls_pop_chart h3 {
+	font: bold 18px/19px 'palatino linotype', 'book antiqua', palatino, times, serif;
+	letter-spacing:-1px;
+	margin-bottom: 0;
+}
+
+#controls_pop_chart ul {
+	font: normal 12px/16px arial, helvetica, tahoma, sans-serif !important;
+	margin: 0;
+	padding: 0;
+}
+
+#controls_pop_chart ul li {
+	list-style-type: none;
+	float: right;
+	margin-left: 15px;
+	margin-bottom: 0;
+	color: #999;
+	font-size: 14px;
+	line-height: 2em;
+}
+
+#controls_pop_chart ul label {
+	font-size: 11px;
+	cursor: default;
+}
+
+#controls_pop_chart input {
+	cursor: pointer;
+}
+
+svg .pop_container rect {
+	shape-rendering: crispEdges;
+}
+
+/* axis and labeling */
+svg .axis text,
+svg text.axis {
+	font-family: arial, helvetica, tahoma, sans-serif;
+	font-size: 11px;
+	fill: #999;
+}
+
+svg .axis.y text {
+	text-anchor: right;
+	alignment-baseline: auto;
+}
+
+svg text.axis {
+	text-anchor: middle;
+}
+
+svg .axis path,
+svg .axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+/* tooltips */
+.show_data {
+	border: 1px solid #DDD;
+	background-image: url(img/bg-lines.gif);
+	padding: 5px;
+	width: 270px;
+	position: fixed;
+	opacity: 0;
+	box-shadow: 1px 1px 1px #999;
+	z-index: 1999;
+}
+
+.show_data h5 {
+	margin: 0px 3px 7px 0px;
+	font: bold 14px/16px 'palatino linotype', 'book antiqua', palatino, times, serif;
+}
+
+h5.map_data { margin-bottom: 3px; }
+
+.show_data p {
+	font-size: 13px;
+	line-height: 17px;
+}
+
+.show_data span { 
+	color: #CD1713;
+	font-style:  normal !important;
+	font-weight: bold;
+}
+
+.show_data hr {
+	width: 260px;
+	text-align: left;
+	margin: 10px 0;
+	padding: 0;
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0,0,0,0.1);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+/* /////////////////////////// revenue and expenditure treemaps \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#label_rev_tree, #label_exp_tree {
+	text-align: right;
+}
+
+#label_rev_tree h3, #label_exp_tree h3 {
+	font: bold 18px/19px 'palatino linotype', 'book antiqua', palatino, times, serif;
+	letter-spacing:-1px;
+	margin-bottom: 10px;
+}
+
+#rev_tree, #exp_tree {
+  width: 960px;
+  height: 500px;
+  margin-bottom: 20px;
+  background: #ddd;
+}
+
+#rev_tree text, #exp_tree text {
+  pointer-events: none;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; 
+  font-size: 9px;
+}
+
+#rev_tree .grandparent text, #exp_tree .grandparent text {
+  fill: #fff;
+  font-size: 12px;
+}
+
+#rev_tree rect, #exp_tree rect {
+  fill: none;
+  stroke: #fff;
+}
+
+#rev_tree rect.parent, #exp_tree rect.parent,
+#rev_tree .grandparent rect, #exp_tree .grandparent rect {
+  stroke-width: 2px;
+}
+
+#rev_tree .grandparent rect, #exp_tree .grandparent rect {
+  fill: #CD1713;
+}
+
+#rev_tree .grandparent:hover rect, #exp_tree .grandparent:hover rect {
+  fill: #444;
+}
+
+#rev_tree .children rect.parent,
+#rev_tree .grandparent rect,
+#exp_tree .children rect.parent,
+#exp_tree .grandparent rect {
+  cursor: pointer;
+}
+
+#rev_tree .children rect.parent, #exp_tree .children rect.parent {
+  fill: #ccc;
+  fill-opacity: .5;
+}
+
+#rev_tree .children:hover rect.child, #exp_tree .children:hover rect.child {
+  fill: black;
+}
+
+
+
+
+/* /////////////////////////// health, education, household assets \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#house_map {
+	width: 595px;
+	margin: 0 20px 0 5px;
+	padding: 0;
+	float: left;
+	position: relative;
+}
+
+/* add margin to data downloads table so the data notes div fits properly */
+h2#download_jump { margin-top: 50px; }
+
+#controls_house_chart {
+	width: 329px;
+	padding-left: 10px;
+	float: right;
+	border-left: 1px dotted #ddd;
+}
+
+#controls_house_chart h3 {
+	font: 18px/19px impact, "arial black", sans-serif;
+	text-transform:uppercase;
+	background-image: url(img/bg-lines.gif);
+	padding: 6px 0 7px 5px;
+	margin-top: 30px;
+}
+
+#controls_house_chart h3:first-child { margin-top: 0; }
+
+#controls_house_chart ul { padding-left: 0; }
+
+#controls_house_chart li {
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+#house_map svg path { stroke: #ddd; stroke-width: 1; }
+
+#map_legend { width: 260px; position: absolute; top: 80px; right: 40px; }
+
+#map_legend h4 { font-size: 10px; font-weight: bold; margin: 0; padding: 0; }
+
+#map_legend ul { margin: 5px 0; padding: 0; }
+
+#map_legend .qbox { 
+	border-top-width: 5px;
+    border-top-style: solid;
+    width: 45px;
+    margin-right: 2px;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    font: normal 11px/12px arial, helvetica, tahoma, sans-serif !important;
+}
+
+/* spreadsheet list table */
+#datasets_list {
+	width: 100%;
+	max-width: 960px;
+	margin-bottom: 50px;
+}
+
+#datasets_list thead {
+	background-color: #ddd;
+	font: bold small-caps 16px/19px 'palatino linotype', 'book antiqua', palatino, times, serif !important;
+}
+
+#datasets_list tfoot {
+	background-image: url(img/bg-lines.gif);
+	font: bold 16px/19px 'palatino linotype', 'book antiqua', palatino, times, serif !important;
+}
+
+#datasets_list tfoot td { border-bottom: 1px solid #dddddd; }
+
+#datasets_list td:last-child, #datasets_list th:last-child { text-align: right; }
+
+#datasets_list tfoot td:last-child { font-weight: bold; }
+
+#datasets_list th {	padding: 5px; }
+
+#datasets_list td {	vertical-align: top; padding: 5px; }
+
+#datasets_list tbody tr:nth-child(even) {
+	background-color: #eee;
+}
+
+#datasets_list td:first-child {	width: 30%; font-weight: bold; }
+#datasets_list td:nth-child(2) { width: 30%; }
+#datasets_list td:nth-child(3) { width: 30%; }
+
+.btn {
+  display: inline-block;
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff !important;
+  font-size: 12px;
+  padding: 4px;
+  margin: 2px;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background: #006AFA;
+}
+
+.btn-blue:hover {
+  background: #1E7AFA;
+  text-decoration: none;
+}
+
+.btn-red {
+  background: #CD1713;
+ }
+
+.btn-red:hover {
+  background: #CC403D;
+  text-decoration: none;
+}
