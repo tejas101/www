@@ -1,0 +1,59 @@
+.loading {
+    display: none;
+}
+.accordion {
+    border: 1px solid #ccc;
+    width:  50%;
+}
+
+.accordion li h5 a {
+  background: #B4B4B4;
+  background: #B4B4B4 -webkit-gradient(linear, left top, left bottom, from(#999), to(#666)) no-repeat;
+  background: #B4B4B4  -moz-linear-gradient(top,  #999,  #666) no-repeat;
+  /*border-bottom: 1px solid #333;*/
+  /*border-top: 1px solid #ccc;*/
+  border:1px solid #ccc;
+  color: #3A3B41;
+  display:  block;
+  font-style: normal;
+  margin: 0;
+  /*padding: 5px 10px;*/
+  padding: 5px 2px 5px 28px;
+  background-image: url(../images/plus_icon.png);
+  background-repeat: no-repeat;
+  background-position:1px 3px;
+  /*text-shadow: 0 -1px 2px #333, #ccc 0 1px 2px;*/
+}
+
+.accordion li.active h5 a {
+    background: #749DC5;
+    background: #749DC5 -webkit-gradient(linear, left top, left bottom, from(#69c), to(#369)) no-repeat;
+    background: #749DC5 -moz-linear-gradient(top,  #69c,  #369) no-repeat;
+    border-bottom: 1px solid #036;
+    border-top: 1px solid #9cf;
+    background-image: url(../images/minus_icon.png);
+    background-repeat: no-repeat;
+    background-position:1px 3px;
+     color: #fff;
+    /*text-shadow: 0 -1px 2px #036, #9cf 0 1px 2px;*/
+}
+.accordion li.locked h5 a {
+    background: #963;
+    background: #963 -webkit-gradient(linear, left top, left bottom, from(#c96), to(#963)) no-repeat;
+    background: #963 -moz-linear-gradient(top,  #c96,  #963) no-repeat;
+    border-bottom: 1px solid #630;
+    border-top: 1px solid #fc9;
+    /*text-shadow: 0 -1px 2px #630, #fc9 0 1px 2px;*/
+}
+.accordion li h5{
+    margin: 0;
+    padding: 0;
+}
+.accordion .panel {
+    /*padding: 10px;*/
+    padding:0px 5px 10px 5px;
+    /*height: auto;*/
+    /*min-height:100px;*/
+    max-height:200px;
+    overflow-y:scroll;
+}
