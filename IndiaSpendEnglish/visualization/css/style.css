@@ -1,0 +1,269 @@
+ /*
+table{
+  height: 100%;
+  border:groove;
+  border-width: medium;
+  overflow: scroll;
+}
+
+th {
+      font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+      sans-serif;
+      color: #000;
+      border-right: 1px solid #C1DAD7;
+      border-bottom: 1px solid #C1DAD7;
+      border-top: 1px solid #C1DAD7;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-align: left;
+      padding: 6px 6px 6px 12px;
+      background: #808080 url(images/bg_header.jpg) no-repeat;
+      background: #C0C0C0;
+}
+
+td {
+        border-right: 1px solid #C1DAD7;
+        border-bottom: 1px solid #C1DAD7;
+        background: #fff;
+        padding: 6px 6px 6px 12px;
+        color: #000000;
+}
+
+*/
+.container{
+  width: 1080px;
+}
+
+h3{
+  color:#c0504d;
+}
+
+input#search_metric{
+  margin-bottom: 0px;
+}
+
+#clear_chk_metrics{
+  margin-left: 20px;margin-bottom: 0px;
+}
+
+#deselect_all_metrics{margin-top:15px;margin-left: 40px;}
+#summary_table{
+/*  overflow: auto;
+  height:680px;
+  width:auto;*/
+
+  /*overflow-y: hidden;*/
+  /*width: 800px;*/
+  /*width: 1000px;*/
+  /*margin-left: -7em;*/
+}
+
+/*
+#summary_table table{
+  border-collapse: separate;
+  border-spacing: 0.1em;
+  border-color: #fff;
+  width:auto;
+}
+
+#summary_table tbody{
+  overflow: auto;
+  height:450px;
+}
+
+*/
+
+div.inner{
+  color:#0D737C;
+  font-size: 1.2em;
+}
+
+#map_container{
+  margin-left: 10em;
+}
+
+/* ========================= Map Side summary table ==============================*/
+.state_summary{display: table-row;}
+
+/*.state_summary table,td,th{*/
+/*  white-space: normal;*/
+/*}*/
+
+/*.state_summary tr{*/
+/*  display: table-row;*/
+/*  max-height: 60px;*/
+/*}*/
+
+.state_summary table tr td{
+  border-bottom:1px solid #ccc;
+  padding-left:10px;
+  border-right: 1px solid #808080;
+  /*border-bottom: outset;*/
+}
+
+.reference_link{margin-top:10px;}
+
+.mapside_table {
+  /*width:500px;*/
+  width:100%;
+  height:auto;
+}
+
+.mapside_table th{
+  border:1px solid #808080;
+  /*border-right:1px solid #808080;*/
+  /*background-color: #ccc;*/
+  padding: 4px;
+}
+
+.mapside_table tbody tr td{
+white-space: normal;
+}
+
+.state_header{background-color: #afb1ba;color:#4d4f5a;}
+
+.metrics_header{color:#5B5B5C;font-size:16px;opacity: 20;}
+/* ========================= Master Metrics Drop down =======================*/
+.master_dropdown{
+  height:auto;
+  margin-top:5px;
+  /*position: absolute;*/
+  /*overflow-y:scroll;*/
+}
+
+.master_dropdown li{
+  list-style-type:none;
+}
+
+.visual_button{
+  /*margin-left: 20px;*/
+}
+
+.btn-custom {
+  background-color: hsl(214, 37%, 28%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a99c1", endColorstr="#2c4361");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#7a99c1), to(#2c4361));
+  background-image: -moz-linear-gradient(top, #7a99c1, #2c4361);
+  background-image: -ms-linear-gradient(top, #7a99c1, #2c4361);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7a99c1), color-stop(100%, #2c4361));
+  background-image: -webkit-linear-gradient(top, #7a99c1, #2c4361);
+  background-image: -o-linear-gradient(top, #7a99c1, #2c4361);
+  background-image: linear-gradient(#7a99c1, #2c4361);
+  border-color: #2c4361 #2c4361 hsl(214, 37%, 19.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.56);
+  -webkit-font-smoothing: antialiased;
+  -moz-border-radius: 6px;
+border-radius: 6px;
+}
+
+#state_click_legend{
+  border:2px groove #eee;
+  width:270px;
+  height:120px;
+  text-align: center;
+  margin-top: 2em;
+  padding-top:80px;
+}
+
+#display_error{
+  margin-top:18px;
+}
+
+
+div#sideBar {
+        position:fixed;
+	width:230px;
+	padding:0px;
+        margin-top:239px;
+	margin-left:0px;
+	float:left;
+}
+.clear {
+	clear:both;
+}
+div#visual_button {
+        /*position: relative;*/
+        z-index: 1;
+	/*padding:0px;*/
+	/*margin:0px 0;       */
+	/*width:240px;*/
+        z-index: 1;
+        padding: 8px;
+        margin: 0px 0;
+        background: #D8D8D8;
+        width: 230px;
+        /*height: 180px;*/
+        border: 2px solid #9C9A9A;
+        border-radius: 8px;
+}
+.wrapper-sticky{margin:0;}
+.stick {
+	position:fixed;
+	top:0px;
+}
+
+.sort_neutral{
+  background: url("images/sort_neutral_silver.png") no-repeat bottom right;
+}
+
+.sort_ascending{
+  background: url("images/sort_up_red.png") no-repeat bottom right;
+}
+
+.sort_desending{
+  background: url("images/sort_down_red.png") no-repeat bottom right;
+}
+
+.state_sort_asc{
+  background: url("images/sort_ascend.png") no-repeat bottom right;
+}
+
+.state_sort_des{
+  background: url("images/sort_descend.png") no-repeat bottom right;
+}
+
+.deactive_menu {
+  background: #B4B4B4;
+  background: #B4B4B4 -webkit-gradient(linear, left top, left bottom, from(#999), to(#666)) no-repeat;
+  background: #B4B4B4  -moz-linear-gradient(top,  #999,  #666) no-repeat;
+  /*border-bottom: 1px solid #333;*/
+  /*border-top: 1px solid #ccc;*/
+  border:1px solid #ccc;
+  color: #3A3B41;
+  display:  block;
+  font-style: normal;
+  margin: 0;
+  /*padding: 5px 10px;*/
+  padding: 5px 2px 5px 28px;
+  background-image: url(./images/plus_icon.png);
+  background-repeat: no-repeat;
+  background-position:1px 3px;
+  border-radius:5px;
+
+  /*text-shadow: 0 -1px 2px #333, #ccc 0 1px 2px;*/
+}
+
+.active_menu {
+    background: #749DC5;
+    background: #749DC5 -webkit-gradient(linear, left top, left bottom, from(#69c), to(#369)) no-repeat;
+    background: #749DC5 -moz-linear-gradient(top,  #69c,  #369) no-repeat;
+    border-radius:5px;
+    border-bottom: 1px solid #036;
+    border-top: 1px solid #9cf;
+    background-image: url(./images/minus_icon.png);
+    background-repeat: no-repeat;
+    background-position:1px 3px;
+    padding: 5px 2px 5px 28px;
+    color: #fff;
+    /*text-shadow: 0 -1px 2px #036, #9cf 0 1px 2px;*/
+}
+.summary_tbl_headers{
+  width:100px;
+  height:58px;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow:ellipsis;
+  white-space: normal;
+}

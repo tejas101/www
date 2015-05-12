@@ -1,0 +1,58 @@
+#summary_container { /*margin: 10px;*/ overflow: hidden;margin-top:-0.5em; }
+
+/*table{ background-color:#ddd; }*/
+table, td, th
+{
+  /*white-space: nowrap;*/
+  /*overflow: hidden;*/
+/*border:1px solid green;*/
+}
+
+table, td, th{ /*white-space: nowrap;*/}
+.relativeContainer tr{display:block;max-height: 30px;}
+/*tr{display:block;max-height: 30px;}*/
+
+.relativeContainer { position: relative; width: 100%; height:570px;/*height: 680px;*/ overflow: hidden; border: 0px solid #000; }
+
+/*td { background-color: white; padding: 2px; }*/
+
+.fixedTB {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  /*z-index: 11;*/
+  width:250px;
+  height:70px; /* Change the .leftContainer top: position if this is changed */
+  border:1px solid #000;
+}
+
+/*table {
+    table-layout:fixed;
+}*/
+
+.leftContainer { position: absolute; left: 0px; top: 74px; width: 252px; height: 470px; overflow: hidden; }
+
+.leftSBWrapper { position: relative; left: 0px; top: 0px;display: block; }
+.leftSBWrapper table td{white-space: nowrap;}
+/* Right container header and visual representation */
+/* left attr value should be the width of leftContainer */
+.rightContainer { position: absolute; left: 251px; top: 0px; width: 800px;overflow: hidden;}
+
+
+.topSBWrapper { position: relative; /*width: 585px;*/width: auto; height: 72px; left: 0px; top: 0px; z-index: 10;border: 0px solid #000; /*background-color:#ddd;*/padding:0px;}
+.topSBWrapper table tr td{ /*border:1px solid #000;*//*background-color:#808080*//*;color:#fff;*/ }
+.topSBWrapper table{background-color:#D8D8D8;border: 1px solid #000;}
+
+.SBWrapper { /*width: 603px;width: 622px;*/ height: 470px; overflow: auto; border-left:0px solid #000;margin-top:2px;}
+
+/*tr.table_header td { background:#ccc;width: 25px;text-overflow: ellipsis;}*/
+.leftSBWrapper table tr{border-right: 0px solid black;}
+.leftSBWrapper table tr:nth-child(even) {
+    background-color: #dedddc;
+    /*color:#000;*/
+}
+
+.SBWrapper table tr:nth-child(even) {
+    background-color: #dedddc;
+    color:#000;
+}
