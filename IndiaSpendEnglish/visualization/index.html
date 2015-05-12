@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+
+<head>
+  <title>India Spend</title>
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=9" />-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="aight.min.js"></script>
+  <![endif]-->
+
+  <link href="./css/base.css" rel="stylesheet" />
+  <link href="./css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./css/ajax_loader.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet" />
+  <style>
+    .tooltip-inner{
+            /*background-color: #335;*/
+            /*background-color:#737475;*/
+            background-color:#5d5e5f;
+            cursor: pointer;
+    }
+    .tooltip-arrow {border-bottom-color: #f00;}
+    .tooltip.in {
+            opacity: 0.9;
+            filter: alpha(opacity=90);
+    }
+    #sparklines svg g path {
+        stroke-width: 2;
+        fill: none;
+    }
+    .alert {
+      padding: 8px 5px 8px 8px;
+    }
+
+    path.wind { stroke: steelblue;fill: none; }
+    path.power { stroke: steelblue; }
+
+    .heading {
+    margin: 1px;
+    color: #fff;
+    padding: 3px 10px;
+    cursor: pointer;
+    position: relative;
+    background-color:#c30;
+    }
+
+    text{
+      text-justify: inter-word;
+      height:50px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Insert your content here -->
+  <div class="header">
+    <div class="container">
+      <!--<a href="index.html">-->
+      <!--    <img src="india-treemap/img/home.jpg" style="width:50px; height:40px">-->
+      <!--</a>-->
+      <h1>India Spend</h1>
+      <div class="gramenerlogo" style="float:right"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="map_dashboard">
+      <div class="row-fluid">
+        <!-- ***********  MAP Metrics Dropdown container ****************** -->
+        <div class="span6">
+          <!--<div id="myCollapsibleExample"><a href="#menu_container" data-toggle="collapse">Click me to expand.</a></div>-->
+          <a href="javascript:;" onmousedown="toggleDiv('menu_container');"><spa><h5 class="active_menu" id="master_metrics_menu">Fact Check States</h5></spa></a>
+
+          <div  id="menu_container" style="padding-bottom: 10px;position:relative;">
+            <div class="controls_wrapper" style="height:262px;background-color: #fff;">
+              <!--<h3>Master metrics List</h3>-->
+              <div class="visual_button" id="visual_button">
+                <p style="margin-top:2px;font-size:12px;font-style: oblique;">* Change Year to refresh Master metric list.</p>
+                <h4 class="select_year" style="margin-top: -1em;">Select Year : <span id="year_dropdown" style="width:150px"></span></h4>
+              </div>
+              <div class="search_box"> </div>
+            </div>
+            <div class="master_dropdown" id="global-nav"> </div>
+          </div>
+
+          <a href="javascript:;" onmousedown="toggleDiv('map_side_table');"><spa><h5 class="active_menu" id="state_summary_menu">State Summary</h5></spa></a>
+          <div class="state_summary" id="map_side_table"> </div>
+          <div id="sparklines"> </div>
+        </div>
+
+
+        <div class="span6">
+          <div id="display_error"> </div>
+          <!--<div id="map_header"><h3>  </h3></div>-->
+          <div id="map_header" style="float: right;"><h3 style="margin:0px;">  </h3></div>
+          <div class="color_metrics" id="map_color_metrics">
+
+          </div>
+
+          <div id="color_legend" style="position:absolute;font-size:12px;margin-left:27em;margin-top:2em;">
+          </div>
+          <div id="india_map_container"><!--<h3>India Map</h3>--></div>
+        </div>
+      </div><!-- End of row-fluid class -->
+    </div><!-- End of class map_dashboard -->
+    <br/>
+    <div class="table_dashboard">
+      <div class="row-fluid">
+        <!-- ***********  Metrics Dropdown container ****************** -->
+        <!--<div class="span3">-->
+
+          <!-- Uncomment this area if needed ============================ -->
+          <!--<div class="controls_wrapper" style="height:302px;background-color: #fff;">-->
+          <!--  <h3>Master metrics List</h3>-->
+          <!--  <div class="visual_button" id="visual_button">-->
+          <!--    <p style="margin-top:2px;font-size:12px;font-style: oblique;">* Change Year to refresh Master metric list.</p>-->
+          <!--    <h4 class="select_year" style="margin-top: -1em;">Select Year : <span id="year_dropdown" style="width:150px"></span></h4>-->
+          <!--  </div>-->
+          <!--  <div class="search_box"> </div>-->
+          <!--</div>-->
+          <!--<div class="master_dropdown" id="global-nav"> </div>-->
+          <!-- ==============================================================>
+
+         <div id="sideBar">
+              <div id="visual_button" class="visual_button"> </div>
+          </div>-->
+
+        <!--</div>-->
+        <!-- ***********  Summary table container ****************** -->
+
+        <div class="span12">
+          <h4>
+            Search State:<span><input type="search" id="search"></span>
+            <span class="default_button"></span>
+            <span id="color_legend_top" style="float: right;font-size:12px;padding-right:30px;" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="180.0000" height="20.0000">
+                <defs>
+                  <linearGradient id="gradient_legend_a916980f-36a2-437e-bb68-9f6e888c5454">
+                    <stop offset="0.0%" stop-color="#ff0000"></stop>
+                    <stop offset="50.0%" stop-color="#ffff00"></stop>
+                    <stop offset="100.0%" stop-color="#00ff00"></stop>
+                  </linearGradient>
+                </defs>
+                <rect fill="url(#gradient_legend_a916980f-36a2-437e-bb68-9f6e888c5454)" x="0" y="0" width="180" height="20"></rect>
+              <text x="5" y="10.0" dominant-baseline="middle" fill="#000">Unfavourable</text>
+              <text x="75.0" y="10.0" text-anchor="middle" dominant-baseline="middle" fill="#000"> </text>
+              <text x="175" y="10.0" text-anchor="end" dominant-baseline="middle" fill="#fff">Favourable</text>
+              </svg>
+            </span>
+          </h4>
+
+
+          <div id="summary_table"> </div>
+          <div class="reference_link">
+            <a href="./data/Sources_for_data.csv" class="btn btn-danger"><i class="icon-white icon-download-alt"></i> Data Source Links</a>
+            <a href="./data/Static data transformed.csv" class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Static Data</a>
+            <a href="./data/TOTAL INCOME FOR ALL STATES NEW.csv" class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Income Data</a>
+            <a href="./data/TOTAL EXPENDITURE ALL STATES.csv" class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Expenditure Data</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="ajax_loading"><div></div></div>
+  <br/>
+  <br/>
+  <div id="footer">
+
+  </div>
+  <!--<script src="js/jquery-1.9.1.min.js"></script>-->
+  <!-- ******************************** MENU LIST *********************************-->
+  <script src="js/Core_libraries/jquery-1.4.2.min.js"></script>
+  <!--<script src="js/Core_libraries/jquery-1.9.1.min.js"></script>-->
+  <!--<script>$('.ajax_loading').show();</script>-->
+  <script type="text/javascript" src="js/menu/jquery.accordion.2.0.js" charset="utf-8"></script>
+  <!--<script src="js/Core_libraries/jquery-1.9.1.min.js"></script>-->
+  <!--<script>var jq191 = jQuery.noConflict();</script>-->
+
+  <!-- ******************************************** PROGRAM LOGIC **************************************-->
+  <script src="js/Core_libraries/jquery-2.0.3.js"></script>
+  <script src="js/sticky/jquery.hcsticky-min.js"></script>
+  <script>var jq203 = jQuery.noConflict();</script>
+  <script src="js/Core_libraries/bootstrap-tooltip.js"></script>
+    <!-- ******************************** PROGRAM LOGIC *********************************-->
+      <!-- script area  -->
+  <script src="js/Core_libraries/d3.v3.min.js" charset="utf-8"></script>
+  <script src="js/Core_libraries/queue.v1.min.js"></script>
+  <script src="js/Core_libraries/underscore-min.js"></script>
+
+  <script src="js/load_dynamic_files.js"></script>
+  <script src="js/construct_master_dropdown.js"></script>
+  <script src="js/construct_summary_table.js"></script>
+  <!--<script> $('.ajax_loading').hide();</script>-->
+  <!-- ******************************************** Scrolling Table ************************************-->
+<!--  <script src="js/Table_scroll/jquery-ui-1.8.16.custom.min.js"></script>
+  <script src="js/Table_scroll/jquery.ui.tinytbl.js"></script>-->
+
+  <!--<script src="js/Core_libraries/fixed_table_rc.js"></script>-->
+  <!--<script src="js/Fixed-Header-Table-master/jquery.fixedheadertable.min.js"></script>-->
+  <!--<script type="text/javascript" src="js/menu_logic.js" charset="utf-8"></script>-->
+  <script>
+  function toggleDiv(divid){
+      //alert(divid);
+      if(document.getElementById(divid).style.display == 'none'){
+        if (divid == "menu_container") {
+          //alert('helllo')
+          document.getElementById(divid).style.display = 'block';
+          document.getElementById("map_side_table").style.display = 'none';
+          jq203('#state_summary_menu').removeClass().addClass('deactive_menu');
+          jq203('#master_metrics_menu').removeClass().addClass('active_menu');
+        }
+        if (divid == "map_side_table") {
+          document.getElementById(divid).style.display = 'block';
+          document.getElementById("menu_container").style.display = 'none';
+          jq203('#master_metrics_menu').removeClass().addClass('deactive_menu');
+          jq203('#state_summary_menu').removeClass().addClass('active_menu');
+        }
+      }else{
+        document.getElementById(divid).style.display = 'none';
+        if (divid == "menu_container") {
+          jq203('#master_metrics_menu').removeClass().addClass('deactive_menu');
+        }
+        if (divid == "map_side_table") {
+          jq203('#state_summary_menu').removeClass().addClass('deactive_menu');
+        }
+      }
+      jq203("body").scroll();
+  }
+
+    $(document).ready(function(){
+        jq203("#map_color_metrics").on('change',".mapside_table tbody tr td",function(event){
+          jq203(".mapside_table tbody tr td").css('border',"2px solid red")
+
+         })
+        var word;
+
+        jq203("#search").on("keyup",function(event){
+            if(event.keyCode == 13){
+              event.preventDefault();
+              word = this.value.toLowerCase();
+            } else {
+              word = this.value.toLowerCase();
+            }
+          var word_array = Object();
+          //var word_index = Object();
+          jq203("#summary_container div .leftContainer div table tr").each(function(){
+            var word = jq203(this).children('td').text().toLowerCase();
+            var index = jq203("#summary_container div .leftContainer div table tr").index(this);
+            word_array[word] = index;
+            //word_index[index] = 1;
+          });
+          //console.log(word_array);
+          jq203("#summary_container div .leftContainer div table tr").each(function(index){
+              var text = jq203(this).children("td").text().toLowerCase();
+              if(text.indexOf(word) == -1){
+                var word_index = word_array[text];
+                jq203(this).hide();
+                jq203("#summary_container div .rightContainer .SBWrapper table tr").each(function(){
+                  var rowindex = jq203("#summary_container div .rightContainer .SBWrapper table tr").index(this);
+                  if (word_index == rowindex){
+                    jq203(this).hide();
+                  }
+                });
+
+              } else {
+                var word_index = word_array[text];
+                //console.log("word: "+word_index);
+                jq203(this).show();
+                jq203("#summary_container div .rightContainer .SBWrapper table tr").each(function(){
+                  var rowindex = jq203("#summary_container div .rightContainer .SBWrapper table tr").index(this);
+                  //console.log("row: "+rowindex);
+                  if (word_index == rowindex){
+                    jq203(this).show();
+                  }
+                });
+              }
+          });
+        });
+
+//=========================================================== SUSHMIT code to sort functionality
+        function sortTable(column,asc,states){
+          column = typeof column !== 'undefined' ? column : 0;
+          asc = typeof asc !== 'undefined' ? asc : true;
+          //var tbl = document.getElementById("myTable").tBodies[0];
+          var tbl = document.querySelectorAll("#summary_container div .rightContainer .SBWrapper table")[0];
+          //console.log(tbl);
+          var statetbl = document.querySelectorAll("#summary_container div .leftContainer div table")[0];
+          var store = [];
+          if (!states){
+            for(var i=0, len=tbl.rows.length; i<len; i++){
+              var row = tbl.rows[i];
+              //console.log(row);
+              var state = statetbl.rows[i];
+              var sortnr = parseFloat(row.cells[column].textContent || row.cells[column].innerText);
+              //console.log(row.cells[column].textContent);
+              if(!isNaN(sortnr)){
+                store.push([sortnr, row, state]);
+              } else {
+                store.push([-10000000, row, state])
+              }
+            }
+           // console.log(store)
+
+            store.sort(function(x,y){
+              if (asc){
+                //console.log(x[0],y[0]);
+                return x[0] - y[0];
+              } else {
+                return y[0] - x[0];
+              }
+            });
+
+          } else {
+
+            for(var i=0, len=tbl.rows.length; i<len; i++){
+              var row = tbl.rows[i];
+              var state = statetbl.rows[i];
+              var sortnr = state.textContent || state.innerText;
+              store.push([sortnr, row, state]);
+            }
+
+            store.sort();
+            if(!asc) store.reverse();
+
+          }
+
+          //store.sort();
+          //if(!asc) store.reverse();
+
+          for(var i=0, len=store.length; i<len; i++){
+              tbl.appendChild(store[i][1]);
+              statetbl.appendChild(store[i][2]);
+          }
+          store = null;
+        }
+        //=================================== END of sorting functionality
+
+        var asc = true;
+        //==============================================================================================================
+        // Changing the Icon of the table header based upon the sort.
+        //==============================================================================================================
+        var state_click_count = 0;
+        var click_count = 0;
+        var clicked_td = [];
+        jq203("#summary_table").on('click',".table_header td, .fixedTB table tr td",function(event){
+          var text = jq203(this).text();
+          //console.log(text);
+          if (text != "State"){
+            state_click_count = state_click_count + 1;
+            jq203(jq203('td[id="State"]')).removeClass(jq203('td[id="State"]').attr('class')).addClass( "sort_neutral" );
+            click_count = click_count + 1;
+            if (click_count % 2 != 0) {
+              jq203(jq203(this)).removeClass(jq203(this).attr('class')).addClass( "sort_ascending" );
+              //jq203(jq203(this).children().last()).removeClass(jq203(this).children().last().attr('class')).addClass( "sort_ascending" );
+            }
+            else{
+              jq203(jq203(this)).removeClass(jq203(this).attr('class')).addClass( "sort_desending" );
+              //jq203(jq203(this).children().last()).removeClass(jq203(this).children().last().attr('class')).addClass( "sort_desending" );
+            }
+            //console.log(jq203(this).children().last().attr('class'));
+            //console.log(click_count);
+
+            if (click_count > 1) {
+               if (jq203.inArray(text, clicked_td) == -1)
+               {
+                  //console.log(clicked_td)
+                  var t = clicked_td[0];
+                  //console.log(t)
+                  //console.log(jq203('div[id="' + t + '"]').attr('class'))
+                  clicked_td.pop()
+                  jq203(jq203('td[id="' + t + '"]')).removeClass(jq203('td[id="' + t + '"]').attr('class')).addClass( "sort_neutral" );
+                  //jq203(jq203('div[id="' + t + '"]')).removeClass(jq203('div[id="' + t + '"]').attr('class')).addClass( "sort_neutral" );
+                  clicked_td.push(text);
+                  //console.log(clicked_td)
+               }
+            } else {
+              clicked_td.push(text);
+            }
+          } else {
+            //clicked_td.pop()
+            click_count = click_count + 1;
+            jq203(jq203('td[id="' + clicked_td[0] + '"]')).removeClass(jq203('td[id="' + clicked_td[0] + '"]').attr('class')).addClass( "sort_neutral" );
+            state_click_count = state_click_count + 1;
+            if (state_click_count % 2 != 0) {
+              jq203(jq203(this)).removeClass(jq203(this).attr('class')).addClass( "state_sort_asc" );
+              //jq203(jq203(this).children().last()).removeClass(jq203(this).children().last().attr('class')).addClass( "sort_ascending" );
+            } else {
+              jq203(jq203(this)).removeClass(jq203(this).attr('class')).addClass( "state_sort_des" );
+              //jq203(jq203(this).children().last()).removeClass(jq203(this).children().last().attr('class')).addClass( "sort_desending" );
+            }
+            //clicked_td.push(text);
+          }
+            var states;
+            var nodeindex;
+            if (text == "State"){
+              states = true;
+              nodeindex = 0;
+            } else {
+              states = false;
+              nodeindex = jq203("#summary_table .table_header td").index(this);
+            }
+            sortTable(nodeindex,asc, states);
+            asc=!asc;
+        });
+    });
+  </script>
+</body>
+</html>
