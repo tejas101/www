@@ -1,0 +1,14 @@
+/*--Custom CSS--*/
+#tm1 { color:#fff; }
+
+#chartone text { font-size: 24px; }
+#chartone rect { fill: none; stroke: #000; }
+#charttwo text { font-size: 24px; }
+#charttwo rect { fill: none; stroke: #000; }
+.header    { background-color: #000; width: 100%; height:100px;}
+.header h2 { color:#fff; }
+#color1 { margin-left: 80px; }
+#color2 { margin-left: 100px; }
+/*#year, #year1, #year2 { width: 69px; display: inline; }*/
+/*#category { width: 170px; }
+#category-second { width: 200px; }*/

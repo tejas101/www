@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>India Spend Treemap</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <script src="js/d3.min.js"></script>
+  <script src="js/underscore-min.js"></script>
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/fit.js"></script>
+  <script src="js/bootstrap-tooltip.js"></script>
+  <style type="text/css">
+    #tm1 , #tm2 { color:#fff;}
+  </style>
+</head><body>
+ <div class="header">
+    <div class="container">
+      <br/>
+      <a href="../index.html">
+          <img src="img/home.jpg" style="width:50px; height:40px;">
+      </a>
+      <img src="../Thumbnails/India_Spend_Logo.png" style="width:150px; height:50px; background:#fff" class="pull-right">
+    </div>
+  </div>
+ <!--  header section end -->
+<br/>
+</script>
+
+<div class="container">
+  <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <p class="brand" id="tm1">Two Level Treemap With Category Split</p>
+        <form class="navbar-form pull-right">
+          <input type="text" id="search1" class="search-query pull-right" placeholder="Search State:">
+        </form>
+      </div>
+  </div>
+  <div class="alert alert-success">
+      <p>The Tree map below shows the distribution for all the states as first level based on the selected theme. Size of each box is based on relevant metric like (Income,Revenue,Expenditure,etc). Color Metric Values are represented on a RYG scale (Favorable to unfavorable). On clicking any state it splits all states boxes and shows distribution for respective categories.(Total capital receipts&Total Revenue,Tax &Non tax revenue,etc).The user can navigate back to first level by clicking on the second level. The user can search for any state using search state search box.<br/>
+        <h5 id="dp"></h5>
+        <h5 id="dptwo"></h5>
+      </p>
+    </div>
+  <!-- navigation section end -->
+  <select class="category span4" id="category">
+    <option value='0'>Income</option>
+    <option value='1'>Revenue</option>
+    <option value='2'>Total Expenditure</option>
+    <option value='3'>Modern House Holds</option>
+    <option value='4'>Water Availability</option>
+    <option value='5'>Transportation</option>
+    <option value='6'>Economy Distribution</option>
+   </select>
+   <select class="year span2" id="year">
+     <option value='0'>2011</option>
+     <option value='1'>2012</option>
+     <option value='2' selected="selected">2013</option>
+   </select>
+   <select class="year1 span2" id="year1">
+     <option value='0'>2011</option>
+   </select>
+   <!-- <input type="text" id="dp" class="span4"></input> -->
+   <span id="color1" class="label label-default"></span>
+   <!-- color legend -->
+  <div id="legend" class="pull-right"></div>
+<!-- End of color legend-->
+  <div id="main">
+    <div id="chartone"></div>
+  </div>
+</div>
+<div class="container">
+  <div class="navbar navbar-inverse" style="margin-top:25px">
+      <div class="navbar-inner">
+        <p class="brand" id="tm2">Treemap With Urban Rural Split</p>
+        <form class="navbar-form">
+          <input type="text" id="search2" class="search-query pull-right" placeholder="Search State:">
+        </form>
+      </div>
+  </div>
+    <div class="alert alert-success">
+      <p>The Tree map below shows the distribution for all the states as first level based on the selected theme. Size of each box is based on relevant metric like (No of beds,No of Females,etc ). Color Metric Values are represented on a RYG scale (Favorable to unfavorable). On clicking any state it splits all states boxes and shows distribution for Rural and urban. The user can navigate back to first level by clicking on the second level. The user can search for any state using search state  search box.<br/>
+      <h5 id="dp1"></h5>
+      <h5 id="dp1two"></h5>
+
+      </p>
+    </div>
+    <select class="span3" id="category-second">
+      <option value='0'>Poor And Unemployed</option>
+      <option value='1'>Health Care System</option>
+      <option value='2'>Population Demographics</option>
+      <option value='3'>Health Status of Female</option>
+      <option value='4'>Female Inequality</option>
+      <option value='5'>Children's Health</option>
+    </select>
+    <select class="year2 span2" id="year2">
+      <option value='0'>2011</option>
+    </select>
+    <!-- color name -->
+    <span id="color2" class="label label-default"></span>
+    <!-- Dynamic color legend -->
+    <div id="legend1" class="pull-right"></div>
+<!-- End of color legend-->
+    <div id="charttwo"></div>
+</div>
+<!-- script area of treemap -->
+<script type="text/javascript" src="story.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<!-- user option scripts -->
+<script type="text/javascript">
+  //Main Data Source
+   var datasrc = ['data/TOTAL INCOME FOR ALL STATES NEW.csv',
+                  'data/TOTAL EXPENDITURE ALL STATES .csv',
+                  'data/Static data transformed new.csv'];
+    var pluck, colorValue = [];
+    var glob;
+
+  //on load hide year dropdown
+    $('document').ready(function(){
+      $('#dp').text('Level one size is based on: Total Income');
+      $('#dptwo').text('Level two size is based on: Total Capital Receipts & Total Revenue');
+      $('#dp1').text('Level one size is based on: No of Ppl in Poverty');
+      $('#dp1two').text('Level two size is based on: Rural and Urban Population BPL');
+      //hide the year
+      $('#year').hide();
+      $('#year1').hide();
+      $('#year2').show();
+      $('#color1').text("Color: YOY Growth Rate");
+      $('#color2').text('Color: Unemployment Rate');
+
+      //default firstmap load
+      d3.csv(datasrc[0], function(dat) {
+        //Cat And Year Section
+        catyear[0] = $('#year').val();
+        catyear[1] = "Category";
+        catyear[2] = glob;
+        plotTreemap(prepareData(dat, $('#category').val()), catyear, $('#year').val());
+        $('#year').change(function(){
+           d3.select('#legend svg').remove();
+           d3.select('#chartone svg').remove();
+           plotTreemap(prepareData(dat, $('#category').val()), catyear, this.value);
+        });
+        $('#tm1').text("Income Distribution For Year 2013");
+        $('#year').show();
+      });
+
+      //default secondmap load
+      d3.csv(datasrc[2], function(dat) {
+        plotMapTwo(prepareDataTwo(dat, 0), 0, 0);
+        $('#tm2').text('BPL Distribution For Year 2011');
+      });
+    }); //end of on load
+
+//=============>global data declararion
+
+d3.csv(datasrc[0], function (data) { firstdata = data; });
+d3.csv(datasrc[1], function (data) { seconddata = data;});
+d3.csv(datasrc[2], function (data) { thirddata = data; });
+var catyear = [];
+var yearval;
+  //=============>category selection trigger First Treemap
+  $('#category').change(function(){
+    glob = this.value;
+    yearval = $('#year').val();
+    d3.select('#legend svg').remove();
+    d3.select('#chartone svg').remove();
+    $('#color1').text("Color: YOY Growth Rate");
+
+    if(this.value == 0){
+      var call = this.value;
+      $('#dp').text("Level one Size is based on: Total Income");
+      $('#dptwo').text('Level two Size is based on: Total Capital Receipts & Total Revenue');
+      $('#year').show();
+      $('#year1').hide();
+      $('#color1').text("Color: YOY Growth Rate");
+      // default Cat And Year Section
+      catyear[0] = $('#year').val();
+      catyear[1] = "Category";
+      catyear[2] = call;
+      //default title
+      if(catyear[0] == 0) {
+        //year 2011
+         $('#tm1').text("Income Distribution For Year 2011");
+      } else if(catyear[0] == 1) {
+        //year 2012
+         $('#tm1').text("Income Distribution For Year 2012");
+      } else if(catyear[0] == 2) {
+        //year 2013
+         $('#tm1').text("Income Distribution For Year 2013");
+
+      }
+      plotTreemap(prepareData(firstdata, this.value), catyear, catyear[0]);
+      $('#year').change(function(){
+        yearval = this.value;
+
+        //Cat And Year Section
+        catyear[0] = $('#year').val();
+        catyear[1] = "Category";
+        catyear[2] = call;
+        //Data=>CSV FULL
+        d3.select('#legend svg').remove();
+        d3.select('#chartone svg').remove();
+        plotTreemap(prepareData(firstdata, 0), catyear, this.value);
+
+        if(catyear[0] == 0) {
+          //year 2011
+           $('#tm1').text("Income Distribution For Year 2011");
+        } else if(catyear[0] == 1) {
+          //year 2012
+           $('#tm1').text("Income Distribution For Year 2012");
+        } else if(catyear[0] == 2) {
+          //year 2013
+           $('#tm1').text("Income Distribution For Year 2013");
+
+        }
+      });
+
+    } else if(this.value == 1) {
+      var call = this.value;
+      $('#dp').text("Level one Size is based on: Total Revenue");
+      $('#dptwo').text('Level two Size is based on: Tax Revenue & Non Tax Revenue');
+      $('#year').show();
+      $('#year1').hide();
+      $('#color1').text("Color: YOY Growth Rate");
+      //Default Cat And Year Section
+      catyear[0] = $('#year').val();
+      catyear[1] = "Sub-Category1";
+      catyear[2] = call;
+      //Default title
+      if(catyear[0] == 0) {
+        //year 2011
+         $('#tm1').text("Revenue Distribution For Year "+"2011");
+      } else if(catyear[0] == 1) {
+        //year 2012
+         $('#tm1').text("Revenue Distribution For Year "+"2012");
+      } else if(catyear[0] == 2) {
+        //year 2013
+         $('#tm1').text("Revenue Distribution For Year "+"2013");
+
+      }
+      plotTreemap(prepareData(firstdata, this.value), catyear, catyear[0]);
+
+      $('#year').change(function(){
+        //Cat And Year Section
+        catyear[0] = $('#year').val();
+        catyear[1] = "Sub-Category1";
+        catyear[2] = call;
+        d3.select('#legend svg').remove();
+        d3.select('#chartone svg').remove();
+        plotTreemap(prepareData(firstdata, 1), catyear, this.value);
+        if(catyear[0] == 0) {
+          //year 2011
+           $('#tm1').text("Revenue Distribution For Year "+"2011");
+        } else if(catyear[0] == 1) {
+          //year 2012
+           $('#tm1').text("Revenue Distribution For Year "+"2012");
+        } else if(catyear[0] == 2) {
+          //year 2013
+           $('#tm1').text("Revenue Distribution For Year "+"2013");
+
+        }
+      });
+
+    } else if(this.value == 2) {
+      var call = this.value;
+      $('#dp').text("Level one Size is based on: Total Expenditure");
+      $('#dptwo').text('Level two Size is based on: Total Capital Disbursement & Total Revenue Expenditure');
+      $('#year').show();
+      $('#year1').hide();
+      $('#color1').text("Color: YOY Growth Rate");
+      //Default Cat And Year Section
+      catyear[0] = $('#year').val();
+      catyear[1] = "Category";
+      catyear[2] = call;
+      //default title
+      if(catyear[0] == 0) {
+        //year 2011
+         $('#tm1').text("Expenditure Distribution For Year 2011");
+      } else if(catyear[0] == 1) {
+        //year 2012
+         $('#tm1').text("Expenditure Distribution For Year 2012");
+      } else if(catyear[0] == 2) {
+        //year 2013
+         $('#tm1').text("Expenditure Distribution For Year 2013");
+
+      }
+      plotTreemap(prepareData(seconddata, this.value), catyear, catyear[0]);
+      $('#year').change(function(){
+        //Cat And Year Section
+        catyear[0] = $('#year').val();
+        catyear[1] = "Category";
+        catyear[2] = call;
+        d3.select('#legend svg').remove();
+        d3.select('#chartone svg').remove();
+        plotTreemap(prepareData(seconddata, 2), catyear, this.value);
+        if(catyear[0] == 0) {
+          //year 2011
+           $('#tm1').text("Expenditure Distribution For Year 2011");
+        } else if(catyear[0] == 1) {
+          //year 2012
+           $('#tm1').text("Expenditure Distribution For Year 2012");
+        } else if(catyear[0] == 2) {
+          //year 2013
+           $('#tm1').text("Expenditure Distribution For Year 2013");
+
+        }
+      });
+
+    } else if(this.value == 3) {
+
+      $('#dp').text("Level one Size is based on: No Of Houses");
+      $('#dptwo').text('Level two Size is based on: Houses Using Kerosene, Electricity,Oil, Solar Power, Others');
+      $('#color1').text("Color: Population / House");
+      $('#year').hide();
+      $('#year1').show();
+        catyear[0] = "Total";
+        catyear[1] = "Sub-category";
+        catyear[2] = this.value;
+        d3.select('#chartone svg').remove();
+        plotTreemap(prepareData(thirddata, 3), catyear, this.value);
+        $('#tm1').text("Houses Distribution For Year 2011");
+        
+
+
+    } else if(this.value == 4) {
+      var call = this.value;
+      $('#dp').text("Level one Size is based on: No Of Houses");
+      $('#dptwo').text('Level two Size is based on: Drinking Water Within Premises, Near Premises, Away');
+      $('#color1').text("Color: Population / House");   
+      $('#year').hide();
+      $('#year1').show();
+        catyear[0] = "Total";
+        catyear[1] = "Sub-category";
+        catyear[2] = call;
+        d3.select('#chartone svg').remove();
+        plotTreemap(prepareData(thirddata, 4), catyear, this.value);
+        $('#tm1').text("Houses Distribution For Year 2011");
+
+
+    } else if(this.value == 5) {
+      var call = this.value;
+      $('#dp').text("Level one Size is based on: Total Road Covg");
+      $('#dptwo').text('Level two Size is based on: Coverage of Rural, Urban, National Highway, State Highway, PWD, Other Roads');
+      $('#color1').text("Color: Vehicles / Person");
+      $('#year').hide();
+      $('#year1').show();
+        catyear[0] = "Total";
+        catyear[1] = "Sub-category";
+        catyear[2] = call;
+        d3.select('#chartone svg').remove();
+        plotTreemap(prepareData(thirddata, 5), catyear, this.value);
+        $('#tm1').text("Road Coverage Distribution For Year 2011");
+        
+
+    } else if(this.value == 6) {
+      var call = this.value;
+      $('#dp').text("Level one Size is based on: Total GSDP");
+      $('#dptwo').text('Level two Size is based on: Agri, Service, Industry GSDP');
+      $('#color1').text("Color: Growth Rate");
+      $('#year').hide();
+      $('#year1').show();
+        catyear[0] = "Total";
+        catyear[1] = "Sub-category";
+        catyear[2] = call;
+        d3.select('#chartone svg').remove();
+        plotTreemap(prepareData(thirddata, 6), catyear, this.value);
+        $('#tm1').text("GSDP Distribution For Year 2011");
+    }
+  });
+
+  //=============>category selection trigger Second Treemap
+  $('#category-second').change(function (){
+    d3.select('#legend1 svg').remove();
+    d3.select('#charttwo svg').remove();
+    if(this.value == 0) {
+      $('#year2').show();
+      $('#dp1').text('Level one size is based on: No of Ppl in Poverty');
+      $('#dp1two').text('Level two size is based on: Rural and Urban Population BPL');
+      $('#color2').text("Color: Unemployment Rate");
+      //plot first map
+      plotMapTwo(prepareDataTwo(thirddata, this.value), 0, this.value);
+      $('#tm2').text('BPL Distribution For Year 2011');
+     
+
+    } else if(this.value == 1) {
+      $('#year2').show();
+      $('#dp1').text('Level one size is based on: No Of Beds');
+      $('#dp1two').text('Level two size is based on: Rural and Urban Beds ');
+      $('#color2').text("Color: Beds/Person");
+      //plot second map
+      plotMapTwo(prepareDataTwo(thirddata, this.value), 0, this.value);
+     $('#tm2').text('Govt Beds Availability For Year 2011');
+
+
+    } else if(this.value == 2) {
+      $('#year2').show();
+      $('#dp1').text('Level one size is based on: Total Population');
+      $('#dp1two').text('Level two size is based on: Rural and Urban Child Population ');
+      $('#color2').text("Color: % Child Population");
+      //plot thrid map
+      plotMapTwo(prepareDataTwo(thirddata, this.value), 0, this.value);
+     $('#tm2').text('Child Population Distribution For Year 2011');
+     
+
+    } else if(this.value == 3) {
+      $('#year2').show();
+      $('#dp1').text('Level one size is based on: No Of Females');
+      $('#dp1two').text('Level two size is based on: Rural and Urban Females');
+      $('#color2').text("Color: Maternal Mortality");
+
+      //plot fourth map
+      plotMapTwo(prepareDataTwo(thirddata, this.value), 1, this.value);
+     $('#tm2').text('Females Distribution For Year 2011');
+     
+
+    } else if(this.value == 4) {
+      $('#year2').show();
+      $('#dp1').text('Level one size is based on: No of Females');
+      $('#dp1two').text('Level two size is based on: Rural and Urban Females');
+      $('#color2').text("Color: Sex Ratio");
+      //plot fifth map
+      plotMapTwo(prepareDataTwo(thirddata, this.value), 1, this.value);
+     $('#tm2').text('Females Distribution For Year 2011');
+     
+
+    } else if(this.value == 5) {
+      $('#year2').show();
+      $('#dp1').text('Level one size is based on: No of Ppl in Poverty');
+      $('#dp1two').text('Level two size is based on: Rural and Urban Population BPL');
+      $('#color2').text("Color: Growth Rate");
+      //plot six map
+      plotMapTwo(prepareDataTwo(thirddata, this.value), 0, this.value);
+     $('#tm2').text('BPL Distribution For Year 2011');
+     
+
+    }
+  });
+</script>
+<script type="text/javascript">
+  //First Treemap
+  var lastsearch = '';
+  var $box = {};
+  function add_search(search, chart) {
+    var $chart = $(chart);
+    $(search).on('keypress, change, keyup', function() {
+      var search = $(this).val();
+      if (lastsearch != search) {
+        lastsearch = search;
+        var re = new RegExp(search, "i");
+        $('g', $chart).each(function(){
+            $(this).css('opacity', re.test($(this).text()) ? '1.0': '0.1');
+        });
+      }
+    });
+  }
+
+  add_search('#search1', '#chartone');
+  add_search('#search2', '#charttwo');
+</script>
+</body></html>
